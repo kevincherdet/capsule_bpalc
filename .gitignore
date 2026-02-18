@@ -1,0 +1,14 @@
+# Documents source (trop lourds)
+*.pdf
+
+# Fichier inconnu volumineux
+_ul
+
+# Dossiers locaux
+.claude/
+analysis_extracts/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

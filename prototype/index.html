@@ -1,0 +1,1808 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Capsule</title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   CSS - Capsule Template
+   ============================================================ */
+:root {
+  --primary: #1a5fa6;
+  --primary-dark: #14497e;
+  --primary-light: #e8f0fe;
+  --bg: #f5f6f8;
+  --text: #1a1a1a;
+  --text-light: #555;
+  --border-width: 8px;
+  --radius: 12px;
+  --gradient-placeholder: linear-gradient(135deg, var(--primary-light), #d4e6f9);
+  --font: 'Raleway', 'Segoe UI', -apple-system, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font);
+  background: var(--primary);
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* --- Slide container (16:9, responsive) --- */
+#capsule {
+  width: min(calc(100vw - 32px), 177.78vh);
+  height: min(calc(100vh - 32px), 56.25vw);
+  position: relative;
+  border: var(--border-width) solid var(--primary);
+  border-radius: 20px;
+  background: var(--bg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+}
+
+/* --- Header bar (single gray banner) --- */
+.slide-header {
+  display: flex;
+  align-items: center;
+  min-height: 66px;
+  flex-shrink: 0;
+  background: #ffffff;
+  padding: 10px 18px;
+  gap: 10px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+/* Icons */
+.header-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s;
+  flex-shrink: 0;
+}
+.header-icon:hover { opacity: 0.75; }
+
+/* Home: dark blue square with white house */
+.header-icon-home {
+  background: var(--primary-dark);
+}
+.header-icon-home svg { width: 20px; height: 20px; fill: white; }
+
+/* Burger: lighter blue with white bars */
+.header-icon-burger {
+  background: var(--primary);
+}
+.header-icon-burger svg { width: 20px; height: 20px; fill: white; }
+
+.header-logo {
+  height: 48px;
+  margin-left: 6px;
+  flex-shrink: 0;
+}
+
+.header-logo-client {
+  height: 50px;
+  margin-left: 6px;
+  flex-shrink: 0;
+}
+
+/* Thin separator between icons and logos */
+.header-separator {
+  width: 1px;
+  height: 34px;
+  background: #cdd2d9;
+  margin: 0 4px;
+  flex-shrink: 0;
+}
+
+/* Section title: centered, bold like Genially */
+.header-section-title {
+  flex: 1;
+  font-size: 1.05em;
+  font-weight: 700;
+  color: var(--text);
+  text-align: center;
+  letter-spacing: -0.01em;
+}
+
+/* Navigation (right side) */
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.header-next-label {
+  font-size: 0.82em;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
+.nav-arrow {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+  flex-shrink: 0;
+}
+.nav-arrow svg {
+  width: 16px;
+  height: 16px;
+  fill: var(--primary);
+  transition: fill 0.2s;
+}
+.nav-arrow:hover { background: var(--primary); }
+.nav-arrow:hover svg { fill: white; }
+
+/* --- Slide content area --- */
+.slide-body {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+/* --- Content layouts --- */
+.content-text {
+  padding: 28px 40px 36px 48px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* Auto-fit: taille de base, ajustée par JS */
+  font-size: var(--text-size, 16px);
+  /* Justification sans coupure de mots */
+  text-align: justify;
+  text-justify: inter-word;
+  -webkit-hyphens: none;
+  hyphens: none;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+/* Page title: the big Genially-style heading */
+.page-title {
+  font-size: 38px;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1.08;
+  margin-bottom: 16px;
+  text-align: left;
+  hyphens: none;
+  flex-shrink: 0;
+}
+
+.content-text h1 {
+  font-size: 2.1em;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1.12;
+  margin-bottom: 6px;
+  text-align: left;
+  hyphens: none;
+}
+.content-text h1.page-title {
+  font-size: 38px;
+}
+
+.content-text h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 2px;
+  text-align: left;
+  hyphens: none;
+}
+
+.content-text h3 {
+  font-size: 1.15em;
+  font-weight: 700;
+  color: var(--text);
+  text-align: left;
+  hyphens: none;
+}
+
+.content-text p {
+  font-size: 1em;
+  line-height: 1.7;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.content-text strong { font-weight: 700; }
+
+.content-text ul, .content-text ol {
+  padding-left: 20px;
+  font-size: 1em;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.content-text li { margin-bottom: 3px; }
+
+.content-text table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92em;
+  margin: 6px 0;
+  text-align: left;
+  hyphens: none;
+}
+
+.content-text th {
+  background: var(--primary);
+  color: white;
+  padding: 8px 12px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.content-text td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.content-text tr:nth-child(even) td { background: #f8f9fa; }
+
+/* Bon à savoir / encart info */
+.content-text blockquote {
+  background: var(--primary-light);
+  border-left: 4px solid var(--primary);
+  padding: 12px 16px;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.95em;
+  margin: 6px 0;
+}
+
+.content-text blockquote p { margin: 0; }
+
+/* Spacer: double saut de ligne dans le markdown = espace visuel */
+.content-text .spacer { height: 0.6em; }
+
+.content-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px 32px 36px 20px;
+  flex-shrink: 0;
+}
+
+.content-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+/* Placeholder when image not found */
+.img-placeholder {
+  width: 100%;
+  height: 100%;
+  min-height: 200px;
+  background: var(--gradient-placeholder);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  font-size: 0.85em;
+  opacity: 0.6;
+  text-align: center;
+  padding: 16px;
+}
+
+/* === Shared rules for all image layouts === */
+[class*="layout-image-"] .slide-body { flex-direction: row; }
+[class*="layout-image-"] .content-image img,
+[class*="layout-image-"] .content-image .img-placeholder {
+  width: 100%; height: auto; object-fit: cover;
+}
+/* Image-left: swap padding (image goes left, text right) */
+[class*="layout-image-left"] .content-image {
+  padding-left: 32px;
+  padding-right: 8px;
+}
+
+/* === Square: ~50% text / ~50% image === */
+.layout-image-right-square .content-text { flex: 0.9; }
+.layout-image-right-square .content-image { flex: 0.9; }
+.layout-image-left-square .content-text { flex: 0.9; }
+.layout-image-left-square .content-image { flex: 0.9; }
+
+/* === Medium: ~60% text / ~40% image === */
+.layout-image-right-medium .content-text { flex: 1.3; }
+.layout-image-right-medium .content-image { flex: 0.9; }
+.layout-image-left-medium .content-text { flex: 1.3; }
+.layout-image-left-medium .content-image { flex: 0.9; }
+
+/* === Portrait: ~75% text / ~25% image === */
+.layout-image-right-portrait .content-text { flex: 2.5; }
+.layout-image-right-portrait .content-image { flex: 1; }
+.layout-image-left-portrait .content-text { flex: 2.5; }
+.layout-image-left-portrait .content-image { flex: 1; }
+
+/* === Auto (image-right / image-left): base before JS detection === */
+.layout-image-right .content-text { flex: 1; }
+.layout-image-right .content-image { flex: 0.9; }
+.layout-image-left .content-text { flex: 1; }
+.layout-image-left .content-image { flex: 0.9; }
+
+/* === Dual: two images side by side on one side === */
+.layout-image-right-dual .slide-body { flex-direction: row; }
+.layout-image-right-dual .content-text { flex: 1.3; }
+.layout-image-right-dual .content-image {
+  flex: 0.9;
+  flex-direction: row;
+  gap: 12px;
+  align-items: stretch;
+}
+.layout-image-right-dual .content-image img,
+.layout-image-right-dual .content-image .img-placeholder {
+  flex: 1;
+  min-width: 0;
+  width: 0;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+/* Layout: text-only */
+.layout-text-only .content-text { flex: 1; max-width: 1000px; margin: 0 auto; }
+.layout-section-intro .content-text { flex: 1; max-width: 1000px; margin: 0 auto; }
+
+/* Layout: cover */
+#capsule.layout-cover { background: #ffffff; }
+.layout-cover .slide-header { display: none; }
+.layout-cover .slide-body { flex-direction: row; overflow: hidden; }
+.layout-cover .content-text {
+  flex: 0.9;
+  justify-content: flex-start;
+  padding: 32px 40px 32px 48px;
+}
+.layout-cover .content-text h1 { font-size: 38px; font-weight: 800; margin-bottom: 16px; }
+.layout-cover .content-text p { font-size: 1.05em; color: var(--text-light); line-height: 1.65; }
+.layout-cover .content-image { flex: 1.3; padding: 0; align-items: stretch; }
+.layout-cover .content-image img { border-radius: 0; width: 100%; height: 100%; object-fit: cover; }
+
+/* Layout: sommaire */
+.layout-sommaire .slide-body { flex-direction: row; gap: 0; }
+.sommaire-left {
+  width: 240px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.sommaire-left h1 { font-size: 2em; margin-bottom: 12px; }
+.sommaire-left p { font-size: 0.9em; color: var(--text-light); line-height: 1.5; }
+.sommaire-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  padding: 20px;
+  align-content: center;
+  overflow-y: auto;
+}
+.sommaire-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+.sommaire-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+.sommaire-card-img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: var(--gradient-placeholder);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+.sommaire-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sommaire-card-label {
+  padding: 0 6px;
+  font-size: 0.72em;
+  font-weight: 600;
+  text-align: center;
+  color: var(--text);
+  line-height: 1.3;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* --- Popup buttons --- */
+.popup-btn {
+  display: inline-block;
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 600;
+  font-family: var(--font);
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+.popup-btn:hover { background: var(--primary-dark); }
+p:has(> .popup-btn:only-child) { text-align: center; }
+
+/* Inline interactive markers */
+.marker-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  vertical-align: middle;
+  transition: transform 0.2s;
+}
+.marker-btn:hover { transform: scale(1.1); }
+.marker-btn-cftc { background: white; border: 2px solid var(--primary); padding: 4px; overflow: hidden; width: 90px; height: 56px; border-radius: 10px; }
+.marker-btn-cftc img { width: 100%; height: 100%; object-fit: contain; display: block; }
+
+/* --- Marker rows (flex rows inside content-text) --- */
+.marker-rows {
+  flex: 1;
+}
+.marker-row {
+  display: flex;
+  align-items: center;
+  padding: 6px 0;
+}
+.marker-row-text {
+  flex: 1;
+  padding: 0 20px 0 8px;
+}
+.marker-row-text p {
+  margin: 0;
+}
+.bullet {
+  font-size: 1.6em;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.marker-row-text .spacer {
+  display: none;
+}
+.marker-row-btn {
+  flex-shrink: 0;
+  padding: 0 24px;
+}
+.marker-row-btn .popup-btn {
+  margin-top: 0;
+  white-space: nowrap;
+  line-height: 1.2;
+  padding: 10px 30px;
+  max-width: none;
+}
+.marker-row:has(.marker-row-text .marker-center) {
+  justify-content: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.marker-row:has(.marker-row-text .marker-center) .marker-row-text {
+  display: none;
+}
+.marker-row:has(.marker-row-text .marker-center) .marker-row-btn {
+  padding: 0;
+}
+.marker-bottom {
+  padding: 8px 8px 0;
+  text-align: center;
+}
+.content-text:has(.marker-rows) {
+  padding-right: 16px;
+}
+
+/* --- Modal --- */
+#modal-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.55);
+  display: none;
+  z-index: 500;
+  align-items: center;
+  justify-content: center;
+}
+#modal-overlay.open { display: flex; }
+
+#modal-content {
+  background: white;
+  border-radius: 16px;
+  max-width: 1000px;
+  width: 90%;
+  max-height: 80vh;
+  overflow: visible;
+  position: relative;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+#modal-body {
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 36px 40px;
+  border-radius: 16px;
+}
+
+#modal-content h1, #modal-content h2, #modal-content h3 {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+#modal-content h1 { font-size: 1.6em; }
+#modal-content h2 { font-size: 1.3em; }
+#modal-content p { line-height: 1.65; margin-bottom: 10px; }
+#modal-content ul, #modal-content ol { padding-left: 20px; margin-bottom: 10px; }
+#modal-content li { margin-bottom: 4px; line-height: 1.6; }
+#modal-content table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+#modal-content th { background: var(--primary); color: white; padding: 8px 12px; text-align: left; }
+#modal-content td { padding: 8px 12px; border-bottom: 1px solid #e0e0e0; }
+
+#modal-close {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  width: 36px; height: 36px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+#modal-close:hover { background: #555; }
+
+/* --- Sidebar --- */
+#sidebar {
+  position: fixed;
+  top: 0; left: -340px;
+  width: 340px;
+  height: 100%;
+  background: white;
+  z-index: 600;
+  transition: left 0.3s ease;
+  box-shadow: 4px 0 16px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+}
+#sidebar.open { left: 0; }
+
+#sidebar-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.35);
+  z-index: 550;
+  display: none;
+}
+#sidebar-overlay.open { display: block; }
+
+#sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#sidebar-header h2 {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: var(--text);
+}
+
+#sidebar-close {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: var(--text-light);
+  padding: 4px;
+}
+
+#sidebar-search {
+  margin: 12px 16px;
+  padding: 8px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.9em;
+  font-family: var(--font);
+  width: calc(100% - 32px);
+}
+#sidebar-search:focus { outline: none; border-color: var(--primary); }
+
+#sidebar-nav {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px 0;
+}
+
+.nav-section {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.nav-section-title {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9em;
+  color: var(--text);
+  transition: background 0.15s;
+  gap: 8px;
+}
+.nav-section-title:hover { background: var(--primary-light); }
+.nav-section-title .arrow {
+  font-size: 0.7em;
+  transition: transform 0.2s;
+  color: var(--text-light);
+}
+.nav-section-title.expanded .arrow { transform: rotate(90deg); }
+
+.nav-pages {
+  display: none;
+  padding: 0 0 4px 0;
+}
+.nav-pages.open { display: block; }
+
+.nav-subsection {
+  padding: 6px 20px 3px 32px;
+  font-size: 0.75em;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.nav-page {
+  padding: 7px 20px 7px 40px;
+  cursor: pointer;
+  font-size: 0.85em;
+  color: var(--text-light);
+  transition: all 0.15s;
+  border-left: 3px solid transparent;
+}
+.nav-page:hover { background: var(--primary-light); color: var(--text); }
+.nav-page.active {
+  background: var(--primary-light);
+  color: var(--primary);
+  font-weight: 600;
+  border-left-color: var(--primary);
+}
+
+/* --- Admin mode --- */
+.admin-indicator {
+  position: fixed;
+  top: 8px; right: 8px;
+  background: #e74c3c;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.75em;
+  font-weight: 600;
+  z-index: 700;
+  display: none;
+}
+.admin-mode .admin-indicator { display: block; }
+
+#admin-toolbar {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #2c3e50;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 25px;
+  display: none;
+  z-index: 700;
+  gap: 8px;
+  align-items: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  font-size: 0.85em;
+}
+.admin-mode #admin-toolbar { display: flex; }
+
+#admin-toolbar button {
+  background: rgba(255,255,255,0.15);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: var(--font);
+  font-size: 0.9em;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+#admin-toolbar button:hover { background: rgba(255,255,255,0.25); }
+#admin-toolbar .btn-save { background: #27ae60; }
+#admin-toolbar .btn-save:hover { background: #2ecc71; }
+
+/* Admin editable zones */
+.admin-mode .content-text[data-editable] {
+  cursor: text;
+  outline: 2px dashed rgba(26, 95, 166, 0.3);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+.admin-mode .content-text[data-editable]:hover {
+  outline-color: rgba(26, 95, 166, 0.6);
+}
+
+/* Admin: image change overlay */
+.admin-mode .content-image { position: relative; }
+.img-change-overlay {
+  display: none;
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,0.45);
+  border-radius: var(--radius);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.img-change-overlay:hover { background: rgba(0,0,0,0.6); }
+.admin-mode .content-image .img-change-overlay { display: flex; }
+.img-change-overlay span {
+  color: white;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+.img-change-overlay .img-change-icon {
+  font-size: 2em;
+  color: white;
+}
+.admin-mode .sommaire-card { position: relative; }
+.admin-mode .sommaire-card .img-change-overlay { display: flex; }
+.admin-mode .sommaire-card .img-change-overlay .img-change-icon { font-size: 1.2em; }
+.admin-mode .sommaire-card .img-change-overlay span { font-size: 0.7em; }
+
+/* --- Editor panel (bottom drawer) --- */
+#editor-panel {
+  position: fixed;
+  bottom: -45%;
+  left: 0;
+  width: 100%;
+  height: 45%;
+  background: #1e1e1e;
+  z-index: 800;
+  transition: bottom 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.4);
+}
+#editor-panel.open { bottom: 0; }
+
+/* Quand l'editeur est ouvert, remonter la capsule */
+body.editor-open #capsule {
+  transform: translateY(-22%);
+  transition: transform 0.3s ease;
+}
+
+#editor-header {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  background: #2d2d2d;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+#editor-header span {
+  color: #ccc;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+#editor-header .editor-hint {
+  color: #888;
+  font-size: 0.75em;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#editor-header button {
+  background: rgba(255,255,255,0.1);
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: var(--font);
+  font-size: 0.8em;
+}
+#editor-header button:hover { background: rgba(255,255,255,0.2); }
+#editor-header .btn-apply { background: #27ae60; }
+#editor-header .btn-apply:hover { background: #2ecc71; }
+#editor-header .editor-spacer { flex: 1; }
+
+#editor-textarea {
+  flex: 1;
+  background: #1e1e1e;
+  color: #d4d4d4;
+  border: none;
+  padding: 16px 20px;
+  font-family: 'Consolas', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  resize: none;
+  outline: none;
+  tab-size: 2;
+}
+
+/* --- Loading --- */
+#loading {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--primary);
+  font-size: 1.1em;
+}
+
+/* --- Keyboard hint --- */
+.keyboard-hint {
+  position: fixed;
+  bottom: 8px;
+  right: 12px;
+  font-size: 0.7em;
+  color: rgba(255,255,255,0.4);
+  z-index: 50;
+}
+</style>
+</head>
+<body>
+
+<div id="capsule">
+  <div class="slide-header" id="capsule-header"></div>
+  <div class="slide-body" id="capsule-body">
+    <div id="loading">Chargement de la capsule...</div>
+  </div>
+</div>
+
+<div id="modal-overlay">
+  <div id="modal-content">
+    <button id="modal-close">&times;</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<nav id="sidebar">
+  <div id="sidebar-header">
+    <h2>Sommaire</h2>
+    <button id="sidebar-close">&times;</button>
+  </div>
+  <input type="text" id="sidebar-search" placeholder="Rechercher...">
+  <div id="sidebar-nav"></div>
+</nav>
+<div id="sidebar-overlay"></div>
+
+<div class="admin-indicator">MODE ADMIN (Ctrl+E pour quitter)</div>
+<div id="admin-toolbar">
+  <button class="btn-save" onclick="saveContent()">Sauvegarder</button>
+  <button onclick="openEditor()">Editer le markdown</button>
+  <button onclick="toggleAdmin()">Quitter</button>
+</div>
+
+<div id="editor-panel">
+  <div id="editor-header">
+    <span>Page <span id="editor-page-num"></span></span>
+    <span class="editor-hint">Apercu en direct - les modifications s'affichent en temps reel</span>
+    <span class="editor-spacer"></span>
+    <button onclick="closeEditor()">Fermer (Echap)</button>
+    <button class="btn-apply" onclick="applyEditor()">Valider</button>
+  </div>
+  <textarea id="editor-textarea" spellcheck="true" lang="fr"></textarea>
+</div>
+
+<div class="keyboard-hint">Fleches: naviguer | Ctrl+E: admin</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
+<script>
+/* ============================================================
+   JS - Capsule Engine
+   ============================================================ */
+
+// --- Constants ---
+const AUTOFIT = { MIN: 11, MAX: 18, STEP: 0.5, TOLERANCE: 2 };
+const IMAGE_RATIO = { SQUARE: 0.85, MEDIUM: 0.62 };
+const DEBOUNCE = { EDITOR: 400, RESIZE: 150 };
+
+// --- State ---
+let config = {};
+let pages = [];
+let sections = [];
+let currentPage = 0;
+let adminMode = false;
+let rawMarkdown = '';
+let capsulePath = '';
+let basePath = '';
+
+// --- Image helpers ---
+function imgSrc(filename) { return basePath + 'images/' + filename; }
+function imgError(filename) { return `this.outerHTML='<div class=img-placeholder>Image: ${filename}</div>'`; }
+
+// --- Init ---
+async function init() {
+  const params = new URLSearchParams(window.location.search);
+  capsulePath = params.get('capsule') || 'bpalc/capsule.md';
+  basePath = capsulePath.substring(0, capsulePath.lastIndexOf('/') + 1);
+  adminMode = params.get('admin') === 'true';
+
+  try {
+    const resp = await fetch(capsulePath);
+    if (!resp.ok) throw new Error('Fichier non trouve: ' + capsulePath);
+    rawMarkdown = (await resp.text()).replace(/\r\n/g, '\n');
+  } catch (e) {
+    document.getElementById('loading').textContent = 'Erreur: ' + e.message;
+    return;
+  }
+
+  config = parseFrontMatter(rawMarkdown);
+  pages = parsePages(rawMarkdown);
+  sections = buildSections(pages);
+
+  if (config.couleur) document.documentElement.style.setProperty('--primary', config.couleur);
+  document.title = config.nom_complet ? 'Capsule ' + config.banque : 'Capsule';
+
+  if (adminMode) document.body.classList.add('admin-mode');
+
+  initHeader();
+  buildSidebar();
+  renderSlide(0);
+}
+
+// --- Parse front matter ---
+function parseFrontMatter(text) {
+  text = text.replace(/\r\n/g, '\n');
+  const match = text.match(/^---\n([\s\S]*?)\n---/);
+  if (!match) return {};
+  const cfg = {};
+  let currentGroup = null;
+  match[1].split('\n').forEach(line => {
+    // Ligne indentée → sous-clé du groupe courant
+    if (currentGroup && /^\s/.test(line)) {
+      const idx = line.indexOf(':');
+      if (idx > 0) {
+        const key = line.slice(0, idx).trim();
+        let val = line.slice(idx + 1).trim();
+        if (val === 'true') val = true;
+        else if (val === 'false') val = false;
+        else if (val.startsWith('"') && val.endsWith('"')) val = val.slice(1, -1);
+        cfg[currentGroup][key] = val;
+      }
+      return;
+    }
+    currentGroup = null;
+    const idx = line.indexOf(':');
+    if (idx > 0) {
+      const key = line.slice(0, idx).trim();
+      let val = line.slice(idx + 1).trim();
+      if (!val) {
+        // Clé sans valeur → début d'un groupe (objet imbriqué)
+        cfg[key] = {};
+        currentGroup = key;
+      } else {
+        if (val.startsWith('"') && val.endsWith('"')) val = val.slice(1, -1);
+        cfg[key] = val;
+      }
+    }
+  });
+  return cfg;
+}
+
+// --- Parse helpers ---
+function parsePageMetadata(raw) {
+  const meta = { layout: 'text-only', image: null, thumbnail: null };
+  const layoutMatch = raw.match(/<!--\s*layout:\s*(\S+)\s*-->/);
+  if (layoutMatch) meta.layout = layoutMatch[1];
+  const imageMatch = raw.match(/<!--\s*image:\s*(\S+)\s*-->/);
+  if (imageMatch) meta.image = imageMatch[1];
+  const image2Match = raw.match(/<!--\s*image2:\s*(\S+)\s*-->/);
+  if (image2Match) meta.image2 = image2Match[1];
+  const thumbMatch = raw.match(/<!--\s*thumbnail:\s*(\S+)\s*-->/);
+  if (thumbMatch) meta.thumbnail = thumbMatch[1];
+  const subsectionMatch = raw.match(/<!--\s*subsection:\s*(.+?)\s*-->/);
+  if (subsectionMatch) meta.subsection = subsectionMatch[1].trim();
+  const titleMatch = raw.match(/<!--\s*title:\s*(.+?)\s*-->/);
+  if (titleMatch) meta.title = titleMatch[1].trim();
+  const conditionMatch = raw.match(/<!--\s*condition:\s*(\S+)\s*-->/);
+  if (conditionMatch) meta.condition = conditionMatch[1];
+  meta._hasLayout = !!layoutMatch;
+  return meta;
+}
+
+function extractPopups(raw, page) {
+  let content = raw;
+  const popupRegex = /:::popup\s+(.+?)\n([\s\S]*?):::/g;
+  let match;
+  // Première passe : collecter les popups et détecter les markers
+  const matches = [];
+  while ((match = popupRegex.exec(raw)) !== null) {
+    const label = match[1].trim();
+    page.popups.push({ label, content: match[2].trim() });
+    const idx = page.popups.length - 1;
+    if (label === '+') page._hasMarkers = true;
+    matches.push({ full: match[0], idx, label });
+  }
+  // Deuxième passe : remplacer selon le mode
+  matches.forEach(m => {
+    if (page._hasMarkers) {
+      // Mode marker-rows : placeholder isolé pour buildMarkerGrid
+      content = content.replace(m.full, '\n\n%%POPUP:' + m.idx + ':' + m.label + '%%\n\n');
+    } else {
+      // Mode classique : bouton inline (label _ = popup caché, bouton placé manuellement en HTML)
+      if (m.label.startsWith('_')) {
+        content = content.replace(m.full, '');
+      } else {
+        content = content.replace(m.full, `<button class="popup-btn" data-popup="${m.idx}">${m.label}</button>`);
+      }
+    }
+  });
+  return content;
+}
+
+function detectTitlesAndSection(content, page, currentSection, hasLayout) {
+  const sectionMatch = content.match(/^##\s+(.+)$/m);
+  if (sectionMatch && !content.match(/^###/m)) {
+    currentSection = sectionMatch[1].trim();
+    page.sectionTitle = currentSection;
+    page.pageTitle = currentSection;
+    page.isSection = true;
+    if (page.layout === 'text-only' && !hasLayout) page.layout = 'section-intro';
+  } else if (sectionMatch) {
+    currentSection = sectionMatch[1].trim();
+    page.sectionTitle = currentSection;
+  }
+
+  const titleMatch = content.match(/^###\s+(.+)$/m);
+  if (titleMatch) page.pageTitle = titleMatch[1].trim();
+
+  if (!page.pageTitle) {
+    const h1 = content.match(/^#\s+(.+)$/m);
+    if (h1) page.pageTitle = h1[1].trim();
+  }
+
+  page.section = currentSection;
+  return currentSection;
+}
+
+function transformContent(content) {
+  content = content.replace(/<!--\s*(layout|image2?|thumbnail|subsection|title|condition):\s*.+?\s*-->/g, '');
+  content = content.replace(/^###\s+.+$/m, '');
+  content = content.replace(/^##\s+.+$/m, '');
+  content = content.replace(/\n{3,}/g, '\n\n<div class="spacer"></div>\n\n');
+  let html = marked.parse(content);
+  // Restaurer les popups après le parsing markdown
+  html = html.replace(/<p>%%POPUP:(\d+):(.+?)%%<\/p>/g, (m, idx, label) => {
+    if (label === 'cftc') {
+      return `<div class="marker-placeholder"><button class="marker-btn marker-btn-cftc" data-popup="${idx}" title="Info CFTC"><img src="${basePath}images/${config.logo}" alt="CFTC" onerror="this.outerHTML='i'"></button></div>`;
+    }
+    const btnClass = label === '+' ? 'marker-btn' : 'popup-btn';
+    return `<div class="marker-placeholder"><button class="${btnClass}" data-popup="${idx}">${label}</button></div>`;
+  });
+  return html;
+}
+
+// --- Parse pages ---
+function parsePages(text) {
+  text = text.replace(/\r\n/g, '\n');
+
+  const fmMatch = text.match(/^(---\n[\s\S]*?\n---)\n*/);
+  if (fmMatch) _frontMatter = fmMatch[1];
+  let body = fmMatch ? text.substring(fmMatch[0].length) : text;
+
+  const rawPages = body.split(/\n---\n/).filter(p => p.trim());
+  const result = [];
+  let currentSection = null;
+  let currentSubsection = null;
+
+  rawPages.forEach((raw, idx) => {
+    const meta = parsePageMetadata(raw);
+
+    // Page conditionnelle : masquer si le flag n'est pas actif
+    if (meta.condition && (!config.conditions || config.conditions[meta.condition] !== true)) return;
+
+    const page = { raw, index: idx, layout: 'text-only', image: null, image2: null,
+                   thumbnail: null, popups: [], sectionTitle: null,
+                   pageTitle: '', html: '', isSection: false };
+    if (meta.subsection) currentSubsection = meta.subsection;
+    Object.assign(page, { layout: meta.layout, image: meta.image, image2: meta.image2 || null, thumbnail: meta.thumbnail });
+
+    // Extraire les popups AVANT la detection des titres/sections
+    const content = extractPopups(raw, page);
+
+    const prevSection = currentSection;
+    currentSection = detectTitlesAndSection(content, page, currentSection, meta._hasLayout);
+    // Nouvelle section principale → reset subsection
+    if (currentSection !== prevSection) currentSubsection = null;
+    page.subsection = currentSubsection;
+    // <!-- title: ... --> override le pageTitle (navigation uniquement, pas d'affichage H1)
+    if (meta.title) { page.pageTitle = meta.title; page._hiddenTitle = true; }
+
+    page.html = transformContent(content);
+
+    result.push(page);
+  });
+
+  // Réindexer après filtrage conditionnel
+  result.forEach((p, i) => p.index = i);
+  return result;
+}
+
+// --- Build sections for navigation ---
+function buildSections(pages) {
+  const secs = [];
+  let current = null;
+
+  pages.forEach((page, idx) => {
+    if (page.layout === 'cover' || page.layout === 'sommaire') return;
+
+    if (page.section && (!current || current.title !== page.section)) {
+      current = { title: page.section, pages: [], startIndex: idx,
+                  thumbnail: page.thumbnail, subsections: [] };
+      secs.push(current);
+    }
+    if (current) {
+      current.pages.push({ title: page.pageTitle || 'Page ' + (idx + 1), index: idx,
+                           subsection: page.subsection || null });
+      if (page.subsection && !current.subsections.includes(page.subsection)) {
+        current.subsections.push(page.subsection);
+      }
+    }
+  });
+
+  return secs;
+}
+
+// --- Render slide ---
+function renderSlide(index) {
+  if (index < 0 || index >= pages.length) return;
+  currentPage = index;
+  const page = pages[index];
+  const capsule = document.getElementById('capsule');
+  const body = document.getElementById('capsule-body');
+
+  // Masquer AVANT de changer le contenu (instant, pas de transition)
+  body.style.opacity = '0';
+
+  // Layout class sur le capsule (gere l'affichage/masquage du header via CSS)
+  capsule.className = 'layout-' + page.layout;
+
+  // Header persistant : seuls le titre et la nav changent
+  updateHeader(page);
+
+  // Body : seul le contenu interieur change
+  if (page.layout === 'cover') {
+    body.innerHTML = renderCover(page);
+  } else if (page.layout === 'sommaire') {
+    body.innerHTML = renderSommaire(page);
+  } else {
+    body.innerHTML = renderContentPage(page);
+  }
+
+  bindPopupButtons(capsule, page);
+
+  // Bind sommaire cards
+  body.querySelectorAll('.sommaire-card').forEach(card => {
+    card.addEventListener('click', () => navigate(parseInt(card.dataset.page)));
+  });
+
+  // Update sidebar active state
+  document.querySelectorAll('.nav-page').forEach(el => {
+    el.classList.toggle('active', parseInt(el.dataset.page) === index);
+  });
+  document.querySelectorAll('.nav-section').forEach(sec => {
+    if (sec.querySelector('.nav-page.active')) {
+      sec.querySelector('.nav-section-title').classList.add('expanded');
+      sec.querySelector('.nav-pages').classList.add('open');
+    }
+  });
+
+  // Admin: mark editable + click to edit + image overlays
+  if (adminMode) {
+    capsule.querySelectorAll('.content-text').forEach(el => {
+      el.setAttribute('data-editable', 'true');
+      el.addEventListener('click', (e) => {
+        if (e.target.closest('.popup-btn')) return;
+        openEditor();
+      });
+    });
+    capsule.querySelectorAll('.content-image').forEach(container => {
+      if (!container.querySelector('.img-change-overlay')) {
+        const overlay = document.createElement('div');
+        overlay.className = 'img-change-overlay';
+        overlay.innerHTML = '<span class="img-change-icon">&#128247;</span><span>Changer l\'image</span>';
+        overlay.addEventListener('click', (e) => { e.stopPropagation(); pickImage(page, container); });
+        container.style.position = 'relative';
+        container.appendChild(overlay);
+      }
+    });
+  }
+
+  // Auto-detect ratio image (change le layout class au chargement)
+  handleImageAutoLayout(capsule, page);
+
+  // Attendre toutes les images du slide puis reveler
+  waitForImagesAndReveal(body);
+}
+
+// --- Bind popup & marker buttons ---
+function bindPopupButtons(capsule, page) {
+  capsule.querySelectorAll('.popup-btn[data-popup], .marker-btn[data-popup]').forEach(btn => {
+    const popup = page.popups[parseInt(btn.dataset.popup)];
+    if (!popup) return;
+    // Masquer les boutons navigate vers une page filtrée
+    if (popup.content.startsWith('navigate:')) {
+      const target = popup.content.replace('navigate:', '').trim();
+      if (!pages.some(p => p.pageTitle === target)) {
+        btn.style.display = 'none';
+        return;
+      }
+    }
+    btn.addEventListener('click', () => {
+      if (popup.content.startsWith('navigate:')) {
+        navigateToTitle(popup.content.replace('navigate:', '').trim());
+      } else {
+        openModal(marked.parse(popup.content));
+      }
+    });
+  });
+}
+
+// --- Auto-detect image ratio ---
+function handleImageAutoLayout(capsule, page) {
+  if (page.layout !== 'image-right' && page.layout !== 'image-left') return;
+  const img = capsule.querySelector('.content-image img');
+  if (!img) return;
+
+  const applyLayout = () => {
+    const ratio = img.naturalWidth / img.naturalHeight;
+    let suffix;
+    if (ratio > IMAGE_RATIO.SQUARE) suffix = 'square';
+    else if (ratio > IMAGE_RATIO.MEDIUM) suffix = 'medium';
+    else suffix = 'portrait';
+    capsule.className = 'layout-' + page.layout + '-' + suffix;
+  };
+
+  if (img.naturalWidth) applyLayout();
+  else img.addEventListener('load', applyLayout);
+}
+
+// --- Attendre toutes les images puis reveler le slide ---
+function waitForImagesAndReveal(body) {
+  const imgs = Array.from(body.querySelectorAll('img'));
+  const unloaded = imgs.filter(img => !img.complete);
+
+  if (unloaded.length === 0) {
+    requestAnimationFrame(() => {
+      autoFitText();
+      body.style.opacity = '1';
+    });
+    return;
+  }
+
+  let revealed = false;
+  const reveal = () => {
+    if (revealed) return;
+    revealed = true;
+    requestAnimationFrame(() => {
+      autoFitText();
+      body.style.opacity = '1';
+    });
+  };
+
+  let remaining = unloaded.length;
+  unloaded.forEach(img => {
+    const done = () => { if (--remaining === 0) reveal(); };
+    img.addEventListener('load', done);
+    img.addEventListener('error', done);
+  });
+
+  // Timeout de securite : reveler meme si une image traine
+  setTimeout(reveal, 400);
+}
+
+// --- Auto-fit text ---
+function autoFitText() {
+  const capsule = document.getElementById('capsule');
+  capsule.querySelectorAll('.content-text').forEach(el => {
+    let size = AUTOFIT.MAX;
+
+    el.style.setProperty('--text-size', size + 'px');
+    el.style.fontSize = 'var(--text-size)';
+
+    // Reduire tant que le texte deborde
+    while (size > AUTOFIT.MIN && el.scrollHeight > el.clientHeight + AUTOFIT.TOLERANCE) {
+      size -= AUTOFIT.STEP;
+      el.style.setProperty('--text-size', size + 'px');
+    }
+  });
+}
+
+// --- Render: cover page ---
+function renderCover(page) {
+  const imgHtml = page.image
+    ? `<img src="${imgSrc(page.image)}" alt="" onerror="${imgError(page.image)}">`
+    : '<div class="img-placeholder">Image de couverture</div>';
+
+  const titleHtml = page.pageTitle ? `<h1>${page.pageTitle}</h1>` : '';
+
+  return `
+    <div class="content-text">
+      ${config.logo ? `<img src="${imgSrc(config.logo)}" style="width:80px;height:auto;margin-bottom:12px">` : ''}
+      ${titleHtml}
+      ${page.html}
+      <button class="popup-btn" onclick="navigate(1)" style="margin-top:auto;align-self:center;padding:10px 24px;font-size:0.9em;white-space:nowrap">Commencer la capsule</button>
+    </div>
+    <div class="content-image">${imgHtml}</div>`;
+}
+
+// --- Render: sommaire ---
+function renderSommaire(page) {
+  let cardsHtml = '';
+  sections.forEach(sec => {
+    cardsHtml += `
+      <div class="sommaire-card" data-page="${sec.startIndex}">
+        <div class="sommaire-card-img">
+          ${sec.thumbnail ? `<img src="${imgSrc(sec.thumbnail)}" alt="" onerror="this.remove()">` : ''}
+        </div>
+        <div class="sommaire-card-label">${sec.title}</div>
+      </div>`;
+  });
+
+  return `
+    <div class="sommaire-left">
+      <h1>Sommaire</h1>
+      <p>Retrouvez les principales informations de votre convention collective et de vos accords d'entreprise en cliquant sur les vignettes suivantes</p>
+    </div>
+    <div class="sommaire-grid">${cardsHtml}</div>`;
+}
+
+// --- Build marker grid (3-column layout: text | markers | image) ---
+function buildMarkerGrid(html) {
+  const temp = document.createElement('div');
+  temp.innerHTML = html;
+  const children = Array.from(temp.children);
+
+  const rows = [];
+
+  children.forEach(child => {
+    if (child.classList.contains('marker-placeholder')) {
+      const btn = child.querySelector('button');
+      if (!btn) return;
+      // Attacher le bouton a la ligne precedente (y compris boutons longs)
+      // Si la ligne precedente a deja un bouton, creer une ligne bouton seule.
+      if (rows.length === 0) {
+        rows.push({ content: '', marker: btn.outerHTML });
+      } else {
+        const prev = rows[rows.length - 1];
+        if (prev.marker) rows.push({ content: '', marker: btn.outerHTML });
+        else prev.marker = btn.outerHTML;
+      }
+    } else if (child.classList.contains('spacer')) {
+      // Ignorer les spacers
+    } else {
+      rows.push({ content: child.outerHTML, marker: '' });
+    }
+  });
+
+  return '<div class="marker-rows">' +
+    rows.map(r =>
+      `<div class="marker-row"><div class="marker-row-text">${r.content}</div>${r.marker ? `<div class="marker-row-btn">${r.marker}</div>` : ''}</div>`
+    ).join('') +
+    '</div>';
+}
+
+// --- Render: content page ---
+function renderContentPage(page) {
+  let imgHtml = '';
+  if (page.image && page.layout !== 'text-only') {
+    const img2 = page.image2
+      ? `<img src="${imgSrc(page.image2)}" alt="" onerror="${imgError(page.image2)}">`
+      : '';
+    imgHtml = `
+      <div class="content-image">
+        <img src="${imgSrc(page.image)}" alt=""
+             onerror="${imgError(page.image)}">
+        ${img2}
+      </div>`;
+  }
+
+  // Page title rendered as big H1 (skip if section-only or hidden title from <!-- title: -->)
+  const titleHtml = (page.pageTitle && !page.isSection && !page._hiddenTitle)
+    ? `<h1 class="page-title">${page.pageTitle}</h1>`
+    : '';
+
+  const innerHtml = page._hasMarkers
+    ? titleHtml + buildMarkerGrid(page.html)
+    : titleHtml + page.html;
+
+  const textFirst = page.layout.includes('right') || page.layout === 'text-only' || page.layout === 'section-intro';
+
+  return textFirst
+    ? `<div class="content-text">${innerHtml}</div>${imgHtml}`
+    : `${imgHtml}<div class="content-text">${innerHtml}</div>`;
+}
+
+// --- Header persistant (logos charges une seule fois) ---
+function initHeader() {
+  const header = document.getElementById('capsule-header');
+  header.innerHTML = `
+    <button class="header-icon header-icon-burger" onclick="toggleSidebar()" title="Menu de navigation">
+      <svg viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </button>
+    <button class="header-icon header-icon-home" onclick="navigate(1)" title="Retour au sommaire">
+      <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+    </button>
+    ${config.logo ? `<div class="header-separator"></div><img class="header-logo" src="${imgSrc(config.logo)}" alt="Logo" onerror="this.previousElementSibling?.remove();this.remove()">` : ''}
+    ${config.logo_client ? `<img class="header-logo-client" src="${imgSrc(config.logo_client)}" alt="Logo client" onerror="this.remove()">` : ''}
+    <span class="header-section-title"></span>
+    <div class="header-nav"></div>`;
+}
+
+function updateHeader(page) {
+  const header = document.getElementById('capsule-header');
+  const sectionName = page.section || page.sectionTitle || '';
+  const displaySection = page.subsection ? sectionName + ' / ' + page.subsection : sectionName;
+  header.querySelector('.header-section-title').textContent = displaySection;
+
+  const nextPage = currentPage < pages.length - 1 ? pages[currentPage + 1] : null;
+  let nextLabel = '';
+  if (nextPage) {
+    const nextSection = nextPage.section || nextPage.sectionTitle || '';
+    if (nextSection && nextSection !== sectionName) {
+      nextLabel = nextSection;
+    } else if (nextPage.subsection && nextPage.subsection !== page.subsection) {
+      nextLabel = nextPage.subsection;
+    } else {
+      nextLabel = nextPage.pageTitle;
+    }
+  }
+
+  header.querySelector('.header-nav').innerHTML = `
+    ${nextLabel ? `<span class="header-next-label">${nextLabel}</span>` : ''}
+    ${nextPage ? `<span class="nav-arrow" onclick="navigate(${currentPage + 1})" title="Page suivante"><svg viewBox="0 0 24 24"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z"/></svg></span>` : ''}`;
+}
+
+// --- Navigation ---
+function navigate(index) {
+  if (index >= 0 && index < pages.length) {
+    renderSlide(index);
+    closeSidebar();
+  }
+}
+function navigateToTitle(title) {
+  const idx = pages.findIndex(p => p.pageTitle === title);
+  if (idx >= 0) navigate(idx);
+}
+
+// --- Sidebar ---
+function buildSidebar() {
+  const nav = document.getElementById('sidebar-nav');
+  let html = '';
+
+  // Add cover & sommaire as direct links
+  html += `<div class="nav-page" data-page="0" onclick="navigate(0)">Couverture</div>`;
+  if (pages.length > 1 && pages[1].layout === 'sommaire') {
+    html += `<div class="nav-page" data-page="1" onclick="navigate(1)">Sommaire</div>`;
+  }
+
+  sections.forEach(sec => {
+    html += `<div class="nav-section">
+      <div class="nav-section-title" onclick="toggleNavSection(this)">
+        <span class="arrow">&#9654;</span> ${sec.title}
+      </div>
+      <div class="nav-pages">`;
+    let currentSub = null;
+    sec.pages.forEach(p => {
+      if (sec.subsections.length > 0 && p.subsection !== currentSub) {
+        currentSub = p.subsection;
+        if (currentSub) {
+          html += `<div class="nav-subsection">${currentSub}</div>`;
+        }
+      }
+      html += `<div class="nav-page" data-page="${p.index}" onclick="navigate(${p.index})">${p.title}</div>`;
+    });
+    html += `</div></div>`;
+  });
+
+  nav.innerHTML = html;
+}
+
+function toggleNavSection(el) {
+  el.classList.toggle('expanded');
+  el.nextElementSibling.classList.toggle('open');
+}
+
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('sidebar-overlay').classList.toggle('open');
+}
+
+function closeSidebar() {
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('sidebar-overlay').classList.remove('open');
+}
+
+// Search in sidebar
+document.getElementById('sidebar-search').addEventListener('input', function() {
+  const q = this.value.toLowerCase();
+  document.querySelectorAll('.nav-section').forEach(sec => {
+    const pages = sec.querySelectorAll('.nav-page');
+    let hasMatch = false;
+    pages.forEach(p => {
+      const match = p.textContent.toLowerCase().includes(q);
+      p.style.display = match || !q ? '' : 'none';
+      if (match) hasMatch = true;
+    });
+    sec.style.display = hasMatch || !q ? '' : 'none';
+    if (q && hasMatch) {
+      sec.querySelector('.nav-section-title').classList.add('expanded');
+      sec.querySelector('.nav-pages').classList.add('open');
+    }
+  });
+});
+
+// --- Modal ---
+function openModal(html) {
+  document.getElementById('modal-body').innerHTML = html;
+  document.getElementById('modal-overlay').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('modal-overlay').classList.remove('open');
+}
+
+document.getElementById('modal-close').addEventListener('click', closeModal);
+document.getElementById('modal-overlay').addEventListener('click', function(e) {
+  if (e.target === this) closeModal();
+});
+
+// --- Sidebar overlay ---
+document.getElementById('sidebar-overlay').addEventListener('click', closeSidebar);
+document.getElementById('sidebar-close').addEventListener('click', closeSidebar);
+
+// --- Admin mode ---
+function toggleAdmin() {
+  adminMode = !adminMode;
+  document.body.classList.toggle('admin-mode', adminMode);
+  renderSlide(currentPage); // re-render to add/remove editable markers
+}
+
+// --- Editor panel ---
+let _liveTimer = null;
+let _frontMatter = ''; // stocke le front matter separement
+
+function rebuildRawMarkdown() {
+  // Reconstruit rawMarkdown a partir du front matter + toutes les pages
+  rawMarkdown = _frontMatter + '\n\n' + pages.map(p => p.raw).join('\n\n---\n\n');
+}
+
+function openEditor() {
+  document.getElementById('editor-page-num').textContent = currentPage + 1;
+  const textarea = document.getElementById('editor-textarea');
+  textarea.value = pages[currentPage].raw;
+  document.getElementById('editor-panel').classList.add('open');
+  document.body.classList.add('editor-open');
+  textarea.focus();
+}
+
+function closeEditor() {
+  document.getElementById('editor-panel').classList.remove('open');
+  document.body.classList.remove('editor-open');
+}
+
+// Live preview: met a jour la slide en temps reel pendant la frappe
+function livePreview() {
+  const newRaw = document.getElementById('editor-textarea').value;
+  // Mettre a jour directement le raw de la page courante
+  pages[currentPage].raw = newRaw;
+  // Reconstruire le markdown global
+  rebuildRawMarkdown();
+  // Re-parser et re-rendre
+  pages = parsePages(rawMarkdown);
+  sections = buildSections(pages);
+  renderSlide(currentPage);
+  // Garder l'editeur ouvert apres le re-render
+  document.getElementById('editor-panel').classList.add('open');
+  document.body.classList.add('editor-open');
+}
+
+document.getElementById('editor-textarea').addEventListener('input', () => {
+  clearTimeout(_liveTimer);
+  _liveTimer = setTimeout(livePreview, DEBOUNCE.EDITOR);
+});
+
+function applyEditor() {
+  clearTimeout(_liveTimer);
+  livePreview();
+  buildSidebar();
+  closeEditor();
+}
+
+// --- Save ---
+async function saveContent() {
+  // Rebuild full markdown
+  const fullMd = rawMarkdown;
+
+  // Try server save first
+  try {
+    const resp = await fetch('/save?path=' + encodeURIComponent(capsulePath), {
+      method: 'POST',
+      headers: { 'Content-Type': 'text/plain' },
+      body: fullMd
+    });
+    if (resp.ok) {
+      showToast('Sauvegarde OK');
+      return;
+    }
+  } catch (e) { /* fallback to download */ }
+
+  // Fallback: download
+  const blob = new Blob([fullMd], { type: 'text/markdown' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = capsulePath.split('/').pop() || 'capsule.md';
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast('Fichier telecharge');
+}
+
+function showToast(msg) {
+  const toast = document.createElement('div');
+  toast.textContent = msg;
+  toast.style.cssText = 'position:fixed;top:20px;left:50%;transform:translateX(-50%);background:#27ae60;color:white;padding:10px 24px;border-radius:25px;z-index:9999;font-size:0.9em;font-weight:600;';
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 2000);
+}
+
+// --- Image upload (admin mode) ---
+function pickImage(page, container) {
+  const input = document.createElement('input');
+  input.type = 'file';
+  input.accept = 'image/*';
+  input.addEventListener('change', async () => {
+    const file = input.files[0];
+    if (!file) return;
+
+    // Upload to server
+    const formData = new FormData();
+    formData.append('image', file);
+    formData.append('folder', basePath + 'images');
+
+    let savedName = file.name;
+    try {
+      const resp = await fetch('/upload-image', { method: 'POST', body: formData });
+      if (resp.ok) {
+        const result = await resp.text();
+        savedName = result.trim();
+        showToast('Image enregistree : ' + savedName);
+      } else {
+        // Fallback: use filename as-is (user must manually copy)
+        showToast('Serveur indisponible - copiez l\'image manuellement');
+      }
+    } catch (e) {
+      showToast('Serveur indisponible - copiez l\'image manuellement');
+    }
+
+    // Update markdown: replace old image reference or add one
+    const oldImage = page.image;
+    const newImage = savedName;
+
+    if (oldImage) {
+      // Replace in raw markdown
+      rawMarkdown = rawMarkdown.replace(
+        `<!-- image: ${oldImage} -->`,
+        `<!-- image: ${newImage} -->`
+      );
+    } else {
+      // Add image comment after layout comment or at the start of the page raw
+      const layoutComment = page.raw.match(/<!--\s*layout:.*?-->/);
+      if (layoutComment) {
+        rawMarkdown = rawMarkdown.replace(
+          layoutComment[0],
+          layoutComment[0] + `\n<!-- image: ${newImage} -->`
+        );
+      }
+    }
+
+    // Re-parse and re-render
+    pages = parsePages(rawMarkdown);
+    sections = buildSections(pages);
+    buildSidebar();
+    renderSlide(currentPage);
+  });
+  input.click();
+}
+
+// --- Keyboard ---
+document.addEventListener('keydown', function(e) {
+  if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT') return;
+
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+    e.preventDefault();
+    navigate(currentPage + 1);
+  } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+    e.preventDefault();
+    navigate(currentPage - 1);
+  } else if (e.key === 'Home') {
+    e.preventDefault();
+    navigate(1); // sommaire
+  } else if (e.key === 'Escape') {
+    closeModal();
+    closeSidebar();
+    closeEditor();
+  } else if (e.key === 'e' && e.ctrlKey) {
+    e.preventDefault();
+    toggleAdmin();
+  }
+});
+
+// --- Resize: recalculer auto-fit ---
+window.addEventListener('resize', () => {
+  clearTimeout(window._resizeTimer);
+  window._resizeTimer = setTimeout(() => autoFitText(), DEBOUNCE.RESIZE);
+});
+
+// --- Start ---
+init();
+</script>
+</body>
+</html>
