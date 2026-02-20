@@ -159,6 +159,7 @@ Le CSS cible `.marker-center` pour masquer la colonne texte et centrer le bouton
 - **Windows** : toujours normaliser `\r\n` → `\n`. **Accents** : toujours corrects
 - **Pas de sources** : ne jamais citer les sources (accords, articles, CC) dans le contenu. Le public cible = salariés, pas juristes
 - **Popup-btn centré** : `p:has(> .popup-btn:only-child)` centre auto les boutons seuls
+- **Titres dans les popups** : toujours en `###` (jamais en gras `**...**`)
 - **Sommaire labels** : hauteur fixe `3em`, centré verticalement, `overflow: hidden`
 
 ## Pièges connus
@@ -188,13 +189,13 @@ Le CSS cible `.marker-center` pour masquer la colonne texte et centrer le bouton
 | 3 | Temps de travail | Droit commun, Heures sup, Astreintes, Forfait jours, Obligations forfait, Temps partiel, Heures complémentaires | Complet |
 | 4 | Salaire et rémunération | Intro, Salaire minimum, Heures majorées, Travail nuit/dimanche, Primes diverses | Complet |
 | 5 | Contrat de travail | Intro, Mentions obligatoires (CDI), Clause de non-concurrence, Validité et levée | Contenu OK, images manquantes |
-| 6 | Rupture du contrat de travail | Placeholder | À créer |
+| 6 | Rupture du contrat de travail | Intro, Préavis, Indemnité licenciement, Départ retraite, Retraite progressive, Aménagement fin de carrière, Fiscalité indemnité | Complet |
 | 7 | Télétravail | Éligibilité, Organisation | Complet |
-| 8 | Indemnisation maladie | Placeholder | À créer |
-| 9 | Complémentaire santé, prévoyance et retraite supplémentaire | Placeholder | À créer |
-| 10 | Congés payés et congés exceptionnels | Placeholder | À créer |
-| 11 | Épargne salariale | Intro, Participation, Calcul participation, PEE, PERCOL-I | Complet |
-| 12 | Compte épargne temps | Placeholder | À créer |
+| 8 | Indemnisation maladie | Intro, Indemnisation | Complet |
+| 9 | Complémentaire santé, prévoyance et retraite supplémentaire | Intro prévoyance, Prévoyance, Complémentaire santé, Sur-complémentaire, Intro retraite, Retraite supplémentaire | Complet |
+| 10 | Congés payés et congés exceptionnels | Intro, Congés payés, Acquisition/maladie, Enfant malade, Proche aidant, Congés spéciaux, Maternité, Congés exceptionnels | Complet |
+| 11 | Épargne salariale | Intro, Intéressement, Calcul intéressement, Participation, Calcul participation, PEE, PERCOL-I | Complet |
+| 12 | Compte épargne temps | Intro, Alimentation, Utilisation, Indemnisation et rupture | Complet |
 
 ### Fait
 - Template engine complet, header persistant, marker-rows, sous-sections
@@ -205,11 +206,13 @@ Le CSS cible `.marker-center` pour masquer la colonne texte et centrer le bouton
 - Titre de navigation (`<!-- title: -->`) sans affichage H1
 - Sous-sections dans la sidebar (burger menu)
 - Reveal anti-saut (`waitForImagesAndReveal` + opacity hide/show)
-- Contrat de travail : Mentions obligatoires, Clause de non-concurrence, Validité et levée
-- Épargne salariale : Participation, Calcul participation, PEE, PERCOL-I (ajouté par l'utilisateur)
+- **12 sections complètes** — tout le contenu de la capsule est rédigé
+- Contenu vérifié contre les accords : CET (accord + 4 avenants), PEE, PERCOL-I (accord abondements), intéressement, participation
+- Titres popup convertis globalement en `###` (H3)
+- Layout `image-right-dual` ratio ajusté (texte 1 / images 1.1)
 
 ### À faire
-- Remplir les 5 sections placeholder (Rupture, Indemnisation, Complémentaire, Congés, CET)
-- Images manquantes : `mentions_obligatoires.jpg`, `validite_clause.jpg`
+- Images manquantes : `mentions_obligatoires.jpg`, `validite_clause.jpg`, `CET_utilisation.jpg`
+- Relecture globale de la capsule (cohérence, formulations, vérification juridique)
 - Contenu des popups à valider avec le client
-- Responsive : les éléments internes (px fixes) ne scalent pas sur grand écran. Solution `transform: scale()` testée mais abandonnée (change les proportions). À revisiter.
+- Responsive : les éléments internes (px fixes) ne scalent pas sur grand écran. À revisiter.

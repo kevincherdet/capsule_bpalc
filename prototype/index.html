@@ -349,9 +349,9 @@ body {
 
 /* === Dual: two images side by side on one side === */
 .layout-image-right-dual .slide-body { flex-direction: row; }
-.layout-image-right-dual .content-text { flex: 1.3; }
+.layout-image-right-dual .content-text { flex: 1; }
 .layout-image-right-dual .content-image {
-  flex: 0.9;
+  flex: 1.1;
   flex-direction: row;
   gap: 12px;
   align-items: stretch;
@@ -454,6 +454,7 @@ body {
   background: var(--primary);
   color: white;
   border: none;
+  text-decoration: none;
   padding: 10px 24px;
   border-radius: 25px;
   cursor: pointer;
@@ -515,6 +516,10 @@ p:has(> .popup-btn:only-child) { text-align: center; }
 .marker-row-btn {
   flex-shrink: 0;
   padding: 0 24px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .marker-row-btn .popup-btn {
   margin-top: 0;
@@ -578,6 +583,7 @@ p:has(> .popup-btn:only-child) { text-align: center; }
 }
 #modal-content h1 { font-size: 1.6em; }
 #modal-content h2 { font-size: 1.3em; }
+#modal-content h3 { font-size: 1.15em; margin-top: 1.2em; }
 #modal-content p { line-height: 1.65; margin-bottom: 10px; }
 #modal-content ul, #modal-content ol { padding-left: 20px; margin-bottom: 10px; }
 #modal-content li { margin-bottom: 4px; line-height: 1.6; }
@@ -959,21 +965,27 @@ body.editor-open #capsule {
    ============================================================ */
 
 // --- Constants ---
+// AUTOFIT   : bornes (px) et pas de l'ajustement automatique de la taille de police.
+// IMAGE_RATIO: seuils largeur/hauteur pour l'auto-détection du layout (square > 0.85, medium > 0.62, sinon portrait).
+// DEBOUNCE  : délais (ms) pour limiter les appels répétés (frappe éditeur, resize, reveal images).
 const AUTOFIT = { MIN: 11, MAX: 18, STEP: 0.5, TOLERANCE: 2 };
 const IMAGE_RATIO = { SQUARE: 0.85, MEDIUM: 0.62 };
-const DEBOUNCE = { EDITOR: 400, RESIZE: 150 };
+const DEBOUNCE = { EDITOR: 400, RESIZE: 150, REVEAL: 400 };
 
 // --- State ---
-let config = {};
-let pages = [];
-let sections = [];
-let currentPage = 0;
-let adminMode = false;
-let rawMarkdown = '';
-let capsulePath = '';
-let basePath = '';
+let config = {};        // Front matter parsé : banque, couleur, logo, conditions...
+let pages = [];         // Tableau des objets page : { raw, html, layout, image, popups, pageTitle... }
+let sections = [];      // Groupes de pages pour la sidebar et le sommaire
+let currentPage = 0;   // Index de la page actuellement affichée
+let sommaireIndex = 1; // Index de la page sommaire dans pages[], calculé dans init()
+let adminMode = false;  // Mode administration : édition live + upload d'images
+let rawMarkdown = '';   // Contenu brut du .md (conservé pour save et rebuildRawMarkdown)
+let capsulePath = '';   // Chemin relatif vers le fichier .md (ex: bpalc/capsule.md)
+let basePath = '';      // Préfixe pour les chemins d'images (ex: bpalc/)
 
 // --- Image helpers ---
+// imgSrc    : construit l'URL complète d'une image à partir de son nom de fichier.
+// imgError  : génère le handler onerror inline qui remplace l'image manquante par un placeholder.
 function imgSrc(filename) { return basePath + 'images/' + filename; }
 function imgError(filename) { return `this.outerHTML='<div class=img-placeholder>Image: ${filename}</div>'`; }
 
@@ -994,8 +1006,14 @@ async function init() {
   }
 
   config = parseFrontMatter(rawMarkdown);
-  pages = parsePages(rawMarkdown);
+  const parsed = parsePages(rawMarkdown);
+  pages = parsed.pages;
+  _frontMatter = parsed.frontMatter;
   sections = buildSections(pages);
+
+  // Calculer une fois l'index du sommaire pour ne pas le hardcoder à 1 partout
+  sommaireIndex = pages.findIndex(p => p.layout === 'sommaire');
+  if (sommaireIndex < 0) sommaireIndex = 1; // fallback si pas de page sommaire
 
   if (config.couleur) document.documentElement.style.setProperty('--primary', config.couleur);
   document.title = config.nom_complet ? 'Capsule ' + config.banque : 'Capsule';
@@ -1008,6 +1026,9 @@ async function init() {
 }
 
 // --- Parse front matter ---
+// Extrait le bloc YAML (entre les deux ---) et retourne un objet plat.
+// Gère les groupes imbriqués (ex: conditions: { forfait_jours: false })
+// et les valeurs typées (true/false booléens, chaînes entre guillemets).
 function parseFrontMatter(text) {
   text = text.replace(/\r\n/g, '\n');
   const match = text.match(/^---\n([\s\S]*?)\n---/);
@@ -1047,6 +1068,11 @@ function parseFrontMatter(text) {
 }
 
 // --- Parse helpers ---
+
+// Extrait les commentaires HTML de métadonnées d'une page brute :
+// layout, image, image2, thumbnail, subsection, title, condition.
+// _hasLayout : vrai si un layout explicite est défini (utile pour ne pas
+// écraser un layout 'text-only' avec 'section-intro' sur une page composite).
 function parsePageMetadata(raw) {
   const meta = { layout: 'text-only', image: null, thumbnail: null };
   const layoutMatch = raw.match(/<!--\s*layout:\s*(\S+)\s*-->/);
@@ -1067,6 +1093,15 @@ function parsePageMetadata(raw) {
   return meta;
 }
 
+// Extrait tous les blocs :::popup du contenu brut et les stocke dans page.popups[].
+// Deux modes selon la présence d'un popup label '+' (marker) :
+//   - Mode marker-rows : TOUS les popups sont remplacés par un placeholder %%POPUP:idx:label%%
+//     qui sera converti en .marker-placeholder par transformContent(), puis assemblé
+//     en grille flex par buildMarkerGrid().
+//   - Mode classique : les popups deviennent des <button data-popup="idx"> inline.
+//     Exception : label commençant par '_' → popup caché, bouton placé manuellement en HTML.
+// IMPORTANT : doit être appelé AVANT detectTitlesAndSection pour éviter que les ## / ###
+// présents dans le contenu d'un popup ne perturbent la détection de section.
 function extractPopups(raw, page) {
   let content = raw;
   const popupRegex = /:::popup\s+(.+?)\n([\s\S]*?):::/g;
@@ -1097,6 +1132,10 @@ function extractPopups(raw, page) {
   return content;
 }
 
+// Détecte ## (section) et ### (titre de page) dans le contenu post-popup.
+// Met à jour page.section, page.sectionTitle, page.pageTitle, page.isSection.
+// Retourne la section courante mise à jour (propagée aux pages suivantes par parsePages).
+// Une page avec ## mais sans ### est une page "section-intro" (pas de H1 visible).
 function detectTitlesAndSection(content, page, currentSection, hasLayout) {
   const sectionMatch = content.match(/^##\s+(.+)$/m);
   if (sectionMatch && !content.match(/^###/m)) {
@@ -1122,6 +1161,11 @@ function detectTitlesAndSection(content, page, currentSection, hasLayout) {
   return currentSection;
 }
 
+// Nettoie le contenu markdown et le convertit en HTML.
+// Étapes : suppression des commentaires HTML de métadonnées → suppression des lignes ## / ###
+// (déjà traitées par detectTitlesAndSection) → conversion des triple-sauts en .spacer
+// → marked.parse() → restauration des placeholders %%POPUP%% en .marker-placeholder.
+// Le label 'cftc' génère un bouton avec logo au lieu du rond standard.
 function transformContent(content) {
   content = content.replace(/<!--\s*(layout|image2?|thumbnail|subsection|title|condition):\s*.+?\s*-->/g, '');
   content = content.replace(/^###\s+.+$/m, '');
@@ -1140,11 +1184,13 @@ function transformContent(content) {
 }
 
 // --- Parse pages ---
+// Retourne { pages, frontMatter }.
+// L'appelant est responsable de stocker frontMatter dans _frontMatter.
 function parsePages(text) {
   text = text.replace(/\r\n/g, '\n');
 
   const fmMatch = text.match(/^(---\n[\s\S]*?\n---)\n*/);
-  if (fmMatch) _frontMatter = fmMatch[1];
+  const frontMatter = fmMatch ? fmMatch[1] : '';
   let body = fmMatch ? text.substring(fmMatch[0].length) : text;
 
   const rawPages = body.split(/\n---\n/).filter(p => p.trim());
@@ -1182,10 +1228,13 @@ function parsePages(text) {
 
   // Réindexer après filtrage conditionnel
   result.forEach((p, i) => p.index = i);
-  return result;
+  return { pages: result, frontMatter };
 }
 
 // --- Build sections for navigation ---
+// Construit le tableau sections[] utilisé par la sidebar et le sommaire.
+// Chaque section regroupe ses pages et ses sous-sections distinctes.
+// Les pages cover et sommaire sont ignorées (elles ont leurs propres liens fixes).
 function buildSections(pages) {
   const secs = [];
   let current = null;
@@ -1211,6 +1260,11 @@ function buildSections(pages) {
 }
 
 // --- Render slide ---
+// Point d'entrée principal pour afficher une page.
+// Séquence : masquage instantané du body (opacity 0) → mise à jour du layout CSS
+// → updateHeader → injection du HTML de la page → bind des popups
+// → mise à jour de la sidebar active → setup admin → handleImageAutoLayout
+// → waitForImagesAndReveal (autoFitText + opacity 1 après chargement des images).
 function renderSlide(index) {
   if (index < 0 || index >= pages.length) return;
   currentPage = index;
@@ -1283,29 +1337,44 @@ function renderSlide(index) {
 }
 
 // --- Bind popup & marker buttons ---
+// Attache les handlers click sur tous les boutons [data-popup] du slide.
+// Logique navigate: : si le contenu du popup commence par "navigate: Titre",
+//   → navigue vers la page de ce titre si elle existe,
+//   → sinon affiche le contenu de repli (lignes suivantes) en modal,
+//   → sinon masque le bouton.
+// Sinon : ouvre le contenu du popup dans la modale.
 function bindPopupButtons(capsule, page) {
   capsule.querySelectorAll('.popup-btn[data-popup], .marker-btn[data-popup]').forEach(btn => {
     const popup = page.popups[parseInt(btn.dataset.popup)];
     if (!popup) return;
-    // Masquer les boutons navigate vers une page filtrée
     if (popup.content.startsWith('navigate:')) {
-      const target = popup.content.replace('navigate:', '').trim();
-      if (!pages.some(p => p.pageTitle === target)) {
-        btn.style.display = 'none';
+      const lines = popup.content.split('\n');
+      const target = lines[0].replace('navigate:', '').trim();
+      const targetExists = pages.some(p => p.pageTitle === target);
+      if (!targetExists) {
+        // Contenu de repli (lignes après navigate:) → afficher en modal si présent, sinon masquer
+        const fallback = lines.slice(1).join('\n').trim();
+        if (fallback) {
+          btn.addEventListener('click', () => openModal(marked.parse(fallback)));
+        } else {
+          btn.style.display = 'none';
+        }
         return;
       }
+      btn.addEventListener('click', () => navigateToTitle(target));
+      return;
     }
-    btn.addEventListener('click', () => {
-      if (popup.content.startsWith('navigate:')) {
-        navigateToTitle(popup.content.replace('navigate:', '').trim());
-      } else {
-        openModal(marked.parse(popup.content));
-      }
-    });
+    btn.addEventListener('click', () => openModal(marked.parse(popup.content)));
   });
 }
 
 // --- Auto-detect image ratio ---
+// Pour les layouts 'image-right' et 'image-left' (sans suffixe explicite),
+// détecte le ratio naturel de l'image et applique le suffixe correspondant :
+//   ratio > SQUARE  → -square  (~50/50)
+//   ratio > MEDIUM  → -medium  (~60/40)
+//   sinon           → -portrait (~75/25)
+// Si l'image n'est pas encore chargée, écoute l'événement 'load'.
 function handleImageAutoLayout(capsule, page) {
   if (page.layout !== 'image-right' && page.layout !== 'image-left') return;
   const img = capsule.querySelector('.content-image img');
@@ -1324,7 +1393,11 @@ function handleImageAutoLayout(capsule, page) {
   else img.addEventListener('load', applyLayout);
 }
 
-// --- Attendre toutes les images puis reveler le slide ---
+// --- Attendre toutes les images puis révéler le slide ---
+// Attend que toutes les <img> du body soient chargées (complete ou erreur)
+// avant d'appeler autoFitText() et de rétablir opacity:1.
+// Évite le saut visuel causé par le recalcul du layout après chargement des images.
+// Le timeout DEBOUNCE.REVEAL garantit le reveal même si une image ne répond pas.
 function waitForImagesAndReveal(body) {
   const imgs = Array.from(body.querySelectorAll('img'));
   const unloaded = imgs.filter(img => !img.complete);
@@ -1354,11 +1427,15 @@ function waitForImagesAndReveal(body) {
     img.addEventListener('error', done);
   });
 
-  // Timeout de securite : reveler meme si une image traine
-  setTimeout(reveal, 400);
+  // Timeout de sécurité : révéler même si une image ne se charge pas
+  setTimeout(reveal, DEBOUNCE.REVEAL);
 }
 
 // --- Auto-fit text ---
+// Réduit progressivement la font-size de chaque .content-text (de AUTOFIT.MAX vers MIN)
+// jusqu'à ce que scrollHeight ≤ clientHeight + TOLERANCE.
+// Appelé une seule fois par waitForImagesAndReveal, après chargement de toutes les images
+// (le layout final est alors connu, donc les dimensions du conteneur sont stables).
 function autoFitText() {
   const capsule = document.getElementById('capsule');
   capsule.querySelectorAll('.content-text').forEach(el => {
@@ -1376,6 +1453,9 @@ function autoFitText() {
 }
 
 // --- Render: cover page ---
+// Fond blanc (via CSS #capsule.layout-cover), header masqué.
+// Colonne gauche : logo 80px + titre H1 + description + bouton "Commencer".
+// Colonne droite : image plein bord (border-radius 0).
 function renderCover(page) {
   const imgHtml = page.image
     ? `<img src="${imgSrc(page.image)}" alt="" onerror="${imgError(page.image)}">`
@@ -1388,12 +1468,15 @@ function renderCover(page) {
       ${config.logo ? `<img src="${imgSrc(config.logo)}" style="width:80px;height:auto;margin-bottom:12px">` : ''}
       ${titleHtml}
       ${page.html}
-      <button class="popup-btn" onclick="navigate(1)" style="margin-top:auto;align-self:center;padding:10px 24px;font-size:0.9em;white-space:nowrap">Commencer la capsule</button>
+      <button class="popup-btn" onclick="navigate(${sommaireIndex})" style="margin-top:auto;align-self:center;padding:10px 24px;font-size:0.9em;white-space:nowrap">Commencer la capsule</button>
     </div>
     <div class="content-image">${imgHtml}</div>`;
 }
 
 // --- Render: sommaire ---
+// Panneau gauche fixe (240px) + grille 4 colonnes de vignettes cliquables.
+// Chaque vignette navigue vers startIndex de sa section.
+// Le thumbnail est celui défini sur la page ## de la section.
 function renderSommaire(page) {
   let cardsHtml = '';
   sections.forEach(sec => {
@@ -1414,7 +1497,15 @@ function renderSommaire(page) {
     <div class="sommaire-grid">${cardsHtml}</div>`;
 }
 
-// --- Build marker grid (3-column layout: text | markers | image) ---
+// --- Build marker grid ---
+// Transforme le HTML d'une page marquée (contenant des .marker-placeholder)
+// en une série de .marker-row flex : colonne texte (flex:1) + colonne bouton (flex-shrink:0).
+// Règles d'assemblage :
+//   - Un élément ordinaire → nouvelle ligne avec ce contenu.
+//   - Un .marker-placeholder → attaché à la ligne précédente si elle n'a pas encore de bouton,
+//     sinon crée une nouvelle ligne bouton seule.
+//   - Les .spacer sont ignorés.
+// Le CSS .marker-row:has(.marker-center) gère les boutons centrés sur ligne dédiée.
 function buildMarkerGrid(html) {
   const temp = document.createElement('div');
   temp.innerHTML = html;
@@ -1432,8 +1523,16 @@ function buildMarkerGrid(html) {
         rows.push({ content: '', marker: btn.outerHTML });
       } else {
         const prev = rows[rows.length - 1];
-        if (prev.marker) rows.push({ content: '', marker: btn.outerHTML });
-        else prev.marker = btn.outerHTML;
+        if (prev.marker) {
+          // Si la ligne précédente est une ligne centrée (marker-center), grouper les boutons côte à côte
+          if (prev.content && prev.content.includes('marker-center')) {
+            prev.marker += btn.outerHTML;
+          } else {
+            rows.push({ content: '', marker: btn.outerHTML });
+          }
+        } else {
+          prev.marker = btn.outerHTML;
+        }
       }
     } else if (child.classList.contains('spacer')) {
       // Ignorer les spacers
@@ -1450,6 +1549,9 @@ function buildMarkerGrid(html) {
 }
 
 // --- Render: content page ---
+// Gère tous les layouts sauf cover et sommaire.
+// Si page._hasMarkers → buildMarkerGrid() pour le système de lignes flex.
+// textFirst détermine l'ordre DOM (texte avant ou après l'image selon le layout).
 function renderContentPage(page) {
   let imgHtml = '';
   if (page.image && page.layout !== 'text-only') {
@@ -1480,18 +1582,21 @@ function renderContentPage(page) {
     : `${imgHtml}<div class="content-text">${innerHtml}</div>`;
 }
 
-// --- Header persistant (logos charges une seule fois) ---
+// --- Header persistant ---
+// initHeader  : construit le header une seule fois (logos, boutons fixes).
+//               Appelé uniquement dans init(). Les logos ne sont jamais rechargés.
+// updateHeader: met à jour uniquement le titre de section et la flèche de navigation.
+//               Appelé à chaque renderSlide() sans toucher au reste du header.
 function initHeader() {
   const header = document.getElementById('capsule-header');
   header.innerHTML = `
     <button class="header-icon header-icon-burger" onclick="toggleSidebar()" title="Menu de navigation">
       <svg viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
     </button>
-    <button class="header-icon header-icon-home" onclick="navigate(1)" title="Retour au sommaire">
+    <button class="header-icon header-icon-home" onclick="navigate(${sommaireIndex})" title="Retour au sommaire">
       <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
     </button>
     ${config.logo ? `<div class="header-separator"></div><img class="header-logo" src="${imgSrc(config.logo)}" alt="Logo" onerror="this.previousElementSibling?.remove();this.remove()">` : ''}
-    ${config.logo_client ? `<img class="header-logo-client" src="${imgSrc(config.logo_client)}" alt="Logo client" onerror="this.remove()">` : ''}
     <span class="header-section-title"></span>
     <div class="header-nav"></div>`;
 }
@@ -1521,6 +1626,9 @@ function updateHeader(page) {
 }
 
 // --- Navigation ---
+// navigate        : navigue vers un index de page (ferme la sidebar au passage).
+// navigateToTitle : trouve la page par son pageTitle et appelle navigate().
+//                   Utilisé par les popups navigate: et les boutons onclick inline.
 function navigate(index) {
   if (index >= 0 && index < pages.length) {
     renderSlide(index);
@@ -1533,14 +1641,17 @@ function navigateToTitle(title) {
 }
 
 // --- Sidebar ---
+// Construit le menu burger : liens Couverture + Sommaire, puis chaque section
+// avec ses sous-sections (labels bleus) et ses pages (indentation).
+// Appelé dans init() et après chaque modification du contenu (live editor, pickImage).
 function buildSidebar() {
   const nav = document.getElementById('sidebar-nav');
   let html = '';
 
-  // Add cover & sommaire as direct links
+  // Liens fixes : couverture + sommaire (position calculée dynamiquement)
   html += `<div class="nav-page" data-page="0" onclick="navigate(0)">Couverture</div>`;
-  if (pages.length > 1 && pages[1].layout === 'sommaire') {
-    html += `<div class="nav-page" data-page="1" onclick="navigate(1)">Sommaire</div>`;
+  if (sommaireIndex >= 0) {
+    html += `<div class="nav-page" data-page="${sommaireIndex}" onclick="navigate(${sommaireIndex})">Sommaire</div>`;
   }
 
   sections.forEach(sec => {
@@ -1626,11 +1737,19 @@ function toggleAdmin() {
 }
 
 // --- Editor panel ---
+// Éditeur markdown en tiroir bas. Flux : openEditor → frappe (debounce) → livePreview
+// → applyEditor (valide + ferme) ou closeEditor (annule sans sauvegarder sur le serveur).
+// livePreview re-parse tout le fichier à chaque frappe (via rebuildRawMarkdown + parsePages)
+// pour un aperçu en temps réel. L'éditeur est rouvert après le re-render pour rester visible.
 let _liveTimer = null;
-let _frontMatter = ''; // stocke le front matter separement
+// Front matter extrait du .md (section YAML entre les deux ---).
+// Alimenté par parsePages() et utilisé par rebuildRawMarkdown() pour
+// reconstruire le fichier complet sans écraser les métadonnées globales.
+let _frontMatter = '';
 
 function rebuildRawMarkdown() {
-  // Reconstruit rawMarkdown a partir du front matter + toutes les pages
+  // Reconstruit rawMarkdown à partir du front matter + contenu de chaque page.
+  // Toujours passer par cette fonction plutôt que de modifier rawMarkdown directement.
   rawMarkdown = _frontMatter + '\n\n' + pages.map(p => p.raw).join('\n\n---\n\n');
 }
 
@@ -1655,8 +1774,8 @@ function livePreview() {
   pages[currentPage].raw = newRaw;
   // Reconstruire le markdown global
   rebuildRawMarkdown();
-  // Re-parser et re-rendre
-  pages = parsePages(rawMarkdown);
+  // Re-parser et re-rendre (le frontMatter ne change pas pendant l'édition)
+  ({ pages } = parsePages(rawMarkdown));
   sections = buildSections(pages);
   renderSlide(currentPage);
   // Garder l'editeur ouvert apres le re-render
@@ -1677,6 +1796,8 @@ function applyEditor() {
 }
 
 // --- Save ---
+// Tente de sauvegarder rawMarkdown sur le serveur local via POST /save.
+// Si le serveur est indisponible, bascule en téléchargement du fichier .md.
 async function saveContent() {
   // Rebuild full markdown
   const fullMd = rawMarkdown;
@@ -1714,6 +1835,10 @@ function showToast(msg) {
 }
 
 // --- Image upload (admin mode) ---
+// Ouvre un sélecteur de fichier, uploade l'image sur le serveur via POST /upload-image,
+// puis met à jour page.raw (et non rawMarkdown directement) avant de reconstruire
+// via rebuildRawMarkdown(). Cela évite les collisions si deux pages partagent le même
+// nom d'image. Fallback : toast d'erreur si le serveur est indisponible.
 function pickImage(page, container) {
   const input = document.createElement('input');
   input.type = 'file';
@@ -1742,29 +1867,33 @@ function pickImage(page, container) {
       showToast('Serveur indisponible - copiez l\'image manuellement');
     }
 
-    // Update markdown: replace old image reference or add one
+    // Mettre à jour le raw de la page concernée, puis reconstruire rawMarkdown.
+    // Ne pas modifier rawMarkdown directement (risque de collision si deux pages
+    // partagent le même nom d'image, le replace toucherait la mauvaise occurrence).
     const oldImage = page.image;
     const newImage = savedName;
 
     if (oldImage) {
-      // Replace in raw markdown
-      rawMarkdown = rawMarkdown.replace(
+      page.raw = page.raw.replace(
         `<!-- image: ${oldImage} -->`,
         `<!-- image: ${newImage} -->`
       );
     } else {
-      // Add image comment after layout comment or at the start of the page raw
+      // Ajouter le commentaire image après le commentaire layout existant
       const layoutComment = page.raw.match(/<!--\s*layout:.*?-->/);
       if (layoutComment) {
-        rawMarkdown = rawMarkdown.replace(
+        page.raw = page.raw.replace(
           layoutComment[0],
           layoutComment[0] + `\n<!-- image: ${newImage} -->`
         );
       }
     }
 
+    // Reconstruire rawMarkdown depuis les page.raw mis à jour
+    rebuildRawMarkdown();
+
     // Re-parse and re-render
-    pages = parsePages(rawMarkdown);
+    ({ pages } = parsePages(rawMarkdown));
     sections = buildSections(pages);
     buildSidebar();
     renderSlide(currentPage);
@@ -1784,7 +1913,7 @@ document.addEventListener('keydown', function(e) {
     navigate(currentPage - 1);
   } else if (e.key === 'Home') {
     e.preventDefault();
-    navigate(1); // sommaire
+    navigate(sommaireIndex);
   } else if (e.key === 'Escape') {
     closeModal();
     closeSidebar();

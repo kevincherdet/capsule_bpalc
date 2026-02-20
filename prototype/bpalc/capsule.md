@@ -26,7 +26,19 @@ Retrouvez facilement toutes les informations dont vous avez besoin sans avoir à
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -53,7 +65,19 @@ Retrouvez facilement toutes les informations dont vous avez besoin sans avoir à
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -91,7 +115,19 @@ Elle a pour objectif d'articuler vos droits selon deux niveaux de textes :
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -143,7 +179,19 @@ Votre convention collective (Banque Populaire) applique la grille de classificat
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -232,7 +280,19 @@ Les techniciens sont répartis selon 7 niveaux allant de A à G.
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -314,7 +374,19 @@ N'entrent pas dans la présente classification, les cadres :
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -357,7 +429,19 @@ N'entrent pas dans la présente classification, les cadres :
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -412,7 +496,19 @@ Les horaires sont encadrés : arrivée entre **7h45 et 9h00**, départ entre **1
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -438,6 +534,8 @@ Le contingent d'heures supplémentaires est fixé à **220 heures** par an. Au-d
 
 Concrètement, une heure supplémentaire effectuée au-delà du contingent sera payée avec une majoration **ET** récupérée à 100%.
 
+<div class="marker-center"></div>
+
 :::popup Quelle majoration pour les heures supplémentaires ?
 navigate: Heures supplémentaires et complémentaires
 :::
@@ -448,7 +546,19 @@ navigate: Heures supplémentaires et complémentaires
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -490,38 +600,6 @@ Le planning des astreintes doit être porté à la connaissance des salariés co
 
 
 
----
-
-
-
-
-
-
-
-
-
-
-
-
-### Le forfait annuel en jours
-<!-- condition: forfait_jours -->
-<!-- layout: image-left -->
-<!-- image: forfait_jours.jpg -->
-
-**Le forfait jours** est un mode de décompte du temps de travail **en jours sur une année de référence**, prévu par le Code du travail pour les cadres dont l'emploi du temps ne peut être prédéterminé.
-
-À la BPALC, l'accord d'aménagement du temps de travail a **intégré les cadres au rythme de 39h sur 5 jours** avec 22 JRTT, à compter du 1er janvier 2016. Les cadres qui relevaient auparavant d'un forfait jours sont donc passés à ce rythme.
-:::popup +
-Ce basculement concerne les cadres des services centraux (siège et sites centraux). Ils bénéficient des mêmes conditions que les autres salariés à ce rythme : 39h hebdomadaires, 22 JRTT, horaires encadrés (arrivée 7h45-9h, départ 17h-18h30).
-:::
-
-Les cadres restent soumis aux garanties légales : repos **quotidien de minimum 11 heures consécutives**, temps nécessaire à la pause déjeuner, et repos hebdomadaire de deux jours consécutifs incluant le dimanche.
-
-
-
-
-
-
 
 
 
@@ -535,52 +613,6 @@ Les cadres restent soumis aux garanties légales : repos **quotidien de minimum 
 
 
 
-
-
-
-
-
-
-### Obligations de votre employeur envers les cadres
-<!-- condition: forfait_jours -->
-<!-- layout: image-right -->
-<!-- image: obligations_forfait.jpg -->
-
-Même si les cadres à la BPALC sont désormais au **rythme 39h / 5 jours**, la loi et la jurisprudence rappellent que **votre employeur conserve des obligations** en matière de suivi de votre temps de travail. Il doit ainsi :
-
-<span class="bullet">•</span>comptabiliser votre temps de travail,
-:::popup +
-Le temps de travail est décompté sur la base d'un système auto-déclaratif contrôlé par la hiérarchie.
-:::
-
-<span class="bullet">•</span>s'assurer du respect des durées minimales de repos,
-
-<span class="bullet">•</span>suivre votre charge de travail,
-:::popup +
-La loi prévoit au minimum un entretien de suivi annuel. Durant cet entretien, le responsable hiérarchique aura pour mission d'examiner la charge et l'organisation du travail.
-
-Le Code du travail prévoit que cet entretien doit également porter sur la rémunération et l'articulation vie privée / vie professionnelle.
-:::
-
-<span class="bullet">•</span>assurer votre droit à la déconnexion,
-:::popup +
-Les entreprises de plus de 250 salariés doivent nommer un référent déconnexion qui a pour rôle de sensibiliser les collaborateurs et les managers aux enjeux de la déconnexion, et de diffuser les bonnes pratiques de la connexion responsable.
-:::
-
-<span class="bullet">•</span>transmettre une fois par an à la Commission SSCT, le nombre d'alertes émises en cas de difficulté inhabituelle liée à la charge de travail ou à l'isolement professionnel d'un salarié.
-
-
-
-
-
-
-
-
-
-
-
-
----
 
 
 
@@ -631,7 +663,19 @@ navigate: Aménagement de fin de carrière
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -654,6 +698,8 @@ Votre accord d'entreprise prévoit que les heures complémentaires ne peuvent **
 
 Le Code du travail précise **qu'une augmentation temporaire** de la durée du travail est possible, dans la **limite de 8 avenants par an** et par salarié. Cet avenant dit « de complément d'heures » nécessite bien sûr l'accord du salarié.
 
+<div style="margin-top: 24px"></div>
+
 :::popup Quelle majoration pour les heures complémentaires ?
 navigate: Heures supplémentaires et complémentaires
 :::
@@ -669,7 +715,19 @@ navigate: Heures supplémentaires et complémentaires
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -718,7 +776,19 @@ navigate: Heures supplémentaires et complémentaires
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -739,6 +809,8 @@ navigate: Heures supplémentaires et complémentaires
 En France, le salaire minimum hiérarchique est le montant minimum de rémunération que votre employeur doit vous verser ! Il peut bien sûr vous verser plus. Votre convention collective prévoit que ce minimum évolue en fonction de votre ancienneté.
 
 À titre d'exemple, dans votre convention collective, un cadre de niveau I doit percevoir au moins 42 286 euros après 10 ans d'ancienneté.
+
+<div class="marker-center"></div>
 
 :::popup Voir le tableau des salaires minimums
 Voici la grille applicable dans votre convention collective :
@@ -781,7 +853,19 @@ Pour les salariés à temps partiel, le salaire de base est calculé au prorata 
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -817,7 +901,19 @@ Votre convention collective prévoit que les **heures supplémentaires** peuvent
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -881,6 +977,12 @@ Les techniciens du système TARGET et de la Bourse bénéficient d'une majoratio
 
 
 
+
+
+
+
+
+
 ---
 
 
@@ -894,11 +996,17 @@ Les techniciens du système TARGET et de la Bourse bénéficient d'une majoratio
 
 
 
+
+
+
+
+
+
+### Primes diverses
 <!-- layout: image-right-dual -->
 <!-- image: primes_diverses_1.jpg -->
 <!-- image2: primes_diverses_2.jpg -->
 <!-- subsection: Primes diverses -->
-<!-- title: Primes diverses -->
 
 **Plusieurs primes et indemnités existent au sein de la BPALC :**
 
@@ -971,7 +1079,19 @@ Votre convention collective prévoit une prime versée en une seule fois à l'ob
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -999,7 +1119,7 @@ Votre convention collective prévoit une prime versée en une seule fois à l'ob
 <img src="bpalc/images/clause_non_concurrence.jpg" style="width:100%;max-width:300px;border-radius:12px;margin-bottom:20px" onerror="this.remove()">
 <strong style="font-size:1.3em">Clause de non-concurrence</strong>
 <p style="margin-top:8px">Votre convention et vos accords d'entreprise ne prévoient pas de spécificités concernant la clause de non-concurrence. Votre employeur peut toutefois légalement insérer ce type de clause dans votre contrat de travail.</p>
-<div style="margin-top:auto;padding-top:24px"><button class="popup-btn" onclick="navigateToTitle('Clause de non-concurrence')">Voir plus</button></div>
+<div style="margin-top:auto;padding-top:24px"><button class="popup-btn" onclick="navigateToTitle('Principe')">Voir plus</button></div>
 </div>
 <div style="flex:1;max-width:380px;text-align:center;display:flex;flex-direction:column;align-items:center">
 <img src="bpalc/images/auxiliaire_ete.jpg" style="width:100%;max-width:300px;border-radius:12px;margin-bottom:20px" onerror="this.remove()">
@@ -1020,7 +1140,19 @@ Votre convention collective prévoit une prime versée en une seule fois à l'ob
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -1049,11 +1181,33 @@ De manière assez classique, votre contrat comportera également la plupart du t
 
 :::popup Votre employeur peut-il modifier votre contrat en cours de route ?
 navigate: Modification et mobilité
+
+Toute modification du contrat de travail devra vous être notifiée par écrit.
+
+Votre convention ne précise pas de délai de réponse pour accepter ou non la modification. La loi non plus mais la jurisprudence a déterminé que le délai doit être raisonnable, pour laisser le temps au salarié d'accepter ou pas la proposition de l'employeur.
+
+L'administration du travail préconise un délai minimum de 15 jours.
+
+Si vous refusez la modification, votre employeur peut engager une procédure de licenciement.
+
+> **Bon à savoir :** Votre silence vaut refus.
 :::
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -1070,7 +1224,7 @@ navigate: Modification et mobilité
 <div class="marker-rows">
 <div class="marker-row"><div class="marker-row-text"><h2 style="font-size:1.4em;font-weight:800;margin:0">Modification du contrat de travail</h2></div></div>
 <div class="marker-row"><div class="marker-row-text"><p>Toute modification importante d'un élément essentiel de votre contrat de travail devra vous être notifiée <strong>par écrit</strong>.</p></div><div class="marker-row-btn"><button class="marker-btn" data-popup="0">+</button></div></div>
-<div class="marker-row"><div class="marker-row-text"><p>Vos accords ainsi que la loi ne précisent pas de délai de réponse pour accepter ou non la modification. En revanche, la jurisprudence a déterminé que le délai doit être <strong>raisonnable</strong>, pour laisser le temps au salarié d'accepter ou pas la proposition de l'employeur. Si vous refusez la modification, votre employeur peut engager une <strong>procédure de licenciement</strong>.</p></div></div>
+<div class="marker-row"><div class="marker-row-text"><p>Vos accords ainsi que la loi ne précisent pas de délai de réponse pour accepter ou non la modification. En revanche, la jurisprudence a déterminé que le délai doit être <strong>raisonnable</strong>, pour laisser le temps au salarié d'accepter ou pas la proposition de l'employeur. Si vous refusez la modification, votre employeur peut engager une <strong>procédure de licenciement</strong>.</p></div><div class="marker-row-btn"><button class="marker-btn" data-popup="4">+</button></div></div>
 <div class="marker-row"><div class="marker-row-text"><p><strong>Bon à savoir :</strong> sauf précision contraire dans votre contrat de travail, votre silence vaut refus.</p></div></div>
 </div>
 </div>
@@ -1094,7 +1248,7 @@ Vos accords précisent qu'un changement de rythme de travail constitue un simple
 :::
 
 :::popup _mobilite
-**Mobilité géographique**
+### Mobilité géographique
 
 Vos accords distinguent deux types de mobilité géographique :
 
@@ -1116,7 +1270,7 @@ Le salarié concerné bénéficiera également de la prise en charge de **2 nuit
 :::
 
 :::popup _frais
-**Congé de déménagement et prise en charge des frais de recherche d'un logement :**
+### Congé de déménagement et prise en charge des frais de recherche d'un logement
 Les salariés BPALC bénéficient d'absences rémunérées dans la limite de **10 jours ouvrés** (dont les 4 jours de déménagement prévus par la convention collective), pour la recherche, le déménagement et l'installation dans un nouveau logement. Les frais liés à cette recherche seront indemnisés sur justificatifs à concurrence maximum de **2 trajets A/R**, **2 déjeuners** et **2 nuits d'hôtel pour 2 personnes**.
 
 **Frais de double résidence :**
@@ -1132,10 +1286,26 @@ BPALC propose des prêts relais d'une durée maximale de **24 mois** dont le mon
 BPALC prend en charge à hauteur maximale de **3 500 € TTC** le recours à un cabinet de placement.
 :::
 
+:::popup _delai
+L'administration du travail préconise un délai minimum de 15 jours.
+:::
+
+
+
+
+
+
+
 
 
 
 ---
+
+
+
+
+
+
 
 
 
@@ -1177,6 +1347,12 @@ Si votre employeur souhaite y mettre fin, il devra respecter un délai de préve
 
 
 
+
+
+
+
+
+
 ---
 
 
@@ -1190,10 +1366,16 @@ Si votre employeur souhaite y mettre fin, il devra respecter un délai de préve
 
 
 
+
+
+
+
+
+
+### Principe
 <!-- layout: image-right -->
 <!-- image: non_concurrence_1.jpg -->
 <!-- subsection: Clause de non-concurrence -->
-<!-- title: Clause de non-concurrence -->
 
 Votre convention et vos accords d'entreprise ne prévoient pas les conditions d'application d'une clause de non-concurrence. Votre employeur a toutefois la possibilité d'inclure dans votre contrat de travail ce type de clause.
 
@@ -1212,7 +1394,19 @@ Cette clause est là pour protéger l'intérêt de votre employeur (surtout si v
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -1259,7 +1453,19 @@ Votre syndicat peut vous accompagner dans cette démarche.
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -1287,20 +1493,174 @@ Les auxiliaires d'été reçoivent une rémunération au moins égale au **SMIC*
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
 ## Rupture du contrat de travail
 <!-- thumbnail: sommaire_rupture.jpg -->
 
-### Rupture du contrat de travail
-<!-- layout: image-right -->
-<!-- image: rupture_contrat.jpg -->
+<!-- layout: text-only -->
+<!-- title: Rupture du contrat de travail -->
 
-Contenu à venir.
+<div style="display:flex;gap:40px;justify-content:center;flex-wrap:wrap;padding:0 32px">
+<div style="flex:1;max-width:380px;text-align:center;display:flex;flex-direction:column;align-items:center">
+<img src="bpalc/images/preavis_intro.jpg" style="width:100%;max-width:300px;border-radius:12px;margin-bottom:20px" onerror="this.remove()">
+<strong style="font-size:1.3em">Préavis de départ</strong>
+<p style="margin-top:8px">En cas de rupture du contrat, un préavis est dû par la partie à l'initiative de la rupture. Sa durée varie selon votre catégorie d'emploi et le mode de rupture.</p>
+<div style="margin-top:auto;padding-top:24px"><button class="popup-btn" onclick="navigateToTitle('Préavis de départ')">Voir plus</button></div>
+</div>
+<div style="flex:1;max-width:380px;text-align:center;display:flex;flex-direction:column;align-items:center">
+<img src="bpalc/images/indemnite_intro.jpg" style="width:100%;max-width:300px;border-radius:12px;margin-bottom:20px" onerror="this.remove()">
+<strong style="font-size:1.3em">Indemnité de rupture</strong>
+<p style="margin-top:8px">Le montant de l'indemnité dépend du mode de rupture de votre contrat. Votre convention prévoit plusieurs cas selon que la rupture est d'origine disciplinaire, économique ou amiable.</p>
+<div style="margin-top:auto;padding-top:24px"><button class="popup-btn" onclick="navigateToTitle('Indemnité de rupture')">Voir plus</button></div>
+</div>
+<div style="flex:1;max-width:380px;text-align:center;display:flex;flex-direction:column;align-items:center">
+<img src="bpalc/images/retraite_intro.jpg" style="width:100%;max-width:300px;border-radius:12px;margin-bottom:20px" onerror="this.remove()">
+<strong style="font-size:1.3em">Départ à la retraite</strong>
+<p style="margin-top:8px">Votre départ en retraite peut être à votre initiative ou à celle de votre employeur. Les conditions et les indemnités diffèrent selon le type de départ.</p>
+<div style="margin-top:auto;padding-top:24px"><button class="popup-btn" onclick="navigateToTitle('Départ en retraite')">Voir plus</button></div>
+</div>
+</div>
 
 
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+### Préavis de départ
+<!-- layout: image-right-square -->
+<!-- image: preavis.jpg -->
+<!-- subsection: Préavis de départ -->
+
+En cas de rupture du contrat de travail, sauf faute grave ou lourde, un préavis est dû par la partie qui est à l'initiative de la rupture. Sa durée varie selon la catégorie d'emploi occupé et le mode de rupture.
+
+<div class="marker-center"></div>
+
+:::popup Durée du préavis
+### Si vous êtes technicien
+
+Licenciement :
+- 1 mois pour les salariés ayant moins de deux ans d'ancienneté ;
+- 2 mois pour les salariés ayant plus de deux ans d'ancienneté.
+
+Démission : 1 mois.
+
+**Si vous êtes cadre :**
+
+Licenciement et démission : 3 mois.
+
+**À noter :**
+En cas de mise à la retraite par l'employeur, tous les salariés sont logés à la même enseigne : 3 mois de préavis.
+Pour un départ volontaire à la retraite, il convient d'appliquer le préavis prévu en cas de démission.
+:::
+
+Dans le cas où l'une ou l'autre des parties ne respecte pas le préavis, elle doit une indemnité égale à la rémunération du temps de préavis non effectué (sauf accord entre les parties).
+:::popup +
+Votre employeur peut par exemple décider de vous dispenser de l'exécution de votre préavis. Il devra alors vous verser une indemnité compensatrice de préavis pour la période de préavis non effectuée.
+:::
+
+**Bon à savoir** : si votre employeur vous licencie, vous bénéficiez de 2 heures d'absence rémunérées par jour pour rechercher un nouvel emploi pendant votre préavis.
+:::popup +
+La moitié de ces heures d'absence peuvent être fixées par votre employeur. Avec l'accord de votre employeur, ces heures peuvent être regroupées en fin de préavis.
+:::
+
+<div class="marker-center"></div>
+
+:::popup Quelle indemnité de départ en cas de licenciement ?
+navigate: Indemnité de rupture
+:::
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+### Indemnité de rupture
+<!-- layout: image-left -->
+<!-- image: indemnite_licenciement.jpg -->
+<!-- subsection: Indemnité de rupture -->
+
+Votre convention prévoit une indemnité différente selon le mode de rupture de votre contrat. 3 scénarios différents :
+
+**Licenciement non disciplinaire ou rupture conventionnelle :** vous percevez l'indemnité conventionnelle égale à 1/2 × (13/14,5) d'une mensualité par semestre complet d'ancienneté antérieur au 1er janvier 2002, à laquelle s'ajoute 1/5 d'une mensualité par semestre complet acquis à partir du 1er janvier 2002.
+:::popup +
+La mensualité qui sert de base pour le calcul de cette indemnité est égale à 1/13 du salaire de base annuel que vous avez perçu au cours des 12 derniers mois civils précédant votre rupture.
+:::
+
+Cette indemnité est plafonnée.
+:::popup +
+Votre indemnité est plafonnée à :
+- 24 × (13/14,5) d'une mensualité pour les cadres embauchés au plus tard le 31 décembre 1999 ;
+- 18 × (13/14,5) d'une mensualité pour les techniciens embauchés au plus tard le 31 décembre 1999 ;
+- 15 mensualités pour les salariés embauchés après le 31 décembre 1999.
+:::
+
+**Licenciement disciplinaire** (sauf faute grave ou lourde) : vous percevez l'indemnité légale de licenciement égale à 1/4 de mois de salaire par année d'ancienneté pour les années jusqu'à 10 ans et 1/3 de mois de salaire par année d'ancienneté pour les années à partir de 10 ans.
+:::popup +
+L'indemnité légale est calculée à partir des salaires bruts précédant le licenciement. Le salaire de référence est calculé sur la base du montant le plus avantageux entre la moyenne mensuelle des 12 derniers mois (comme pour votre indemnité conventionnelle) et celle des 3 derniers mois.
+:::
+
+**Licenciement économique :** voir le montant en cliquant.
+:::popup +
+### Indemnité de licenciement économique
+
+Vous percevez une indemnité égale à :
+- 1/2 d'une mensualité par semestre complet d'ancienneté acquis dans l'entreprise antérieurement au 1er janvier 2002,
+- à laquelle s'ajoute 1/4 d'une mensualité par semestre complet d'ancienneté dans l'entreprise acquis à partir du 1er janvier 2002.
+
+La mensualité qui sert de base pour le calcul de cette indemnité est égale à 1/12 du salaire de base annuel que vous avez perçu au cours des 12 derniers mois civils précédant votre rupture.
+
+L'indemnité est plafonnée à : 18 mensualités pour les techniciens et les cadres embauchés après le 31 décembre 1999 et à 24 mensualités pour les cadres embauchés au plus tard le 31 décembre 1999.
+:::
+
+<div class="marker-center"></div>
+
+:::popup À partir de quelle ancienneté puis-je bénéficier de ces indemnités ?
+- **8 mois** pour l'indemnité légale de licenciement ;
+- **1 an** pour les indemnités prévues par votre convention en cas de licenciement pour motif non disciplinaire ou motif économique.
+
+Si vous avez entre 8 mois et 1 an d'ancienneté, vous percevrez donc l'indemnité légale de licenciement en cas de licenciement pour motif non disciplinaire ou motif économique.
+:::
 
 
 
@@ -1317,6 +1677,192 @@ Contenu à venir.
 
 
 
+
+
+
+
+### Fiscalité des indemnités
+<!-- layout: image-left -->
+<!-- image: fiscalite_indemnite.jpg -->
+<!-- subsection: Indemnité de rupture -->
+
+L'indemnité de licenciement versée hors du cadre d'un PSE est exonérée d'impôt sur le revenu dans la limite du plus élevé des trois montants suivants :
+
+- Le montant de l'indemnité de licenciement prévue par votre convention collective de branche ou par la loi (indemnité légale),
+- Deux fois le montant de votre rémunération brute annuelle perçue au cours de l'année précédant votre licenciement,
+- 50 % du montant de l'indemnité perçue.
+
+En fiscalité, le diable se cache dans les détails. Nous avons donc pris le soin de vous rédiger une note complète sur le sujet avec quelques exemples.
+
+<a class="popup-btn" href="https://larchipel.io/wp-content/uploads/Traitement-social-et-fiscalite-des-indemnites-de-rupture-du-contrat-de-travail-2025-2.pdf" target="_blank">Quelle fiscalité s'applique sur mon indemnité ?</a>
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+### Départ en retraite
+<!-- layout: image-left -->
+<!-- image: depart_retraite.jpg -->
+<!-- subsection: Départ à la retraite -->
+
+Votre départ en retraite peut se faire de deux manières :
+- **à l'initiative de votre employeur** si vous avez atteint 67 ans. On parle alors de mise à la retraite,
+- **à votre initiative** après avoir atteint un certain âge. On parle alors de départ volontaire à la retraite.
+
+**Bon à savoir** : Avant l'âge de 70 ans, votre employeur ne peut pas vous forcer à prendre votre retraite. Il faut votre accord pour qu'il puisse procéder à la mise à la retraite.
+
+<div class="marker-center"></div>
+
+:::popup À quel âge puis-je partir en retraite ?
+| Naissance | Âge de départ possible en retraite |
+|:---|:---|
+| Avant le 1er septembre 1961 | 62 ans |
+| Entre le 1er septembre 1961 et le 31 décembre 1961 | 62 ans et 3 mois |
+| En 1962 | 62 ans et 6 mois |
+| En 1963 | 62 ans et 9 mois |
+| En 1964 | 63 ans |
+| En 1965 | 63 ans et 3 mois |
+| En 1966 | 63 ans et 6 mois |
+| En 1967 | 63 ans et 9 mois |
+| Après le 1er janvier 1968 | 64 ans |
+
+**Attention** : il s'agit ici de l'âge à partir duquel vous pouvez partir en retraite. Celle-ci ne sera pas forcément à taux plein (cela dépend également du nombre de trimestres cotisés).
+:::
+
+**Votre indemnité de départ et son traitement fiscal et social seront différents suivant le type de départ en retraite.** Si votre départ est à l'initiative de votre employeur, vous percevrez une indemnité au moins égale à l'indemnité légale de licenciement.
+:::popup +
+Votre indemnité de départ à la retraite à l'initiative de votre employeur ne peut être inférieure à :
+
+- 1/4 de mois de salaire par année d'ancienneté jusqu'à 10 ans ;
+- 1/3 de mois de salaire par année d'ancienneté après 10 ans.
+:::
+
+En cas de départ volontaire, cette indemnité sera plus faible.
+:::popup +
+### Indemnité de départ volontaire en retraite
+
+Les salariés comptant au moins 10 ans d'ancienneté perçoivent au moment de la cessation d'activité une indemnité qui, sauf dispositions d'entreprise plus favorables, est égale à :
+
+| Ancienneté | Indemnité de départ à la retraite |
+|:---|:---|
+| Moins de 25 ans d'ancienneté | 1/10 de mois de traitement brut par année de service |
+| De 25 ans à moins de 30 ans | 3 mois de traitement brut |
+| De 30 ans à moins de 35 ans | 4 mois de traitement brut |
+| De 35 ans à moins de 40 ans | 5 mois de traitement brut |
+| 40 ans et plus | 6 mois de traitement brut |
+
+La mensualité qui sert de base à l'assiette de calcul de cette indemnité est égale à 1/13 du salaire de base annuel au cours des 12 derniers mois civils précédant le départ à la retraite.
+:::
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+### Retraite progressive
+<!-- layout: image-right -->
+<!-- image: retraite_progressive.jpg -->
+<!-- subsection: Départ à la retraite -->
+
+La retraite progressive **vous permet de travailler à temps partiel tout en percevant une partie de votre retraite.** Elle présente le principal avantage de rendre possible une baisse d'activité sans perte de revenus. C'est un excellent moyen de préparer une transition parfois délicate (baisse de revenus, perte du lien social, recomposition identitaire...), notamment chez les cadres, entre vie active et retraite.
+
+<div class="marker-center"></div>
+
+:::popup Conditions pour en bénéficier
+Depuis le 1er septembre 2025, vous pouvez bénéficier de la retraite progressive dès 60 ans.
+
+Vous devrez également :
+- Avoir cotisé au moins 150 trimestres ;
+- Réduire votre temps de travail pour effectuer un temps partiel compris entre 40 % et 80 % d'un temps complet.
+:::
+
+**Bon à savoir** : en retraite progressive, vous continuez de cotiser à la retraite et donc de valider des trimestres. Vous pouvez même faire le choix de surcotiser (cotiser à la retraite sur la base d'un salaire à temps complet).
+
+Comment faire sa demande de retraite progressive ?
+:::popup +
+Vous devez transmettre votre demande auprès de votre caisse d'assurance retraite, accompagnée des documents suivants :
+
+- Un formulaire de demande de retraite progressive ;
+- Une attestation de votre employeur ;
+- Une copie de votre contrat de travail à temps partiel ;
+- Une photocopie de vos deux derniers avis d'imposition sur le revenu.
+:::
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+### Aménagement de fin de carrière
+<!-- layout: image-right -->
+<!-- image: amenagement_fin_carriere.jpg -->
+
+La retraite progressive est un dispositif légal auquel peuvent prétendre tous les Français. En tant que salarié de BPALC, vous avez également la possibilité de bénéficier de deux autres aménagements de fin de carrière.
+:::popup +
+Les deux dispositifs sont réservés aux salariés âgés de **58 ans et plus**, ayant **5 ans d'ancienneté minimum** au sein du Groupe.
+:::
+
+**Un temps partiel de fin de carrière :** ce dispositif constitue une aide destinée aux salariés à temps complet désirant passer à temps partiel. Il intervient sur une durée comprise entre 6 et 36 mois précédant immédiatement le départ volontaire à la retraite. Les salariés bénéficient d'une majoration de **7 %** de leur rémunération brute annuelle de base proratisée.
+
+**Un congé de fin de carrière :** d'une durée de 12, 24 ou 36 mois, ce dispositif est décomposé en deux périodes :
+- une période de 7, 14 ou 20 mois pendant laquelle vous continuez à travailler à 100 % du taux d'activité prévu dans votre avenant,
+- une période de 5, 10 ou 16 mois de dispense totale d'activité.
+:::popup +
+Le dispositif est réservé aux salariés qui travaillent a minima à **80 %**. Votre rémunération est calculée sur la base de **70 % d'un temps complet**, proratisée en considération de votre taux d'activité pendant toute la durée du dispositif.
+:::
+
+
+
+
+
+
+
+
+
+
+---
 
 
 
@@ -1327,29 +1873,73 @@ Contenu à venir.
 ## Télétravail
 <!-- thumbnail: sommaire_teletravail.jpg -->
 
+### Principe
+<!-- layout: image-right -->
+<!-- image: teletravail_principe.jpg -->
+
+Le télétravail désigne toute forme d'organisation du travail dans laquelle un travail qui aurait également pu être exécuté dans les locaux de l'employeur est effectué par un collaborateur hors de ces locaux de façon régulière et volontaire.
+
+<div style="display:flex;align-items:center;gap:16px">
+<p style="flex:1;margin:0">Le télétravail au sein de BPALC est régi par un accord d'entreprise en vigueur jusqu'au 31 décembre 2027.</p><a href="https://larchipel.io/wp-content/uploads/Accord-Teletravail_BPALC-04-06-2024.pdf" target="_blank" class="popup-btn" style="flex-shrink:0;text-decoration:none;white-space:nowrap">Consulter votre accord</a>
+</div>
+
+L'accès au télétravail se fait sur la base du **double volontariat** et repose dans votre accord sur trois principes :
+- se baser sur le modèle économique de Banque régionale de proximité,
+- privilégier le collectif par rapport à l'individuel,
+- assurer une cohérence d'entreprise tout en prenant en compte les spécificités de chaque métier.
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
 ### Conditions d'éligibilité
 <!-- layout: image-left -->
-<!-- image: teletravail-eligibilite.png -->
+<!-- image: teletravail_eligibilite.jpg -->
 
-L'accès au télétravail à la BPALC repose sur le **double volontariat** et trois principes : banque régionale de proximité, privilège au collectif, cohérence d'entreprise.
+Le télétravail est ouvert aux salariés en **CDI** qui ont :
+- Validé leur période d'essai,
+- Une ancienneté dans l'entreprise d'au moins 6 mois,
+- Une présence effective en poste d'au moins 6 mois.
 
-Le télétravail est régi par un **accord d'entreprise du 4 juin 2024**, en vigueur du 1er septembre 2024 au 31 décembre 2027.
+Il est également ouvert aux salariés ayant conclu un **CDD** d'une durée d'au moins 12 mois et qui ont une présence effective en poste d'au moins 6 mois.
 
-**Sont éligibles :**
-- **CDI :** période d'essai validée, 6 mois d'ancienneté et de présence effective
-- **CDD :** durée minimale 12 mois, 6 mois de présence effective
-- **Non éligibles :** alternants et stagiaires
+L'accès au télétravail est conditionné, à l'appréciation du manager, au fait de :
+- disposer d'une maîtrise, d'une capacité d'autonomie et d'organisation dans le poste suffisantes,
+- maîtriser les outils digitaux nécessaires à la réalisation de l'activité à distance,
+- occuper un poste pouvant être exercé à distance et dont l'exécution est compatible avec le bon fonctionnement du service.
 
-**Conditions :** autonomie suffisante, espace confidentiel, connexion internet, outils digitaux.
+Au sein de la BPALC, certaines activités sont exclues explicitement de l'accès au télétravail.
+:::popup +
+### Activités exclues du télétravail au sein de la BPALC
 
-:::popup Activités inéligibles
-Certaines fonctions sont exclues du télétravail en raison de contraintes spécifiques :
-
-- Présence physique permanente requise
-- Outils informatiques incompatibles
-- Flux papier importants
-- Contraintes réglementaires
+- Les activités nécessitant une présence physique permanente,
+- Les activités requérant l'utilisation quotidienne d'outils ou d'applications non compatibles avec une connexion à distance,
+- Les activités requérant l'usage quotidien de flux de documents papier,
+- Les activités dont l'exercice à distance est incompatible avec le respect de certaines contraintes réglementaires et/ou de confidentialité (ex : transport de documents sensibles),
+- Les activités requérant l'utilisation d'un équipement spécifique et lourd dont la reproduction au domicile est difficile ou coûteuse.
 :::
+
+
+
+
+
+
 
 
 
@@ -1366,6 +1956,122 @@ Certaines fonctions sont exclues du télétravail en raison de contraintes spéc
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Lieu du télétravail
+<!-- layout: image-right -->
+<!-- image: teletravail_lieu.jpg -->
+
+Le lieu de télétravail s'entend comme le lieu de résidence habituelle du salarié.
+:::popup +
+Les salariés aidants sont autorisés à télétravailler au domicile de la personne aidée si les conditions sont réunies.
+:::
+
+En cas de situation exceptionnelle nécessitant la mise en place du télétravail sur un autre lieu, la demande devra être examinée par le manager et le Référent télétravail.
+
+Votre espace de travail doit être aménagé de manière à vous permettre de mener à bien votre activité professionnelle en télétravail sans menacer :
+- la confidentialité des données traitées,
+- la productivité de votre travail avec notamment une couverture internet de qualité suffisante pour travailler dans de bonnes conditions,
+- l'image professionnelle inhérente à la fonction exercée.
+
+Vous devrez également effectuer une déclaration sur l'honneur pour certifier de la conformité des installations électriques de votre lieu de travail.
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+### Réversibilité
+<!-- layout: image-left -->
+<!-- image: teletravail_reversibilite.jpg -->
+
+La décision unilatérale de votre employeur contient une période d'adaptation et mentionne la réversibilité du télétravail, c'est-à-dire la possibilité pour chaque partie de mettre fin au télétravail et de revenir à la situation antérieure.
+
+À compter de la validation de votre demande de télétravail, vous entrez dans une période d'adaptation de **2 mois**. Cette période probatoire permet à chacune des parties d'expérimenter le dispositif et de s'assurer qu'il répond bien à ses attentes. Durant cette phase, **vous ou votre hiérarchie pouvez mettre fin au télétravail unilatéralement,** avec un délai de prévenance de **5 jours** sans avoir à vous justifier.
+
+En dehors de cette période d'adaptation, **chacune des parties peut décider de mettre fin au télétravail ou de le suspendre temporairement, moyennant un préavis de 7 jours**.
+
+**Bon à savoir** : En cas de mobilité fonctionnelle, l'organisation en télétravail prendra automatiquement fin à la date de la nouvelle affectation.
+:::popup +
+Vous pouvez toutefois formuler une nouvelle demande de télétravail auprès de votre nouveau manager.
+:::
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+### Équipements et frais professionnels
+<!-- layout: image-left -->
+<!-- image: teletravail_frais.jpg -->
+
+**Votre employeur est tenu de vous fournir et d'entretenir les équipements et logiciels nécessaires au télétravail.** Il comprend au sein de la BPALC :
+:::popup +
+Ce matériel demeure la propriété de votre entreprise.
+:::
+
+- Un poste nomade disposant des applications et habilitations nécessaires,
+- Un casque de softphonie.
+
+Un 2ème écran peut vous être fourni sur demande lorsqu'il est nécessaire à l'exercice de votre activité.
+
+BPALC propose également de participer à l'acquisition de mobilier et/ou de matériel permettant de travailler dans de bonnes conditions (bureau, fauteuil de bureau, écran...), à hauteur de **75 %** de la facture, dans la limite d'un remboursement total de **200 euros** sur la période 2023-2027.
+
+Les frais liés à l'exercice du télétravail (notamment frais d'abonnement à internet, frais d'électricité et surcoût éventuel de l'assurance habitation) sont pris en charge par BPALC à hauteur de **2,5 € nets par jour télétravaillé** (plafonnés à 10 € nets/mois).
+
+Si vous bénéficiez de titres-restaurants, ce bénéfice est maintenu pour les jours télétravaillés.
+
+
+
+
+
+
+
+
+
+
+---
 
 
 
@@ -1376,30 +2082,33 @@ Certaines fonctions sont exclues du télétravail en raison de contraintes spéc
 
 
 ### Organisation du télétravail
-<!-- layout: image-right -->
-<!-- image: teletravail-organisation.png -->
+<!-- layout: image-left -->
+<!-- image: teletravail_organisation.jpg -->
 
-| Catégorie | Jours/mois | Maximum/semaine |
-|-----------|------------|-----------------|
-| **Services centraux** | 4 jours/mois | - |
-| **Réseau** | 2 jours/mois | 1 jour/semaine |
+Le nombre de jours de télétravail dépend au sein de BPALC du service dans lequel vous êtes.
 
-Les jours de télétravail sont **non reportables**. La demi-journée est possible. Présence minimale de **3 jours par semaine** sur site (2 jours ponctuellement acceptés).
+Les salariés des **services centraux** peuvent bénéficier de **4 jours** de télétravail par mois tandis que les salariés des **réseaux** pourront effectuer **2 jours** par mois, avec un maximum d'un jour sur une même semaine.
 
-**+3 jours supplémentaires** par an pour tout collaborateur.
+**Bon à savoir** : Les jours de télétravail ne sont pas reportables d'un mois à l'autre.
 
-**Indemnité :** 2,50 EUR/jour (max 10 EUR/mois) + titres restaurant.
+Tous les salariés de BPALC (même ceux qui sont non-éligibles au télétravail régulier) peuvent bénéficier de **3 jours supplémentaires** de télétravail par an.
+:::popup +
+### Cas spécifiques
 
-**Équipements :** poste nomade, casque softphonie, 2ème écran sur demande. Prise en charge mobilier : **75% des factures, plafond 200 EUR** (2023-2027).
+Les salariés aidants peuvent bénéficier jusqu'à 3 jours supplémentaires par mois pour les réseaux et sites centraux pour les aider dans leur situation sur une période maximale de trois mois renouvelable en fonction du besoin. À titre exceptionnel, il pourra ainsi être dérogé au principe de présence obligatoire de 3 jours sur site par semaine.
 
-:::popup Télétravail exceptionnel
-Des situations particulières permettent un télétravail renforcé :
-
-- **Femmes enceintes :** +1 jour/semaine dès le 6ème mois
-- **Prescription médecin du travail**
-- **Continuité d'activité** (intempéries, pandémie...)
-- **Proches aidants :** +3 jours/mois
+Les femmes enceintes éligibles au télétravail régulier pourront bénéficier d'un jour supplémentaire de télétravail par semaine à compter du début du 6ème mois de grossesse (à compter du 5ème mois pour une naissance multiple).
 :::
+
+Il est requis une présence minimale sur le lieu de travail habituel de **3 jours par semaine**, quel que soit le motif de l'absence sur site (temps partiel, congés, etc.), sauf accord exprès du manager qui peut la réduire ponctuellement à 2.
+
+**À noter** : Pour un bon fonctionnement du service, vous devez indiquer **2 semaines à l'avance** les dates de télétravail souhaitées.
+
+
+
+
+
+
 
 
 
@@ -1413,6 +2122,12 @@ Des situations particulières permettent un télétravail renforcé :
 
 
 ---
+
+
+
+
+
+
 
 
 
@@ -1428,11 +2143,67 @@ Des situations particulières permettent un télétravail renforcé :
 ## Indemnisation maladie
 <!-- thumbnail: sommaire_maladie.jpg -->
 
-### Indemnisation maladie
-<!-- layout: image-right -->
+<!-- title: Indemnisation maladie -->
+<!-- layout: image-left -->
 <!-- image: indemnisation_maladie.jpg -->
 
-Contenu à venir.
+Les salariés de BPALC ayant au moins un an d'ancienneté bénéficient en cas d'absence pour maladie, accident ou cure thermale agréée, d'une **indemnisation égale à 100% ou à 50% de leur salaire mensuel** de base en fonction de la durée d'absence.
+
+L'indemnisation s'effectue dès le **1er jour d'absence pour le 1er et le 2ème arrêt** et dès le **4ème jour d'absence pour les arrêts suivants**.
+:::popup +
+Le délai de carence prévu à partir du 3ème arrêt n'est pas appliqué si vous êtes atteint d'une maladie de longue durée prise en charge par la Sécurité Sociale. Pour les accidents de travail et maladies professionnelles, le salaire est maintenu dès le 1er jour d'arrêt dans tous les cas.
+:::
+
+<div class="marker-center"></div>
+
+:::popup Conditions à respecter
+Pour bénéficier d'une indemnisation maladie, il est nécessaire que vous respectiez les conditions suivantes :
+
+- Justifier, par certificat médical, dans les 48 heures de votre incapacité,
+- Être pris en charge par la Sécurité Sociale,
+- Être soigné sur le territoire français.
+:::
+:::popup Montant maximum
+### Conditions relatives au montant maximum d'indemnisation
+
+Le complément de salaire ne peut vous permettre de recevoir un revenu de substitution global (indemnités journalières de Sécurité Sociale et compléments cumulés) supérieur au salaire net que vous auriez perçu, au titre du salaire de base, si vous aviez travaillé pendant cette même période.
+:::
+
+**Bon à savoir** : Les modalités du **maintien de salaire pendant l'arrêt de travail sont appréciées sur 12 mois glissants**. La durée du maintien de salaire s'apprécie **au 1er jour de l'arrêt de travail considéré**.
+:::popup +
+### Période des 12 mois glissants
+
+Pour le calcul de cette période, les absences rémunérées pour maladie, accident, cure thermale ou encore congé d'adoption ou de maternité sont prises en compte et n'ont pas pour effet de reporter d'autant ce calcul des 12 mois glissants.
+:::
+
+<div class="marker-center"></div>
+
+:::popup Quelle durée d'indemnisation ?
+### Quels sont la durée et le montant de l'indemnisation ?
+
+| Ancienneté | Indemnisation à 100 % | Indemnisation à 50 % |
+|---|---|---|
+| De 1 à 5 ans | 2 mois | 2 mois |
+| De 5 à 10 ans | 3 mois | 3 mois |
+| De 10 à 15 ans | 4 mois | 4 mois |
+| De 15 à 20 ans | 5 mois | 5 mois |
+| Plus de 20 ans | 6 mois | 6 mois |
+
+Pour les salariés ayant au moins un enfant à charge au sens fiscal du terme, la durée d'indemnisation à **50 %** du salaire est de :
+- **5 mois** de 1 à 5 ans d'ancienneté,
+- **6 mois** au-delà de 5 ans et entre 10 ans d'ancienneté,
+- **8 mois** au-delà de 10 ans d'ancienneté.
+
+**Bon à savoir** : pour apprécier l'ancienneté, outre les périodes de présence effective au travail, sont **validées les périodes d'absence** qui, en l'application des dispositions légales, sont prises en compte pour les droits à l'ancienneté ainsi que les périodes d'absence indemnisées à 100 % ou à 50 %.
+
+**À noter** : Le **salaire mensuel de base est égal** à 1/13 du salaire de base annuel contractuel ou à 1/12 si le salaire est versé sur 12 mois.
+:::
+
+
+
+
+
+
 
 
 
@@ -1446,6 +2217,12 @@ Contenu à venir.
 
 
 ---
+
+
+
+
+
+
 
 
 
@@ -1460,12 +2237,298 @@ Contenu à venir.
 
 ## Complémentaire santé, prévoyance et retraite supplémentaire
 <!-- thumbnail: sommaire_complementaire.jpg -->
+<!-- layout: text-only -->
 
-### Complémentaire santé, prévoyance et retraite supplémentaire
+<div style="display:flex;gap:40px;justify-content:center;flex-wrap:wrap;padding:0 32px">
+<div style="flex:1;max-width:380px;text-align:center;display:flex;flex-direction:column;align-items:center">
+<img src="bpalc/images/prevoyance_intro.jpg" style="width:100%;max-width:300px;border-radius:12px;margin-bottom:20px" onerror="this.remove()">
+<strong style="font-size:1.3em">Prévoyance</strong>
+<p style="margin-top:8px">La prévoyance vous couvre contre les risques lourds : décès, incapacité de travail temporaire de longue durée, invalidité/incapacité permanente. Découvrez ce qui est prévu chez BPALC.</p>
+<div style="margin-top:auto;padding-top:24px"><button class="popup-btn" onclick="navigateToTitle('Prévoyance')">Voir plus</button></div>
+</div>
+<div style="flex:1;max-width:380px;text-align:center;display:flex;flex-direction:column;align-items:center">
+<img src="bpalc/images/complementaire_sante.jpg" style="width:100%;max-width:300px;border-radius:12px;margin-bottom:20px" onerror="this.remove()">
+<strong style="font-size:1.3em">Complémentaire santé</strong>
+<p style="margin-top:8px">Un régime complémentaire santé et un régime surcomplémentaire ont été mis en place dans votre entreprise. Ceux-ci complètent les remboursements de la Sécurité Sociale pour vos dépenses de santé.</p>
+<div style="margin-top:auto;padding-top:24px"><button class="popup-btn" onclick="navigateToTitle('Complémentaire santé')">Voir plus</button></div>
+</div>
+<div style="flex:1;max-width:380px;text-align:center;display:flex;flex-direction:column;align-items:center">
+<img src="bpalc/images/retraite_supplementaire_intro.jpg" style="width:100%;max-width:300px;border-radius:12px;margin-bottom:20px" onerror="this.remove()">
+<strong style="font-size:1.3em">Retraite supplémentaire</strong>
+<p style="margin-top:8px">Les entreprises du réseau Banque Populaire ont mis en place pour leurs salariés un régime supplémentaire de retraite collective afin de leur garantir une meilleure retraite.</p>
+<div style="margin-top:auto;padding-top:24px"><button class="popup-btn" onclick="navigateToTitle('Retraite supplémentaire')">Voir plus</button></div>
+</div>
+</div>
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+### Prévoyance
+<!-- layout: image-left -->
+<!-- image: slide_prevoyance.jpg -->
+<!-- subsection: Prévoyance -->
+
+La loi prévoit une obligation pour les entreprises de souscrire un contrat de prévoyance pour ses salariés cadres. Votre convention collective va plus loin. Elle prévoit **l'obligation de couvrir tous les salariés cadres et non-cadres des entreprises du réseau, comprenant BPALC.**
+
+Votre accord de branche précise également le taux de cotisation et la répartition de celui-ci entre vous et votre employeur.
+:::popup +
+### Taux et répartition des cotisations de prévoyance dans les entreprises du réseau Banque Populaire
+
+**Taux de cotisation :** **1,56%** du salaire. Ce dernier s'entend comme tous les éléments de rémunération versés au salarié et soumis aux cotisations de Sécurité Sociale, y compris les avantages en nature, le tout dans la limite de 8 fois le plafond de la Sécurité Sociale.
+
+**Répartition de la cotisation entre l'employeur et le salarié :**
+- **71,7%** à la charge de l'employeur,
+- **28,3%** à la charge du salarié.
+
+**Répartition de la cotisation par risque :**
+
+| | Taux de cotisation | Part employeur | Part salarié |
+|---|---|---|---|
+| Incapacité | 0,18% | 30,56% | 69,44% |
+| Invalidité | 0,62% | 49,19% | 50,81% |
+| Décès | 0,76% | 100% | 0% |
+:::
+
+Votre accord de prévoyance prévoit **plusieurs types de garanties :**
+
+<span class="bullet">•</span> Une garantie **décès** (versement d'un capital décès et d'une rente éducation au profit de vos enfants à charge),
+:::popup +
+### Garantie décès : quel capital décès et quelle rente ?
+
+**Montant du capital décès sans personne à charge :**
+- **150%** du salaire annuel brut pour les célibataires, veufs, divorcés,
+- **200%** du salaire annuel brut pour les salariés mariés, liés par un PACS, ou en situation de concubinage.
+
+Ces montants sont majorés de **40%** par enfant à charge au moment du décès.
+
+**Rente d'éducation au profit de chaque enfant à charge :**
+- **14%** du salaire pour un enfant de moins de 12 ans,
+- **16%** du salaire pour un enfant de 12 ans à moins de 16 ans,
+- **18%** du salaire pour un enfant de 16 ans à moins de 19 ans,
+- **20%** du salaire pour un enfant de 19 ans à moins de 26 ans.
+
+**Montant de la rente temporaire du conjoint :**
+25% du salaire annuel brut du salarié décédé, versé jusqu'au remariage, décès ou 60 ans du conjoint.
+
+**Bon à savoir** : en cas de décès accidentel, un capital supplémentaire égal à 100% du capital décès doit être versé.
+
+### Qui sont les bénéficiaires du capital décès ?
+
+- Le bénéficiaire désigné par le salarié (qui peut être modifié par ce dernier),
+- À défaut de désignation expresse du salarié :
+  - Le conjoint du salarié (marié, pacsé ou concubin) non séparé,
+  - À défaut, par parts égales, les enfants nés ou à naître du salarié dans les 300 jours qui suivent le décès,
+  - À défaut, les ascendants du salarié, par parts égales, et en cas de décès de l'un d'entre eux, le survivant pour la totalité,
+  - À défaut, les héritiers du salarié dans l'ordre de dévolution successorale.
+:::
+
+<span class="bullet">•</span> Une garantie **invalidité permanente** (versement d'une rente),
+:::popup +
+### Garantie invalidité : quelle rente pour le salarié ?
+
+**Montant de la rente en cas d'invalidité :**
+
+| | Base | Avec 3 enfants à charge |
+|---|---|---|
+| Invalidité de 1ère catégorie | 45% | 54% |
+| Invalidité de 2ème catégorie | 75% | 80% |
+| Invalidité de 3ème catégorie | 80% | 80% |
+
+**Pour rappel** : le montant est exprimé en pourcentage du salaire qui s'entend comme tous les éléments de rémunération versés au salarié et soumis aux cotisations de Sécurité Sociale, y compris les avantages en nature, le tout dans la limite de 8 fois le plafond de la Sécurité Sociale.
+:::
+
+<span class="bullet">•</span> Une garantie **incapacité temporaire** BPALC (indemnités journalières complémentaires à celles versées par la Sécurité Sociale).
+:::popup +
+### Garantie incapacité temporaire de travail
+
+**Montant des indemnités journalières :** Le montant des indemnités est égal à **75%** de la 365ème partie du salaire. Les IJSS sont portées à **80%** si vous avez au moins trois enfants à charge, sous déduction des indemnités journalières de la Sécurité Sociale.
+
+**Bon à savoir** : Les salariés de BPALC bénéficient d'une garantie complémentaire d'incapacité temporaire de travail. Vous devrez donc vous acquitter d'une cotisation supplémentaire de **0,14%** sur la tranche 1 et de **0,20%** sur la tranche 2 (à partir de 2 plafonds de la Sécurité Sociale), réparties à 50% pour l'employeur et à 50% pour le salarié.
+:::
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+### Complémentaire santé
 <!-- layout: image-right -->
-<!-- image: complementaire_sante.jpg -->
+<!-- image: slide_complementaire.jpg -->
+<!-- subsection: Complémentaire santé -->
 
-Contenu à venir.
+Les salariés de BPALC **bénéficient** (en CDI comme en CDD) **du régime de complémentaire santé**. Ce dernier prend en charge vos frais de santé (frais médicaux courants, optique, dentaire, et hospitalisation) en complément de la Sécurité Sociale.
+
+**Leurs ayants droit (enfants ou conjoint)** peuvent également bénéficier de ce dispositif, **à titre facultatif.**
+:::popup +
+### Les formules possibles de l'offre de complémentaire santé chez BPALC
+
+- **Option "Isolé" obligatoire** : Tout salarié en CDD ou en CDI chez BPALC doit être affilié à cette couverture sans condition d'ancienneté (à minima et sauf cas de dispense),
+- **Option "Isolé + enfant(s)"** : Le salarié peut également faire le choix d'étendre ses garanties à ses enfants. Dans ce cas il doit s'acquitter d'une cotisation additionnelle qui reste intégralement à sa charge,
+- **Option "Famille"** : Chez BPALC, vous pouvez également choisir d'étendre votre couverture à votre conjoint en plus de vos enfants. Là aussi, cette option étant facultative, la cotisation additionnelle sera exclusivement à votre charge.
+:::
+
+<div class="marker-center"></div>
+
+:::popup Répartition des cotisations
+### Répartition des cotisations du régime de complémentaire santé chez BPALC
+
+Les cotisations pour votre complémentaire santé chez BPALC sont réparties entre vous et l'employeur selon **un montant forfaitaire pour la part patronale**, le reste étant donc à votre charge selon la formule choisie.
+
+À partir du 1er janvier 2026, cette participation patronale est de **63 euros**. En tout état de cause, la participation patronale ne peut pas être inférieure à 50% de la formule "isolé".
+
+| Formules possibles | Cotisation globale |
+|---|---|
+| Isolé (Régime Général) | 1,61% du PMSS* (dont 63 euros de part patronale) |
+| Isolé (Régime Local) | 1,31% du PMSS (dont 63 euros de part patronale) |
+| Isolé + enfants (Régime Général) | 3,20% du PMSS (dont 63 euros de part patronale) |
+| Isolé + enfants (Régime Local) | 2,49% du PMSS (dont 63 euros de part patronale) |
+| Famille (Régime Général) | 4,93% du PMSS (dont 63 euros de part patronale) |
+| Famille (Régime Local) | 3,01% du PMSS (dont 63 euros de part patronale) |
+
+*PMSS : Plafond mensuel de la Sécurité Sociale
+:::
+
+À noter : Un salarié peut demander une dispense d'adhésion dans certains cas.
+:::popup +
+### Dispense d'adhésion pour le salarié et ses ayants droits principaux
+
+Vous pouvez refuser d'adhérer à la complémentaire santé proposée par BPALC dans certains cas :
+
+- si vous bénéficiez de la complémentaire santé solidaire (ancienne CMU),
+- si vous êtes couvert par une complémentaire individuelle,
+- si vous êtes couvert par un contrat collectif (par exemple en étant rattaché à la complémentaire de votre conjoint),
+- si vous êtes en CDD de moins de 3 mois,
+- si vous êtes apprenti ou en CDD de moins de 12 mois (sur demande),
+- si vous êtes apprenti ou en CDD de plus de 12 mois et que vous avez souscrit une couverture individuelle (sur demande).
+:::
+
+**Bon à savoir** : Vous pouvez continuer de bénéficier pendant un maximum **de 12 mois** de votre complémentaire santé si votre contrat a été rompu (licenciement ou rupture conventionnelle).
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+### Surcomplémentaire santé
+<!-- layout: image-right -->
+<!-- image: slide_surcomplementaire.jpg -->
+<!-- subsection: Surcomplémentaire santé -->
+
+Tout salarié de BPALC peut choisir de souscrire à une couverture surcomplémentaire mise en place par l'entreprise.
+:::popup +
+Votre organisme assureur pour la surcomplémentaire santé est **Harmonie Mutuelle**.
+
+[Accéder à mon espace client Harmonie Mutuelle](https://www.harmonie-mutuelle.fr/particuliers/mon-espace-client-services-ligne)
+:::
+
+Cette dernière a vocation à **compléter le remboursement** des frais de soins de santé du Régime complémentaire de base.
+:::popup +
+### Qui doit prendre en charge la cotisation du régime surcomplémentaire de santé ?
+
+Cette couverture est financée intégralement par les salariés qui font le choix d'y adhérer. La cotisation est prélevée directement par l'organisme assureur (Harmonie Mutuelle).
+
+**Taux de cotisation et assiettes :**
+
+| | Cotisation mensuelle |
+|---|---|
+| Par adulte | 0,91% du PMSS |
+| Par enfant (gratuité à partir du 3ème enfant) | 0,23% du PMSS |
+
+*PMSS pour 2026 : 4 005 euros*
+
+À noter : les cotisations pour le Régime Général et pour le Régime local Alsace Moselle sont identiques.
+:::
+
+<div class="marker-center" style="margin-top:20px;margin-bottom:20px"></div>
+:::popup Découvrez le tableau des prestations du régime
+[Voir le tableau des prestations](https://larchipel.io/wp-content/uploads/2024_TG_CFF-SALARIES-SOCLE-SURC_RG-1.pdf)
+:::
+
+**Bon à savoir** : Si vous bénéficiez du maintien de la complémentaire santé de base (en cas de licenciement sauf faute lourde ou de rupture conventionnelle), vous bénéficiez du maintien de la surcomplémentaire dans les mêmes conditions.
+:::popup +
+En cas de décès du salarié, ses ayants droit affiliés continuent à bénéficier des garanties du régime surcomplémentaire pendant 12 mois sous réserve du respect des conditions définies par l'organisme assureur.
+:::
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+### Retraite supplémentaire
+<!-- layout: image-right -->
+<!-- image: slide_retraite_supplementaire.jpg -->
+<!-- subsection: Retraite supplémentaire -->
+
+Les salariés de la BPALC sous CDI ou CDD **sont affiliés au régime supplémentaire de retraite collective obligatoire (RSRC) à cotisations définies**, mis en place par la Branche Banque Populaire pour toutes les entreprises du réseau.
+:::popup +
+Le régime supplémentaire de retraite prend la forme d'un Plan d'Epargne Retraite Obligatoire (PERO) qui permet en plus des cotisations définies, de faire des versements volontaires issus d'un CET ou de la participation.
+:::
+
+Ce régime de retraite supplémentaire vous permet **d'acquérir une rente ou un capital (issus des points accumulés)** à compter de la liquidation de votre retraite de base.
+:::popup +
+En cas de cumul emploi-retraite, les cotisations versées donnent lieu à l'acquisition de nouveaux droits.
+
+En cas de retraite progressive, vous pouvez demander la liquidation de tous vos droits acquis au titre de régime supplémentaire de retraite.
+:::
+
+**Bon à savoir** : En cas de décès, votre régime supplémentaire permet également de verser une pension de réversion à votre conjoint à hauteur de **60% des droits acquis** sur votre compte.
+:::popup +
+En cas de décès avant la liquidation, votre conjoint survivant bénéficiera de 60% des droits que vous avez acquis, ce montant étant minoré en fonction de la différence d'âge entre vous et votre conjoint au moment du décès.
+:::
+
+<div class="marker-center"></div>
+:::popup Quelles cotisations sont dues au titre de ce régime ?
+### Quels sont les taux de cotisations du régime ?
+
+Le taux de cotisation pour ce régime est de **3,65% du salaire** (ce dernier comprenant tous les éléments de rémunération soumis à cotisations sociales, y compris les avantages en nature).
+
+**Abondement volontaire** : Le salarié peut également alimenter le régime avec des versements volontaires ou le transfert de droits issus d'autres régimes (participation, CET).
+
+**Quelle répartition dans la prise en charge de ce régime supplémentaire de retraite ?**
+
+Les cotisations obligatoires dues dans le cadre de ce régime sont prises en charge à **63,7% par l'employeur** et à **36,3% par le salarié**.
+:::
+
+
+
 
 
 
@@ -1479,6 +2542,12 @@ Contenu à venir.
 
 
 ---
+
+
+
+
+
+
 
 
 
@@ -1493,12 +2562,292 @@ Contenu à venir.
 
 ## Congés payés et congés exceptionnels
 <!-- thumbnail: sommaire_conges.jpg -->
+<!-- layout: text-only -->
 
-### Congés payés et congés exceptionnels
+<div style="display:flex;gap:40px;justify-content:center;flex-wrap:wrap;padding:0 32px">
+<div style="flex:1;max-width:380px;text-align:center;display:flex;flex-direction:column;align-items:center">
+<img src="bpalc/images/conges_intro.jpg" style="width:100%;max-width:300px;border-radius:12px;margin-bottom:20px" onerror="this.remove()">
+<strong style="font-size:1.3em">Congés payés</strong>
+<p style="margin-top:8px">Vous bénéficiez de 25 jours ouvrés de congés payés pour une année complète de travail plus un jour conventionnel pour les salariés ayant plus d'un an d'ancienneté.</p>
+<div style="margin-top:auto;padding-top:24px"><button class="popup-btn" onclick="navigateToTitle('Congés payés')">Voir plus</button></div>
+</div>
+<div style="flex:1;max-width:380px;text-align:center;display:flex;flex-direction:column;align-items:center">
+<img src="bpalc/images/enfant_malade_intro.jpg" style="width:100%;max-width:300px;border-radius:12px;margin-bottom:20px" onerror="this.remove()">
+<strong style="font-size:1.3em">Autres congés</strong>
+<p style="margin-top:8px">En tant que salarié du réseau Banque Populaire, vous bénéficiez de congés rémunérés pour enfant malade et d'un congé maternité allongé.</p>
+<div style="margin-top:auto;padding-top:24px"><button class="popup-btn" onclick="navigateToTitle('Congés pour enfant malade')">Voir plus</button></div>
+</div>
+<div style="flex:1;max-width:380px;text-align:center;display:flex;flex-direction:column;align-items:center">
+<img src="bpalc/images/mariage_intro.jpg" style="width:100%;max-width:300px;border-radius:12px;margin-bottom:20px" onerror="this.remove()">
+<strong style="font-size:1.3em">Congés exceptionnels</strong>
+<p style="margin-top:8px">Vous pouvez bénéficier de congés exceptionnels à l'occasion de certains évènements. Découvrez lesquels en cliquant sur voir plus.</p>
+<div style="margin-top:auto;padding-top:24px"><button class="popup-btn" onclick="navigateToTitle('Congés exceptionnels')">Voir plus</button></div>
+</div>
+</div>
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+### Congés payés
+<!-- layout: image-left -->
+<!-- image: slide_conges.jpg -->
+<!-- subsection: Congés payés -->
+
+**Vous disposez de 25 jours ouvrés de congés payés pour une année complète de travail plus un jour conventionnel pour les salariés ayant plus d'un an d'ancienneté.**
+
+La période de prise des jours de congés payés est fixée du 1er juin au 31 mai.
+
+Vos accords prévoient l'obligation de prendre 3 semaines de congés payés, consécutives ou non, entre le 1er juin et le 30 septembre. Les salariés qui travaillent sur un rythme de 39 heures par semaine doivent quant à eux prendre un minimum de 4 semaines de congés payés sur la même période.
+
+Vos accords annulent, par dérogation aux dispositions conventionnelles de branche, la possibilité de bénéficier de jours de fractionnement pour tous les salariés.
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+### Acquisition de congés payés en maladie
 <!-- layout: image-right -->
-<!-- image: conges_payes.jpg -->
+<!-- image: slide_acquisition_conges_maladie.jpg -->
 
-Contenu à venir.
+Depuis les arrêts de la Cour de cassation du 13 septembre 2023 reconnaissant à tous les salariés en arrêt maladie le droit d'acquérir des congés payés durant cette période, le droit français a été jugé contraire au droit de l'Union européenne.
+
+Les arrêts de travail pour cause non professionnelle ne donnaient lieu à aucun congé payé, n'étant pas considérés comme du temps de travail effectif. De même pour les arrêts pour cause professionnelle de plus de 12 mois.
+
+**Les périodes de maladie sont désormais assimilées à du travail effectif, pour déterminer la durée des congés payés.** Concrètement, vous continuez d'acquérir des congés en maladie.
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+### Congés pour enfant malade
+<!-- layout: image-left -->
+<!-- image: slide_enfant_malade.jpg -->
+<!-- subsection: Autres congés -->
+
+En tant que salarié(e) du réseau Banque Populaire, vous bénéficiez de **3 jours par an** d'absence rémunérés pour soigner un enfant malade de moins de 14 ans. Ce nombre est porté à 6 jours si vous assumez la charge de 2 enfants âgés de moins de 14 ans et à 9 jours pour 3 enfants et plus âgés de moins de 14 ans.
+
+Vous bénéficiez également d'une **autorisation supplémentaire d'absence rémunérée de 2 jours** par exercice civil **en cas d'hospitalisation** d'un enfant de moins de 14 ans.
+
+Des autorisations d'absence complémentaire non rémunérée peuvent également vous être accordées pour soigner votre conjoint, vos enfants ou des ascendants à charge.
+
+<u>À noter</u> : Au sein de BPALC, vous bénéficiez également de 5 jours d'absence rémunérée par an pour accompagner un proche aidé.
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+### Congés proche aidant
+<!-- layout: image-right -->
+<!-- image: slide_proche_aidants.jpg -->
+
+Plusieurs dispositifs légaux vous permettent de bénéficier de **congés non rémunérés** pour vous occuper de proches gravement malades, en situation de handicap, âgés ou en perte d'autonomie.
+:::popup +
+Vos accords prévoient que le congé de proche aidant peut, après accord de la Direction des ressources Humaines et en concertation avec la ligne managériale, être transformé en activité à temps partiel ou être fractionné.
+:::
+
+- C'est le cas du congé de proche aidant qui vous permet de vous occuper d'un proche handicapé ou âgé ou en perte d'autonomie pendant 3 mois renouvelable, sans pouvoir dépasser un an. Le congé est non rémunéré mais vous pouvez sous certaines conditions bénéficier de l'allocation journalière du proche aidant (AJPA).
+:::popup En savoir plus
+[En savoir plus sur l'AJPA](https://www.pour-les-personnes-agees.gouv.fr/solutions-pour-les-aidants/soutien-financier/l-allocation-journaliere-du-proche-aidant-qu-est-ce-que-c-est)
+:::
+
+- C'est aussi le cas du congé de solidarité familiale qui vous permet d'être présent auprès d'un proche atteint d'une pathologie mettant en jeu le pronostic vital ou en phase avancée ou terminale d'une affection grave et incurable pendant 3 mois renouvelable une fois.
+
+Au sein de BPALC, vous bénéficiez également de **5 jours d'absence rémunérée** par an pour accompagner le proche aidé.
+
+
+
+
+
+
+
+---
+
+
+### Congés spéciaux
+<!-- layout: image-right -->
+<!-- image: conges_speciaux.jpg -->
+<!-- subsection: Congés spéciaux -->
+
+Au sein de BPALC, un accord sur les congés spéciaux à durée indéterminée a été signé en 2015. Il permet aux salariés de bénéficier de conditions plus avantageuses que la loi.
+
+<span class="bullet">•</span> <u>Congé de création d'entreprise</u> : les salariés ayant au moins 15 ans d'ancienneté dans l'entreprise ou le Groupe BPCE peuvent suspendre leur contrat de travail pendant deux ans afin de créer ou reprendre une entreprise, avec garantie de réemploi dans l'emploi précédent à l'issue du congé. **La BPALC verse, au moment du départ en congé, une prime brute de 8 000 euros.**
+:::popup +
+Vous pouvez également bénéficier de ce congé si vous exercez des responsabilités de Direction au sein d'une entreprise répondant aux critères de Jeune Entreprise Innovante (JEI).
+
+La prime de 8 000 € sera définitivement acquise au terme des deux ans d'absence. En cas de demande de retour anticipé accepté par la BPALC, le salarié devra rembourser intégralement la BPALC.
+:::
+
+<span class="bullet">•</span> <u>Congé de formation - reconversion</u>
+
+:::popup +
+### Congé de formation - reconversion
+
+Les salariés ayant au moins 15 ans d'ancienneté dans l'entreprise ou le Groupe BPCE peuvent suspendre leur contrat de travail pendant 22 mois afin de suivre une formation professionnelle leur permettant une réorientation professionnelle, avec, à l'issue du congé, la garantie de retrouver l'emploi précédent ou un emploi similaire.
+
+La BPALC verse, au moment du départ en congé, une prime brute de **8 000 €**.
+
+La prime de 8 000 € sera définitivement acquise au terme des 22 mois d'absence. En cas de demande de retour anticipé acceptée par la BPALC, le salarié devra rembourser intégralement la BPALC.
+:::
+
+<span class="bullet">•</span> <u>Congé sabbatique</u>
+
+:::popup +
+### Congé sabbatique
+
+Les salariés ayant au moins 15 ans d'ancienneté dans l'entreprise ou le Groupe BPCE peuvent suspendre leur contrat de travail pendant 22 mois afin de se consacrer à des activités de leur choix, avec, à l'issue du congé, la garantie de retrouver l'emploi précédent ou un emploi similaire.
+
+La BPALC verse, au terme des onze premiers mois, une prime brute de **8 000 €**.
+
+La prime de 8 000 € sera définitivement acquise au terme des 22 mois d'absence. En cas de demande de retour anticipé acceptée par la BPALC, le salarié devra rembourser intégralement la BPALC.
+:::
+
+<span class="bullet">•</span> <u>Congé familial</u>
+
+:::popup +
+### Congé familial
+
+Les salariés de plus de 40 ans ayant au moins 15 ans d'ancienneté dans l'entreprise ou le Groupe BPCE peuvent suspendre leur contrat de travail afin de se consacrer à leur vie familiale, avec à l'issue du congé, la garantie de retrouver l'emploi précédent ou un emploi similaire. Le congé est de deux ans minimum et trois ans maximum sans interruption.
+
+La BPALC versera au collaborateur, pendant toute la durée du congé, une allocation mensuelle brute de **400 €**.
+
+Un retour anticipé en cas de situation grave sera possible, sans remboursement des sommes déjà perçues.
+:::
+
+<span class="bullet">•</span> <u>Congé sans solde</u>
+
+:::popup +
+### Congé sans solde
+
+Les salariés de BPALC peuvent bénéficier, une fois par an au maximum, d'un congé sans solde d'une durée de quatre semaines.
+
+Ce congé est à prendre par fraction d'une semaine complète au minimum, en accord avec la hiérarchie.
+:::
+
+
+---
+
+
+
+
+
+
+
+### Congé maternité et paternité
+<!-- layout: image-left -->
+<!-- image: conge_maternite.jpg -->
+
+En tant que salariée de la BPALC, votre salaire est maintenu durant toute la durée légale de votre congé maternité (16 semaines pour un premier ou un deuxième enfant, 26 semaines à partir du 3ème enfant). Le maintien est même égal à 135 jours (environ 19 semaines) pour un premier ou un deuxième enfant.
+
+Vous bénéficiez à l'issue de ce congé, **au choix d'un congé supplémentaire** :
+
+- de **45 jours calendaires à plein salaire**,
+- ou de **90 jours calendaires à demi-salaire**.
+
+<u>Autres avantages</u> : votre salaire est maintenu les **45 premiers jours de votre congé parental d'éducation** si vous souhaitez prolonger votre allaitement. Vous bénéficiez également dès le 6ème mois de grossesse, d'une sortie anticipée d'une heure par jour (30 minutes pour une demi-journée).
+
+<u>Bon à savoir</u> : **votre convention prévoit un maintien de salaire à 100 % pendant la durée du congé paternité** (25 jours calendaires) pour les salariés ayant plus d'un an d'ancienneté.
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+<!-- title: Congés exceptionnels -->
+<!-- layout: text-only -->
+<!-- subsection: Congés exceptionnels -->
+
+:::popup _duree
+### Durée du congé selon l'évènement
+
+- **Mariage ou pacs du salarié** : 5 jours (les deux évènements sont distincts et donnent lieu chacun à 5 jours de congé)
+- **Mariage ou pacs des descendants du salarié**, des descendants de son conjoint ou des descendants du partenaire lié par un pacs : 2 jours
+- **Décès du conjoint** ou du partenaire lié par un PACS : 5 jours
+- **Décès d'un enfant** : 14 jours ouvrables (12 jours ouvrables pour un enfant de plus de 25 ans). Ce congé peut être complété par un congé de deuil de 8 jours pour les enfants de moins de 25 ans
+- **Décès d'un enfant du conjoint** ou du partenaire lié par PACS : 5 jours
+- **Décès du père, de la mère**, du beau-père, de la belle-mère, d'un frère ou d'une sœur : 3 jours
+- **Décès d'un autre ascendant ou descendant** (grand-père, grand-mère, petit-fils...) : 2 jours
+- **Naissance ou adoption d'un enfant** : 3 jours, ce congé sera complété du congé maternité ou paternité
+- **Annonce de la survenue chez un enfant d'un handicap, d'un cancer ou d'une pathologie chronique nécessitant un apprentissage thérapeutique** : 5 jours
+- **Déménagement du salarié** (hors déménagement professionnel) : 2 jours maximum par an / 2 jours ouvrés pour effectuer toute démarche utile en vue de son installation + 2 jours de déménagement dans le cadre d'un déménagement professionnel
+- **Démarches Handicap (RQTH)** : 2 jours d'absence (ou 4 demi-journées) pour effectuer les démarches d'obtention ou de renouvellement de la Reconnaissance de la Qualité de Travailleur Handicapé
+- **Rentrée scolaire** : une autorisation d'absence d'une heure maximum est accordée pour les rentrées scolaires
+- **Don du sang** : une autorisation d'absence rémunérée de 2 heures, 2 fois par an, est accordée pour les dons de sang, plasma ou plaquettes
+:::
+
+<div style="display:flex;align-items:flex-start;gap:24px;margin-bottom:24px">
+<p style="flex:1">En France, vous pouvez bénéficier d'une autorisation d'absence exceptionnelle, à l'occasion de certains évènements familiaux. Ces journées sont assimilées à des jours de travail effectif pour la détermination de la durée du congé annuel.</p>
+<div style="flex-shrink:0"><button class="popup-btn" data-popup="0">Durée de ces congés</button></div>
+</div>
+
+Votre absence n'entraîne pas de réduction de votre rémunération à condition de justifier de la survenance de l'évènement par tous moyens (un mail suffit). En cas de refus de votre congé par votre employeur, vous pouvez contester sa décision devant le conseil de prud'hommes, qui statuera selon une procédure accélérée et simplifiée.
+
+<div style="display:flex;gap:24px;justify-content:center;flex-wrap:wrap;margin-top:32px">
+<div style="text-align:center;flex:1;max-width:300px">
+<img src="bpalc/images/conges_mariage.jpg" style="width:100%;border-radius:12px;margin-bottom:8px" onerror="this.remove()">
+<p style="font-weight:600">Votre mariage : 5 jours</p>
+</div>
+<div style="text-align:center;flex:1;max-width:300px">
+<img src="bpalc/images/conge_naissance.jpg" style="width:100%;border-radius:12px;margin-bottom:8px" onerror="this.remove()">
+<p style="font-weight:600">La naissance de votre enfant : 3 jours</p>
+</div>
+<div style="text-align:center;flex:1;max-width:300px">
+<img src="bpalc/images/conge_deces.jpg" style="width:100%;border-radius:12px;margin-bottom:8px" onerror="this.remove()">
+<p style="font-weight:600">Le décès d'un parent : 3 jours</p>
+</div>
+</div>
+
+
+
 
 
 
@@ -1512,6 +2861,12 @@ Contenu à venir.
 
 
 ---
+
+
+
+
+
+
 
 
 
@@ -1560,7 +2915,19 @@ Contenu à venir.
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -1589,9 +2956,12 @@ Tous les salariés ayant plus de **3 mois d'ancienneté** au sein de la BPALC pe
 
 **Bon à savoir :** l'accord d'intéressement BPALC est conclu pour une durée déterminée couvrant les exercices 2025, 2026 et 2027. Un nouvel accord devra être négocié à son échéance.
 
-:::popup Aller plus loin
-navigate: Modalité de calcul de l'intéressement
-:::
+
+
+
+
+
+
 
 
 
@@ -1605,6 +2975,12 @@ navigate: Modalité de calcul de l'intéressement
 
 
 ---
+
+
+
+
+
+
 
 
 
@@ -1619,36 +2995,36 @@ navigate: Modalité de calcul de l'intéressement
 
 ### Modalité de calcul de l'intéressement
 <!-- layout: image-right -->
-<!-- image: interessement_2.jpg -->
+<!-- image: interessement_repartition.jpg -->
 <!-- subsection: Intéressement et participation -->
 
 L'intéressement global à distribuer est déterminé en multipliant le **résultat courant avant impôt (RCAI)** par la somme de cinq coefficients multiplicateurs :
 
 **I = RCAI × (C1 + C2 + C3 + C4 + C5)**
 
-L'enveloppe d'intéressement est comprise entre **7 % et 9 %** du RCAI.
 :::popup +
-Le seuil de déclenchement est atteint dès que le résultat net consolidé de l'exercice a permis de rémunérer les parts sociales.
+L'enveloppe d'intéressement est comprise entre **7 % et 9 %** du RCAI. Le seuil de déclenchement est atteint dès que le résultat net consolidé de l'exercice a permis de rémunérer les parts sociales.
 :::
 
 Les cinq critères reflètent les objectifs du Projet Stratégique Banque de la BPALC :
-:::popup +
+
 **C1 — Développement commercial :** rang parmi les Banques Populaires sur le taux de croissance des clients (particuliers, professionnels, entreprises).
 
 **C2 — Croissance de la collecte :** croissance de l'encours de ressources monétaires et taux d'atteinte de l'objectif de collecte en assurance vie.
 
-**C3 — Satisfaction client :** rang parmi les Banques Populaires du Net Promoter Score (NPS), pondéré 60 % particuliers et 40 % professionnels.
+**C3 — Satisfaction client :** rang parmi les Banques Populaires du Net Promoter Score (NPS).
 
 **C4 — Rentabilité :** rang parmi les Banques Populaires du coefficient d'exploitation net du coût du risque.
 
 **C5 — Digitalisation :** part de clients particuliers actifs digitaux, rang parmi les Banques Populaires.
-:::
 
-Lorsque le résultat se situe entre deux bornes, le pourcentage applicable est déterminé par application d'une interpolation linéaire.
 
-:::popup Aller plus loin
-navigate: Répartition et versement de l'intéressement
-:::
+
+
+
+
+
+
 
 
 
@@ -1662,6 +3038,12 @@ navigate: Répartition et versement de l'intéressement
 
 
 ---
+
+
+
+
+
+
 
 
 
@@ -1680,13 +3062,18 @@ navigate: Répartition et versement de l'intéressement
 <!-- subsection: Intéressement et participation -->
 
 La prime d'intéressement est répartie entre les salariés de la BPALC de la manière suivante :
-:::popup +
+
+<div style="max-width:550px">
+
 | Exercice | Part présence | Part salaire |
 |----------|---------------|--------------|
 | **2025** | 24 % | 76 % |
 | **2026** | 28 % | 72 % |
 | **2027** | 32 % | 68 % |
 
+</div>
+
+:::popup +
 Le salaire pris en compte est plafonné à **4 fois le plafond annuel de la sécurité sociale (PASS)**.
 
 Les périodes d'absence pour cause de congé de maternité, de paternité, d'adoption, de deuil, consécutives à un accident du travail ou à une maladie professionnelle, sont assimilées à des durées de présence.
@@ -1711,7 +3098,19 @@ En l'absence de choix de votre part dans le délai imparti (15 jours), votre pri
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -1740,9 +3139,12 @@ Tous les salariés ayant plus de **3 mois d'ancienneté** dans l'entreprise peuv
 
 **Bon à savoir :** l'accord de participation BPALC est conclu pour une durée déterminée couvrant les exercices 2025, 2026 et 2027. Un nouvel accord devra être négocié à son échéance.
 
-:::popup Aller plus loin
-navigate: Modalités de calcul de la participation et versement
-:::
+
+
+
+
+
+
 
 
 
@@ -1768,6 +3170,12 @@ navigate: Modalités de calcul de la participation et versement
 
 
 
+
+
+
+
+
+
 ### Modalités de calcul de la participation et versement
 <!-- layout: image-right-portrait -->
 <!-- image: calcul_participation.jpg -->
@@ -1776,7 +3184,7 @@ navigate: Modalités de calcul de la participation et versement
 La BPALC applique une **formule dérogatoire** pour la participation. Le montant de la Réserve Spéciale de Participation (RSP) est égal à :
 **RSP = 0,5 x (RCAI - IS - 2%C) x S/PNB**
 :::popup +
-**Signification des termes de la formule :**
+### Signification des termes de la formule
 
 - **RCAI** : résultat courant avant impôt
 - **IS** : impôt sur les sociétés
@@ -1825,7 +3233,19 @@ En l'absence de choix de votre part dans le délai imparti, votre prime de parti
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -1845,14 +3265,12 @@ En l'absence de choix de votre part dans le délai imparti, votre prime de parti
 
 Le plan d'épargne entreprise (PEE) est **un système collectif d'épargne qui vous permet de placer vos primes d'intéressement et de participation en bénéficiant d'un avantage fiscal** particulièrement intéressant. En contrepartie du blocage de ces sommes pendant **5 ans**, elles ne sont pas soumises à l'impôt sur le revenu.
 :::popup +
-Le PEE de la BPALC propose **17 FCPE** (fonds communs de placement d'entreprise) parmi lesquels vous pouvez répartir votre épargne.
-
-Vous pouvez alimenter votre PEE par : versements volontaires (max 25 % du salaire brut annuel), intéressement, participation et transferts.
+L'accès au PEE est ouvert à tous les salariés de l'entreprise ayant plus de 3 mois d'ancienneté.
 :::
 
 Certains cas permettent toutefois de débloquer ces sommes plus rapidement tout en conservant cet avantage fiscal.
-:::popup +
-Le déblocage anticipé du PEE est possible dans les cas suivants :
+:::popup Voir les cas de déblocage
+### Cas de déblocage anticipés
 
 - Mariage, conclusion d'un PACS, divorce, séparation, dissolution d'un PACS, avec la garde d'au moins un enfant
 - Naissance ou adoption d'un 3e enfant
@@ -1867,12 +3285,12 @@ Le déblocage anticipé du PEE est possible dans les cas suivants :
 - Achat d'un véhicule à faible émission de gaz à effet de serre
 :::
 
-Autre avantage non négligeable, **vous bénéficiez d'un abondement de votre employeur** :
-- lorsque vous affectez tout ou partie de vos primes d'**intéressement** sur votre PEE,
-- lorsque vous effectuez des **versements volontaires**.
+Autre avantage non négligeable, **vous bénéficiez d'un abondement de votre employeur** lorsque vous affectez tout ou partie de vos primes d'**intéressement** sur votre PEE.
+
+<div class="marker-center"></div>
 
 :::popup Quel abondement pour les salariés de la BPALC ?
-**Abondement sur l'intéressement investi dans le PEE :**
+### Abondement sur l'intéressement investi dans le PEE
 
 | Tranche | Taux |
 |---------|------|
@@ -1896,7 +3314,19 @@ Autre avantage non négligeable, **vous bénéficiez d'un abondement de votre em
 
 
 
+
+
+
+
+
+
 ---
+
+
+
+
+
+
 
 
 
@@ -1911,37 +3341,31 @@ Autre avantage non négligeable, **vous bénéficiez d'un abondement de votre em
 
 ### PERCOL-I
 <!-- layout: image-left -->
-<!-- image: percol.jpg -->
+<!-- image: perco.jpg -->
 <!-- subsection: PERCOL-I -->
 
 Comme le PEE, le plan d'épargne retraite collectif interentreprises (PERCOL-I) est un système collectif d'épargne. **Il vous permet d'épargner pour préparer votre retraite en bénéficiant d'un avantage fiscal.** Contrairement au PEE (bloqué pendant 5 ans), les sommes investies sur votre PERCOL-I sont **bloquées jusqu'à la liquidation de votre pension de retraite**.
-:::popup +
-Vous pouvez alimenter votre PERCOL-I par : intéressement, participation, versements volontaires et transferts depuis votre CET.
-
-La BPALC prend en charge les frais de tenue de compte, les frais du conseil de surveillance des FCPE, les frais d'arbitrage et de souscription.
-:::
 
 Certains cas permettent toutefois de débloquer ces sommes plus rapidement tout en conservant cet avantage fiscal. Les cas de déblocage sont plus restreints que pour le PEE.
 
-:::popup Voir les cas de déblocage anticipés
-Le déblocage anticipé du PERCOL-I est possible dans les cas suivants :
+:::popup Voir les cas de déblocage
+### Cas de déblocage anticipés
 
-- Acquisition de la résidence principale
-- Décès du conjoint ou du partenaire de PACS
-- Invalidité du salarié, de ses enfants, de son conjoint ou partenaire de PACS
-- Situation de surendettement
-- Expiration des droits à l'assurance chômage
-- Violences conjugales
-
-Les cas de déblocage du PERCOL-I sont **plus restrictifs** que ceux du PEE.
+- Invalidité (salarié, son époux(se) ou partenaire de PACS, ses enfants)
+- Décès (salarié, son époux(se) ou partenaire de PACS)
+- Acquisition de la résidence principale ou remise en état de la résidence principale endommagée à la suite d'une catastrophe naturelle reconnue par arrêté ministériel
+- Surendettement
+- Expiration des droits du salarié à l'assurance chômage
 :::
 
 Autre avantage non négligeable, **vous bénéficiez d'un abondement de votre employeur** :
 - lorsque vous affectez tout ou partie de vos primes d'**intéressement** sur votre PERCOL-I,
-- lorsque vous effectuez des **versements volontaires périodiques**.
+- lorsque vous transférez des jours de votre **CET** vers le PERCOL-I.
 
 :::popup Quel abondement pour les salariés de la BPALC ?
-**Abondement sur l'intéressement investi dans le PERCOL-I :**
+### Abondement sur le PERCOL-I
+
+**Abondement sur l'intéressement :**
 
 | Tranche | Taux |
 |---------|------|
@@ -1949,12 +3373,20 @@ Autre avantage non négligeable, **vous bénéficiez d'un abondement de votre em
 | 500 à 1 000 € | **30 %** |
 | 1 000 à 10 000 € | **25 %** |
 
-**Plafond d'abondement : 2 950 € brut par an.**
-
-Sur les **transferts CET** vers le PERCOL-I : abondement de **20 %**.
+Plafond d'abondement sur l'intéressement : **2 950 € brut par an**.
 
 **Exemple :** vous placez 2 000 € d'intéressement sur votre PERCOL-I. Votre employeur abonde : 550 € (110 % sur les 500 premiers €) + 150 € (30 % sur 500 €) + 250 € (25 % sur 1 000 €) = **950 € d'abondement**.
+
+**Abondement sur le transfert CET :**
+
+Si vous transférez des jours de votre CET vers le PERCOL-I, la BPALC abonde de **20 %**, dans la limite de **10 jours par an** (plafond réglementaire d'exonération fiscale et sociale).
 :::
+
+
+
+
+
+
 
 
 
@@ -1968,6 +3400,12 @@ Sur les **transferts CET** vers le PERCOL-I : abondement de **20 %**.
 
 
 ---
+
+
+
+
+
+
 
 
 
@@ -1983,10 +3421,81 @@ Sur les **transferts CET** vers le PERCOL-I : abondement de **20 %**.
 ## Compte épargne temps
 <!-- thumbnail: sommaire_cet.jpg -->
 
-### Compte épargne temps
+### Un dispositif qui permet d'épargner son temps
+<!-- layout: image-left -->
+<!-- image: CET_intro.jpg -->
+
+Le CET vous permet d'épargner des temps de repos (jours de repos ou congés non utilisés) et des sommes d'argent (13ème mois) en vue d'une utilisation ultérieure (pour financer une absence autorisée ou pour anticiper votre fin de carrière par exemple).
+
+Vos accords d'entreprise définissent les conditions d'utilisation du CET au sein de la BPALC. Cliquez sur "En savoir plus" pour les découvrir.
+
+<u>Important</u> : **Tous les salariés de la BPALC en CDI ayant au moins 3 mois d'ancienneté peuvent ouvrir un CET et donc bénéficier du dispositif.**
+
+:::popup En savoir plus
+navigate: Alimentation de votre CET
+:::
+
+---
+
+### Alimentation de votre CET
 <!-- layout: image-right -->
-<!-- image: compte_epargne_temps.jpg -->
+<!-- image: CET_alimentation.jpg -->
 
-Contenu à venir.
+Vos accords prévoient que le CET peut être alimenté par :
 
+- la **5ème semaine de congés payés**, plus le 26ème jour prévu par votre convention (informer la DRH avant le 31 mai),
+- tout ou partie du nombre de **jours de RTT** acquis par année civile (ainsi que des jours de repos accordés aux cadres en forfait-jours). Les RTT non pris au 31 janvier N+1 sont transférés de plein droit dans le CET,
+- tout ou partie du **13ème mois** (uniquement pour les salariés de **55 ans et plus** éligibles au congé de fin de carrière, demande avant le 5 novembre).
+
+:::popup +
+Vous pouvez placer des journées ou des demi-journées. La conversion est directe : 1 jour placé = 1 jour épargné.
+
+Pour le 13ème mois, la conversion en jours se fait selon la formule : montant à placer / (salaire conventionnel annuel brut / 250).
+:::
+
+Vos accords prévoient des plafonds d'alimentation de votre CET :
+
+- **un plafond de 15 jours de repos par an** pour les salariés de moins de 55 ans,
+- un **plafond global** correspondant à la garantie AGS (environ 79 464 €).
+
+---
+
+### Utilisation de votre CET
+<!-- layout: image-left -->
+<!-- image: CET_utilisation.jpg -->
+
+Le CET peut être utilisé pour :
+
+- prendre un **congé légal**,
+
+:::popup +
+Congé parental d'éducation, congé sabbatique, congé pour création d'entreprise.
+:::
+- prendre un **congé pour convenance personnelle**,
+
+:::popup +
+Vos CP et RTT de l'année doivent être épuisés au préalable.
+:::
+- passer à **temps partiel** (parental, pour raison de santé ou pour raison familiale justifiée — durée minimale de 2 mois),
+- anticiper votre départ avec un **congé de fin de carrière** (à partir de 55 ans),
+- obtenir une **rémunération immédiate ou différée** (monétisation de vos droits),
+
+:::popup +
+Les jours issus de la 5ème semaine de congés payés ne peuvent pas être monétisés ni transférés vers le PERCOL-I (sauf en cas de rupture du contrat).
+:::
+
+- **racheter des cotisations d'assurance vieillesse**.
+
+**Bon à savoir** : si vous optez pour un **congé de fin de carrière**, la BPALC **majore de 10 %** l'ensemble de vos droits CET. Vous pouvez aussi transférer jusqu'à **15 jours par an** de votre CET vers votre **PERCOL-I**, avec un abondement possible de la BPALC.
+
+---
+
+### Indemnisation du congé et rupture du contrat
+<!-- layout: image-right-dual -->
+<!-- image: CET_alimentation_1.jpg -->
+<!-- image2: CET_alimentation_2.jpg -->
+
+Les sommes qui vous sont versées en vertu du CET lors de la prise d'un congé sont calculées sur la base du **salaire conventionnel annuel brut divisé par 250 jours** au moment de la prise de votre congé.
+
+Lors de la rupture de votre contrat, l'entreprise vous verse, lors de l'établissement de votre solde de tout compte, **une indemnité correspondant à l'intégralité des droits acquis avec votre CET.** Elle est égale au nombre de jours figurant au CET multiplié par votre salaire journalier au moment de la rupture de votre contrat.
 
