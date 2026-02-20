@@ -616,6 +616,16 @@ De manière assez classique, votre contrat comportera également la plupart du t
 
 :::popup Votre employeur peut-il modifier votre contrat en cours de route ?
 navigate: Modification et mobilité
+
+Toute modification du contrat de travail devra vous être notifiée par écrit.
+
+Votre convention ne précise pas de délai de réponse pour accepter ou non la modification. La loi non plus mais la jurisprudence a déterminé que le délai doit être raisonnable, pour laisser le temps au salarié d'accepter ou pas la proposition de l'employeur.
+
+L'administration du travail préconise un délai minimum de 15 jours.
+
+Si vous refusez la modification, votre employeur peut engager une procédure de licenciement.
+
+**Bon à savoir** : Votre silence vaut refus.
 :::
 
 

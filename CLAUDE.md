@@ -140,6 +140,8 @@ Le CSS cible `.marker-center` pour masquer la colonne texte et centrer le bouton
 
 `:::popup Label\nnavigate: Titre slide\n:::` → clic navigue au lieu d'ouvrir une modale.
 
+**Important** : conserver le contenu texte dans les popups `navigate:` même si la page cible existe. Ce contenu sert de **fallback pour les futures capsules** où la page pourrait ne pas encore être créée. Ne jamais supprimer ce contenu sous prétexte qu'il est "mort".
+
 ### Popups cachés (placement manuel)
 
 `:::popup _label\nContenu\n:::` → le `_` empêche la génération d'un bouton visible. Le popup est stocké dans `page.popups[idx]` et accessible via un bouton manuel en HTML : `<button class="marker-btn" data-popup="idx">+</button>`. Utilisé pour les pages composites et les boutons positionnés précisément dans du HTML custom.
