@@ -16,78 +16,14 @@ conditions:
 Retrouvez facilement toutes les informations dont vous avez besoin sans avoir à vous plonger dans les textes de votre convention collective ou des accords collectifs de votre banque.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Sommaire
 <!-- layout: sommaire -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Qui est concerné par cette capsule ?
@@ -105,39 +41,7 @@ Elle a pour objectif d'articuler vos droits selon deux niveaux de textes :
 - Les **accords d'entreprise** Banque Populaire Alsace Lorraine Champagne (BPALC) qui améliorent les dispositions de votre convention collective.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Classifications
@@ -169,38 +73,7 @@ Votre convention collective (Banque Populaire) applique la grille de classificat
 <u>Petite astuce</u> : vous pouvez retrouver votre classification sur votre bulletin de paie.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Grille des techniciens
@@ -270,39 +143,7 @@ Les techniciens sont répartis selon 7 niveaux allant de A à G.
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Grille des cadres
@@ -364,39 +205,7 @@ N'entrent pas dans la présente classification, les cadres :
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Temps de travail
@@ -419,39 +228,7 @@ N'entrent pas dans la présente classification, les cadres :
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Droit commun
@@ -483,37 +260,10 @@ Ce rythme fonctionne par alternance : une semaine de 5 jours suivie d'une semain
 
 Les horaires sont encadrés : arrivée entre **7h45 et 9h00**, départ entre **17h00 et 18h30**, avec une pause déjeuner de **45 minutes minimum entre 12h00 et 14h00**.
 
-**Bon à savoir :** depuis le 1er janvier 2016, les cadres qui bénéficiaient d'un forfait en jours ont été **intégrés au rythme 39h / 5 jours avec 22 JRTT**, comme les autres salariés des services centraux.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Bon à savoir** : depuis le 1er janvier 2016, les cadres qui bénéficiaient d'un forfait en jours ont été **intégrés au rythme 39h / 5 jours avec 22 JRTT**, comme les autres salariés des services centraux.
 
 
 ---
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Heures supplémentaires
@@ -541,34 +291,7 @@ navigate: Heures supplémentaires et complémentaires
 :::
 
 
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Les astreintes
@@ -590,39 +313,7 @@ Le planning des astreintes doit être porté à la connaissance des salariés co
 :::
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Principes et interruptions
@@ -653,39 +344,7 @@ navigate: Aménagement de fin de carrière
 :::
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Les heures complémentaires
@@ -705,39 +364,7 @@ navigate: Heures supplémentaires et complémentaires
 :::
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Salaire et rémunération
@@ -766,39 +393,7 @@ navigate: Heures supplémentaires et complémentaires
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Salaire minimum hiérarchique
@@ -843,39 +438,7 @@ Pour les salariés à temps partiel, le salaire de base est calculé au prorata 
 :::
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Heures supplémentaires et complémentaires
@@ -891,39 +454,7 @@ Votre convention collective prévoit que les **heures supplémentaires** peuvent
 **Spécificité BPALC :** pour les salariés à temps partiel, toutes les heures complémentaires sont majorées de **25 % dès la première heure**, ce qui constitue un avantage par rapport au minimum légal de 10 %.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- layout: text-only -->
@@ -967,39 +498,7 @@ Les techniciens du système TARGET et de la Bourse bénéficient d'une majoratio
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Primes diverses
@@ -1069,39 +568,7 @@ Votre convention collective prévoit une prime versée en une seule fois à l'ob
 :::
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Contrat de travail
@@ -1130,39 +597,7 @@ Votre convention collective prévoit une prime versée en une seule fois à l'ob
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Mentions obligatoires (CDI)
@@ -1181,34 +616,10 @@ De manière assez classique, votre contrat comportera également la plupart du t
 
 :::popup Votre employeur peut-il modifier votre contrat en cours de route ?
 navigate: Modification et mobilité
-
-Toute modification du contrat de travail devra vous être notifiée par écrit.
-
-Votre convention ne précise pas de délai de réponse pour accepter ou non la modification. La loi non plus mais la jurisprudence a déterminé que le délai doit être raisonnable, pour laisser le temps au salarié d'accepter ou pas la proposition de l'employeur.
-
-L'administration du travail préconise un délai minimum de 15 jours.
-
-Si vous refusez la modification, votre employeur peut engager une procédure de licenciement.
-
-> **Bon à savoir :** Votre silence vaut refus.
 :::
 
 
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
 
 
 <!-- layout: text-only -->
@@ -1225,7 +636,7 @@ Si vous refusez la modification, votre employeur peut engager une procédure de 
 <div class="marker-row"><div class="marker-row-text"><h2 style="font-size:1.4em;font-weight:800;margin:0">Modification du contrat de travail</h2></div></div>
 <div class="marker-row"><div class="marker-row-text"><p>Toute modification importante d'un élément essentiel de votre contrat de travail devra vous être notifiée <strong>par écrit</strong>.</p></div><div class="marker-row-btn"><button class="marker-btn" data-popup="0">+</button></div></div>
 <div class="marker-row"><div class="marker-row-text"><p>Vos accords ainsi que la loi ne précisent pas de délai de réponse pour accepter ou non la modification. En revanche, la jurisprudence a déterminé que le délai doit être <strong>raisonnable</strong>, pour laisser le temps au salarié d'accepter ou pas la proposition de l'employeur. Si vous refusez la modification, votre employeur peut engager une <strong>procédure de licenciement</strong>.</p></div><div class="marker-row-btn"><button class="marker-btn" data-popup="4">+</button></div></div>
-<div class="marker-row"><div class="marker-row-text"><p><strong>Bon à savoir :</strong> sauf précision contraire dans votre contrat de travail, votre silence vaut refus.</p></div></div>
+<div class="marker-row"><div class="marker-row-text"><p><strong>Bon à savoir</strong> : sauf précision contraire dans votre contrat de travail, votre silence vaut refus.</p></div></div>
 </div>
 </div>
 </div>
@@ -1235,7 +646,7 @@ Si vous refusez la modification, votre employeur peut engager une procédure de 
 <div class="marker-rows">
 <div class="marker-row"><div class="marker-row-text"><h2 style="font-size:1.4em;font-weight:800;margin:0">Cas particulier de la mobilité entraînant un déménagement</h2></div><div class="marker-row-btn"><button class="marker-btn" data-popup="1">+</button></div></div>
 <div class="marker-row"><div class="marker-row-text"><p>En cas de changement de résidence imposé par un changement du lieu de travail et accepté par un salarié, les frais de déménagement seront remboursés par l'employeur sur présentation préalable de <strong>deux devis</strong>.</p></div><div class="marker-row-btn"><button class="marker-btn" data-popup="2">+</button></div></div>
-<div class="marker-row"><div class="marker-row-text"><p><strong>Bon à savoir :</strong> en plus de la prise en charge de ses frais de déménagement, le salarié bénéficie d'un congé de déménagement, d'une prise en charge des frais de recherche d'un logement, des frais d'installation, de double résidence ou encore de prêts préférentiels (voir toutes les mesures en cliquant sur le bouton "+").</p></div><div class="marker-row-btn"><button class="marker-btn" data-popup="3">+</button></div></div>
+<div class="marker-row"><div class="marker-row-text"><p><strong>Bon à savoir</strong> : en plus de la prise en charge de ses frais de déménagement, le salarié bénéficie d'un congé de déménagement, d'une prise en charge des frais de recherche d'un logement, des frais d'installation, de double résidence ou encore de prêts préférentiels (voir toutes les mesures en cliquant sur le bouton "+").</p></div><div class="marker-row-btn"><button class="marker-btn" data-popup="3">+</button></div></div>
 </div>
 </div>
 <div style="flex:0 0 190px">
@@ -1262,7 +673,7 @@ Dans ce premier cas, les salariés BPALC bénéficient :
 
 Dans cette situation, la prise en charge concerne le déménagement du salarié (voir les mesures ci-après).
 
-**Bon à savoir :** lorsque votre contrat de travail initial ne prévoit pas de clause de mobilité, dans le cas d'un refus de la proposition de votre employeur, la rupture éventuelle n'est pas considérée comme étant de votre fait. Elle est du fait de votre employeur, lequel devra vous verser le montant des indemnités dues en cas de licenciement.
+**Bon à savoir** : lorsque votre contrat de travail initial ne prévoit pas de clause de mobilité, dans le cas d'un refus de la proposition de votre employeur, la rupture éventuelle n'est pas considérée comme étant de votre fait. Elle est du fait de votre employeur, lequel devra vous verser le montant des indemnités dues en cas de licenciement.
 :::
 
 :::popup _demenagement
@@ -1291,22 +702,7 @@ L'administration du travail préconise un délai minimum de 15 jours.
 :::
 
 
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
 
 
 ### Période d'essai
@@ -1334,42 +730,10 @@ Si votre employeur souhaite y mettre fin, il devra respecter un délai de préve
 - 1 mois après 3 mois de présence.
 :::
 
-**Bon à savoir :** la période d'essai ne se présume pas, son renouvellement non plus. Ils doivent être prévus dans votre contrat de travail ou dans votre lettre d'engagement.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Bon à savoir** : la période d'essai ne se présume pas, son renouvellement non plus. Ils doivent être prévus dans votre contrat de travail ou dans votre lettre d'engagement.
 
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Principe
@@ -1384,39 +748,7 @@ Concrètement, **quelles conséquences pour vous ?** Après une rupture de votre
 Cette clause est là pour protéger l'intérêt de votre employeur (surtout si vous êtes en contact direct avec la clientèle) mais ne doit pas vous empêcher de trouver un emploi dans une autre entreprise.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Validité et levée de votre clause
@@ -1443,39 +775,7 @@ Votre syndicat peut vous accompagner dans cette démarche.
 :::
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Contrat d'auxiliaire d'été
@@ -1489,24 +789,10 @@ Votre convention collective reconnaît ce dispositif pour le secteur bancaire et
 
 Les auxiliaires d'été reçoivent une rémunération au moins égale au **SMIC**, une **indemnité compensatrice légale de congés payés**, et bénéficient des mêmes conditions de restauration et de prime de transport que l'ensemble des salariés.
 
-**Bon à savoir :** le CDDU ne donne pas lieu au versement d'une prime de précarité à la fin du contrat.
-
-
-
-
-
-
-
+**Bon à savoir** : le CDDU ne donne pas lieu au versement d'une prime de précarité à la fin du contrat.
 
 
 ---
-
-
-
-
-
-
-
 
 
 ## Rupture du contrat de travail
@@ -1537,21 +823,7 @@ Les auxiliaires d'été reçoivent une rémunération au moins égale au **SMIC*
 </div>
 
 
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
 
 
 ### Préavis de départ
@@ -1576,7 +848,7 @@ Démission : 1 mois.
 
 Licenciement et démission : 3 mois.
 
-**À noter :**
+**À noter** :
 En cas de mise à la retraite par l'employeur, tous les salariés sont logés à la même enseigne : 3 mois de préavis.
 Pour un départ volontaire à la retraite, il convient d'appliquer le préavis prévu en cas de démission.
 :::
@@ -1598,21 +870,7 @@ navigate: Indemnité de rupture
 :::
 
 
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
 
 
 ### Indemnité de rupture
@@ -1663,22 +921,7 @@ Si vous avez entre 8 mois et 1 an d'ancienneté, vous percevrez donc l'indemnit�
 :::
 
 
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
 
 
 ### Fiscalité des indemnités
@@ -1697,21 +940,7 @@ En fiscalité, le diable se cache dans les détails. Nous avons donc pris le soi
 <a class="popup-btn" href="https://larchipel.io/wp-content/uploads/Traitement-social-et-fiscalite-des-indemnites-de-rupture-du-contrat-de-travail-2025-2.pdf" target="_blank">Quelle fiscalité s'applique sur mon indemnité ?</a>
 
 
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
 
 
 ### Départ en retraite
@@ -1769,22 +998,7 @@ La mensualité qui sert de base à l'assiette de calcul de cette indemnité est 
 :::
 
 
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
 
 
 ### Retraite progressive
@@ -1817,22 +1031,7 @@ Vous devez transmettre votre demande auprès de votre caisse d'assurance retrait
 :::
 
 
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
 
 
 ### Aménagement de fin de carrière
@@ -1854,20 +1053,7 @@ Le dispositif est réservé aux salariés qui travaillent a minima à **80 %**. 
 :::
 
 
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
 
 
 ## Télétravail
@@ -1889,23 +1075,7 @@ L'accès au télétravail se fait sur la base du **double volontariat** et repos
 - assurer une cohérence d'entreprise tout en prenant en compte les spécificités de chaque métier.
 
 
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
 
 
 ### Conditions d'éligibilité
@@ -1936,39 +1106,7 @@ Au sein de la BPALC, certaines activités sont exclues explicitement de l'accès
 :::
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Lieu du télétravail
@@ -1990,22 +1128,7 @@ Votre espace de travail doit être aménagé de manière à vous permettre de me
 Vous devrez également effectuer une déclaration sur l'honneur pour certifier de la conformité des installations électriques de votre lieu de travail.
 
 
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
 
 
 ### Réversibilité
@@ -2024,22 +1147,7 @@ Vous pouvez toutefois formuler une nouvelle demande de télétravail auprès de 
 :::
 
 
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
 
 
 ### Équipements et frais professionnels
@@ -2063,22 +1171,7 @@ Les frais liés à l'exercice du télétravail (notamment frais d'abonnement à 
 Si vous bénéficiez de titres-restaurants, ce bénéfice est maintenu pour les jours télétravaillés.
 
 
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
 
 
 ### Organisation du télétravail
@@ -2105,39 +1198,7 @@ Il est requis une présence minimale sur le lieu de travail habituel de **3 jour
 **À noter** : Pour un bon fonctionnement du service, vous devez indiquer **2 semaines à l'avance** les dates de télétravail souhaitées.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Indemnisation maladie
@@ -2200,39 +1261,7 @@ Pour les salariés ayant au moins un enfant à charge au sens fiscal du terme, l
 :::
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Complémentaire santé, prévoyance et retraite supplémentaire
@@ -2261,17 +1290,7 @@ Pour les salariés ayant au moins un enfant à charge au sens fiscal du terme, l
 </div>
 
 
-
-
-
-
-
 ---
-
-
-
-
-
 
 
 ### Prévoyance
@@ -2358,17 +1377,7 @@ Ces montants sont majorés de **40%** par enfant à charge au moment du décès.
 :::
 
 
-
-
-
-
-
 ---
-
-
-
-
-
 
 
 ### Complémentaire santé
@@ -2408,7 +1417,7 @@ Les cotisations pour votre complémentaire santé chez BPALC sont réparties ent
 *PMSS : Plafond mensuel de la Sécurité Sociale
 :::
 
-À noter : Un salarié peut demander une dispense d'adhésion dans certains cas.
+**À noter** : Un salarié peut demander une dispense d'adhésion dans certains cas.
 :::popup +
 ### Dispense d'adhésion pour le salarié et ses ayants droits principaux
 
@@ -2425,17 +1434,7 @@ Vous pouvez refuser d'adhérer à la complémentaire santé proposée par BPALC 
 **Bon à savoir** : Vous pouvez continuer de bénéficier pendant un maximum **de 12 mois** de votre complémentaire santé si votre contrat a été rompu (licenciement ou rupture conventionnelle).
 
 
-
-
-
-
-
 ---
-
-
-
-
-
 
 
 ### Surcomplémentaire santé
@@ -2465,7 +1464,7 @@ Cette couverture est financée intégralement par les salariés qui font le choi
 
 *PMSS pour 2026 : 4 005 euros*
 
-À noter : les cotisations pour le Régime Général et pour le Régime local Alsace Moselle sont identiques.
+**À noter** : les cotisations pour le Régime Général et pour le Régime local Alsace Moselle sont identiques.
 :::
 
 <div class="marker-center" style="margin-top:20px;margin-bottom:20px"></div>
@@ -2479,17 +1478,7 @@ En cas de décès du salarié, ses ayants droit affiliés continuent à bénéfi
 :::
 
 
-
-
-
-
-
 ---
-
-
-
-
-
 
 
 ### Retraite supplémentaire
@@ -2528,36 +1517,7 @@ Les cotisations obligatoires dues dans le cadre de ce régime sont prises en cha
 :::
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Congés payés et congés exceptionnels
@@ -2586,17 +1546,7 @@ Les cotisations obligatoires dues dans le cadre de ce régime sont prises en cha
 </div>
 
 
-
-
-
-
-
 ---
-
-
-
-
-
 
 
 ### Congés payés
@@ -2613,17 +1563,7 @@ Vos accords prévoient l'obligation de prendre 3 semaines de congés payés, con
 Vos accords annulent, par dérogation aux dispositions conventionnelles de branche, la possibilité de bénéficier de jours de fractionnement pour tous les salariés.
 
 
-
-
-
-
-
 ---
-
-
-
-
-
 
 
 ### Acquisition de congés payés en maladie
@@ -2637,17 +1577,7 @@ Les arrêts de travail pour cause non professionnelle ne donnaient lieu à aucun
 **Les périodes de maladie sont désormais assimilées à du travail effectif, pour déterminer la durée des congés payés.** Concrètement, vous continuez d'acquérir des congés en maladie.
 
 
-
-
-
-
-
 ---
-
-
-
-
-
 
 
 ### Congés pour enfant malade
@@ -2661,20 +1591,10 @@ Vous bénéficiez également d'une **autorisation supplémentaire d'absence rém
 
 Des autorisations d'absence complémentaire non rémunérée peuvent également vous être accordées pour soigner votre conjoint, vos enfants ou des ascendants à charge.
 
-<u>À noter</u> : Au sein de BPALC, vous bénéficiez également de 5 jours d'absence rémunérée par an pour accompagner un proche aidé.
-
-
-
-
-
+**À noter** : Au sein de BPALC, vous bénéficiez également de 5 jours d'absence rémunérée par an pour accompagner un proche aidé.
 
 
 ---
-
-
-
-
-
 
 
 ### Congés proche aidant
@@ -2694,11 +1614,6 @@ Vos accords prévoient que le congé de proche aidant peut, après accord de la 
 - C'est aussi le cas du congé de solidarité familiale qui vous permet d'être présent auprès d'un proche atteint d'une pathologie mettant en jeu le pronostic vital ou en phase avancée ou terminale d'une affection grave et incurable pendant 3 mois renouvelable une fois.
 
 Au sein de BPALC, vous bénéficiez également de **5 jours d'absence rémunérée** par an pour accompagner le proche aidé.
-
-
-
-
-
 
 
 ---
@@ -2768,11 +1683,6 @@ Ce congé est à prendre par fraction d'une semaine complète au minimum, en acc
 ---
 
 
-
-
-
-
-
 ### Congé maternité et paternité
 <!-- layout: image-left -->
 <!-- image: conge_maternite.jpg -->
@@ -2786,20 +1696,10 @@ Vous bénéficiez à l'issue de ce congé, **au choix d'un congé supplémentair
 
 <u>Autres avantages</u> : votre salaire est maintenu les **45 premiers jours de votre congé parental d'éducation** si vous souhaitez prolonger votre allaitement. Vous bénéficiez également dès le 6ème mois de grossesse, d'une sortie anticipée d'une heure par jour (30 minutes pour une demi-journée).
 
-<u>Bon à savoir</u> : **votre convention prévoit un maintien de salaire à 100 % pendant la durée du congé paternité** (25 jours calendaires) pour les salariés ayant plus d'un an d'ancienneté.
-
-
-
-
-
+**Bon à savoir** : **votre convention prévoit un maintien de salaire à 100 % pendant la durée du congé paternité** (25 jours calendaires) pour les salariés ayant plus d'un an d'ancienneté.
 
 
 ---
-
-
-
-
-
 
 
 <!-- title: Congés exceptionnels -->
@@ -2847,36 +1747,7 @@ Votre absence n'entraîne pas de réduction de votre rémunération à condition
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Épargne salariale
@@ -2905,39 +1776,7 @@ Votre absence n'entraîne pas de réduction de votre rémunération à condition
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Intéressement
@@ -2954,43 +1793,10 @@ L'intéressement est un dispositif d'épargne salariale qui permet aux salariés
 
 Tous les salariés ayant plus de **3 mois d'ancienneté** au sein de la BPALC peuvent bénéficier des dispositions de l'accord d'intéressement.
 
-**Bon à savoir :** l'accord d'intéressement BPALC est conclu pour une durée déterminée couvrant les exercices 2025, 2026 et 2027. Un nouvel accord devra être négocié à son échéance.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Bon à savoir** : l'accord d'intéressement BPALC est conclu pour une durée déterminée couvrant les exercices 2025, 2026 et 2027. Un nouvel accord devra être négocié à son échéance.
 
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Modalité de calcul de l'intéressement
@@ -3019,41 +1825,7 @@ Les cinq critères reflètent les objectifs du Projet Stratégique Banque de la 
 **C5 — Digitalisation :** part de clients particuliers actifs digitaux, rang parmi les Banques Populaires.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Répartition et versement de l'intéressement
@@ -3088,39 +1860,7 @@ En l'absence de choix de votre part dans le délai imparti (15 jours), votre pri
 :::
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Participation
@@ -3137,43 +1877,10 @@ La participation est un **mécanisme de redistribution des bénéfices de l'entr
 
 Tous les salariés ayant plus de **3 mois d'ancienneté** dans l'entreprise peuvent bénéficier des dispositions de l'accord de participation.
 
-**Bon à savoir :** l'accord de participation BPALC est conclu pour une durée déterminée couvrant les exercices 2025, 2026 et 2027. Un nouvel accord devra être négocié à son échéance.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Bon à savoir** : l'accord de participation BPALC est conclu pour une durée déterminée couvrant les exercices 2025, 2026 et 2027. Un nouvel accord devra être négocié à son échéance.
 
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Modalités de calcul de la participation et versement
@@ -3223,39 +1930,7 @@ En l'absence de choix de votre part dans le délai imparti, votre prime de parti
 :::
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### PEE
@@ -3304,39 +1979,7 @@ Autre avantage non négligeable, **vous bénéficiez d'un abondement de votre em
 :::
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### PERCOL-I
@@ -3383,39 +2026,7 @@ Si vous transférez des jours de votre CET vers le PERCOL-I, la BPALC abonde de 
 :::
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Compte épargne temps
