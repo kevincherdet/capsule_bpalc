@@ -316,6 +316,63 @@ Le planning des astreintes doit être porté à la connaissance des salariés co
 ---
 
 
+### Le forfait annuel en jours
+<!-- condition: forfait_jours -->
+<!-- layout: image-left -->
+<!-- image: forfait_jours.jpg -->
+
+**Le forfait jours** décompte le temps de travail **en jours sur une année de référence**. Votre accord prévoit un forfait annuel **de 205 jours.**
+
+Ce dispositif s'adresse **aux cadres** dont le temps de travail ne peut être prédéterminé en raison de leurs **responsabilités** et de leur **autonomie** dans leur emploi du temps.
+:::popup +
+*À compléter*
+:::
+
+Ce forfait est établi en prenant en compte le nombre de jours calendaires de chaque année et le nombre de jour férié coïncidant avec un jour ouvré.
+
+Les cadres bénéficient d'un repos **quotidien de minimum 11 heures consécutives** et du temps nécessaire à la pause déjeuner, ainsi qu'un repos hebdomadaire de deux jours consécutifs incluant le dimanche.
+:::popup +
+*À compléter*
+:::
+
+
+---
+
+
+### Obligations de votre employeur dans le cadre du forfait jour
+<!-- condition: forfait_jours -->
+<!-- layout: image-right-portrait -->
+<!-- image: obligations_forfait.jpg -->
+
+En tant que salarié au forfait jour, vous n'êtes pas soumis à l'horaire collectif et disposez d'une **grande autonomie dans l'organisation de votre travail**. La loi et la jurisprudence rappellent toutefois que **votre employeur ne peut pas se dédouaner de toutes ses obligations pour autant**. Il doit ainsi :
+
+<span class="bullet">•</span> comptabiliser le nombre de jours que vous effectuez,
+:::popup +
+Le temps de travail de ces collaborateurs est décompté à l'année par journée de présence, sur la base d'un système auto-déclaratif contrôlé par la hiérarchie.
+:::
+
+<span class="bullet">•</span> s'assurer du respect des durées minimales de repos,
+
+<span class="bullet">•</span> suivre votre charge de travail,
+:::popup +
+### Suivi de votre charge de travail
+
+La loi prévoit au minimum un entretien de suivi annuel. Durant cet entretien, le responsable hiérarchique aura pour mission d'examiner la charge et l'organisation du travail.
+
+Le Code du travail prévoit que cet entretien doit également porter sur la rémunération et l'articulation vie privée / vie professionnelle.
+:::
+
+<span class="bullet">•</span> assurer votre droit à la déconnexion,
+:::popup +
+Les entreprises de plus de 250 salariés doivent nommer un référent déconnexion qui a pour rôle de sensibiliser les collaborateurs et les managers aux enjeux de la déconnexion, et de diffuser les bonnes pratiques de la connexion responsable.
+:::
+
+<span class="bullet">•</span> transmettre une fois par an à la Commission SSCT, le nombre d'alertes émises en cas de difficulté inhabituelle liée à la charge de travail ou à l'isolement professionnel d'un salarié.
+
+
+---
+
+
 ### Principes et interruptions
 <!-- layout: image-left -->
 <!-- image: temps_partiel.jpg -->

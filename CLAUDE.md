@@ -60,6 +60,7 @@ Le champ `logo_client` a été supprimé (même image que `logo`).
 | `<!-- layout/image/thumbnail: xxx -->` | Métadonnées de page |
 | `<!-- subsection: Nom -->` | Sous-section (header affiche "Section / Sous-section") |
 | `<!-- title: Nom -->` | Titre de navigation uniquement (sidebar), **pas de H1 visible** |
+| `<!-- condition: flag -->` | Page conditionnelle (masquée si `conditions.flag !== true` dans le front matter) |
 | `##` seul (sans `###`) | Page section-only (pas de H1, déjà dans le bandeau) |
 
 ### Sections et sous-sections
@@ -75,6 +76,30 @@ Le champ `logo_client` a été supprimé (même image que `logo`).
 - `### Titre` → titre visible (H1 sur le slide) + titre sidebar
 - `<!-- title: Titre -->` → titre sidebar uniquement, **pas de H1** sur le slide. Utile pour les pages composites avec HTML custom (ex: "Heures majorées", "Primes diverses")
 - `<!-- title: -->` override `###` s'ils sont tous les deux présents
+
+### Pages conditionnelles
+
+Permet d'inclure dans le markdown des slides qui ne s'affichent que pour certaines banques.
+
+- `<!-- condition: flag -->` sur une page → masquée si `conditions.flag` n'est pas `true` dans le front matter
+- Si le flag est absent du front matter → page masquée (sécurité par défaut)
+- Les pages masquées sont ignorées du sommaire, de la sidebar et de la navigation prev/next
+- Implémenté dans `parsePages()` (`index.html`) : filtrage avant construction du tableau `pages[]`
+
+**Front matter :**
+```yaml
+conditions:
+  forfait_jours: false   # Slide masqué pour BPALC (accord ATT 2015)
+  mobilite_geo: true     # Slide visible
+```
+
+**Flags existants :**
+| Flag | Description | BPALC |
+|------|-------------|-------|
+| `forfait_jours` | 2 slides : "Le forfait annuel en jours" + "Obligations de votre employeur" | `false` |
+| `mobilite_geo` | Slide "Modification et mobilité" (contrat de travail) | `true` |
+
+**Workflow :** passer le flag à `true` pour éditer le slide, repasser à `false` avant livraison.
 
 ### Layouts
 
