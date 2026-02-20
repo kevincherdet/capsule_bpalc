@@ -105,7 +105,7 @@ Les techniciens sont répartis selon 7 niveaux allant de A à G.
 
 | **Niveau** | **Compétences** |
 |:----------:|----------------|
-| C | Emplois exigeant une bonne pratique des procédures techniques utilisées et une aptitude à réaliser des travaux nouveaux. Ces emplois se caractérisent par l'exécution de travaux administratifs, techniques ou de tâches à caractère commercial pouvant inclure la vente de produits simples. Ils peuvent aussi amener les salariés à répondre à des demandes d'interlocuteurs internes et/ou externes et à assumer des fonctions d'accompagnement auprès des débutants. Le travail est guidé par des normes et des usages professionnels. Les titulaires du BP Banque sont classés au niveau C. Ils ont vocation à être classés au niveau supérieur après une période probatoire en situation d'exercice effectif des responsabilités permettant la mise en oeuvre des connaissances acquises. |
+| C | Emplois exigeant une bonne pratique des procédures techniques utilisées et une aptitude à réaliser des travaux nouveaux. Ces emplois se caractérisent par l'exécution de travaux administratifs, techniques ou de tâches à caractère commercial pouvant inclure la vente de produits simples. Ils peuvent aussi amener les salariés à répondre à des demandes d'interlocuteurs internes et/ou externes et à assumer des fonctions d'accompagnement auprès des débutants. Le travail est guidé par des normes et des usages professionnels. Les titulaires du BP Banque sont classés au niveau C. Ils ont vocation à être classés au niveau supérieur après une période probatoire en situation d'exercice effectif des responsabilités permettant la mise en œuvre des connaissances acquises. |
 :::
 
 :::popup Niveau D
@@ -113,7 +113,7 @@ Les techniciens sont répartis selon 7 niveaux allant de A à G.
 
 | **Niveau** | **Compétences** |
 |:----------:|----------------|
-| D | Emplois exigeant des connaissances techniques maîtrisées, acquises par une formation et/ou une expérience, ainsi qu'une bonne adaptabilité. Ces emplois se caractérisent par l'exécution de travaux administratifs, techniques ou par une activité commerciale. Ils impliquent aussi des relations fréquentes avec des interlocuteurs internes et/ou externes. Ils peuvent s'accompagner de la coordination d'une équipe. Le travail est guidé par des normes et des usages professionnels. Les problèmes à résoudre sont cependant diversifiés et demandent parfois l'adaptation de ces usages. Les titulaires du BTS Banque "option Marché des particuliers" ont vocation à être classés au moins au niveau D, après une période probatoire en situation d'exercice effectif des responsabilités permettant la mise en oeuvre des connaissances acquises. |
+| D | Emplois exigeant des connaissances techniques maîtrisées, acquises par une formation et/ou une expérience, ainsi qu'une bonne adaptabilité. Ces emplois se caractérisent par l'exécution de travaux administratifs, techniques ou par une activité commerciale. Ils impliquent aussi des relations fréquentes avec des interlocuteurs internes et/ou externes. Ils peuvent s'accompagner de la coordination d'une équipe. Le travail est guidé par des normes et des usages professionnels. Les problèmes à résoudre sont cependant diversifiés et demandent parfois l'adaptation de ces usages. Les titulaires du BTS Banque "option Marché des particuliers" ont vocation à être classés au moins au niveau D, après une période probatoire en situation d'exercice effectif des responsabilités permettant la mise en œuvre des connaissances acquises. |
 :::
 
 :::popup Niveau E
@@ -121,7 +121,7 @@ Les techniciens sont répartis selon 7 niveaux allant de A à G.
 
 | **Niveau** | **Compétences** |
 |:----------:|----------------|
-| E | Emplois requérant une compétence acquise par une expérience professionnelle affirmée ou par une formation appropriée. Ces emplois peuvent se caractériser par l'exercice et/ou la responsabilité d'une activité commerciale, technique ou administrative. Cette responsabilité peut s'accompagner de l'animation de personnel, qui exige des qualités relationnelles, de coordination et de contrôle. Les travaux sont diversifiés et les situations rencontrées nécessitent des capacités d'analyse et d'interprétation. Les salariés disposent d'une certaine autonomie et sont aptes à prendre des initiatives dans le respect des normes et procédures. Les titulaires du BTS Banque "option Marché des professionnels", de la licence professionnelle bancaire ou des diplômes obtenus à l'issue du cycle de professionnalisation certifié "Conseiller clientèle de professionnels" ont vocation à être classés au moins au niveau E, après une période probatoire en situation d'exercice effectif des responsabilités permettant la mise en oeuvre des connaissances acquises. |
+| E | Emplois requérant une compétence acquise par une expérience professionnelle affirmée ou par une formation appropriée. Ces emplois peuvent se caractériser par l'exercice et/ou la responsabilité d'une activité commerciale, technique ou administrative. Cette responsabilité peut s'accompagner de l'animation de personnel, qui exige des qualités relationnelles, de coordination et de contrôle. Les travaux sont diversifiés et les situations rencontrées nécessitent des capacités d'analyse et d'interprétation. Les salariés disposent d'une certaine autonomie et sont aptes à prendre des initiatives dans le respect des normes et procédures. Les titulaires du BTS Banque "option Marché des professionnels", de la licence professionnelle bancaire ou des diplômes obtenus à l'issue du cycle de professionnalisation certifié "Conseiller clientèle de professionnels" ont vocation à être classés au moins au niveau E, après une période probatoire en situation d'exercice effectif des responsabilités permettant la mise en œuvre des connaissances acquises. |
 :::
 
 :::popup Niveau F
@@ -129,7 +129,7 @@ Les techniciens sont répartis selon 7 niveaux allant de A à G.
 
 | **Niveau** | **Compétences** |
 |:----------:|----------------|
-| F | Emplois requérant des compétences supérieures à celles du niveau E. Ces emplois peuvent se caractériser par l'exercice et/ou la responsabilité d'une activité commerciale, technique ou administrative. Cette responsabilité se distingue de celle du niveau E par une plus grande technicité et/ou peut s'accompagner, de manière permanente, de l'animation de personnel, qui exige de l'autorité et des capacités à échanger des informations, à convaincre et à concilier les points de vue. Les titulaires du cycle de développement professionnel certifié "Conseiller patrimonial agence" ont vocation à être classés au moins au niveau F, après une période probatoire en situation d'exercice effectif des responsabilités permettant la mise en oeuvre des connaissances acquises. |
+| F | Emplois requérant des compétences supérieures à celles du niveau E. Ces emplois peuvent se caractériser par l'exercice et/ou la responsabilité d'une activité commerciale, technique ou administrative. Cette responsabilité se distingue de celle du niveau E par une plus grande technicité et/ou peut s'accompagner, de manière permanente, de l'animation de personnel, qui exige de l'autorité et des capacités à échanger des informations, à convaincre et à concilier les points de vue. Les titulaires du cycle de développement professionnel certifié "Conseiller patrimonial agence" ont vocation à être classés au moins au niveau F, après une période probatoire en situation d'exercice effectif des responsabilités permettant la mise en œuvre des connaissances acquises. |
 :::
 
 :::popup Niveau G
@@ -137,7 +137,7 @@ Les techniciens sont répartis selon 7 niveaux allant de A à G.
 
 | **Niveau** | **Compétences** |
 |:----------:|----------------|
-| G | Emplois nécessitant une compétence professionnelle éprouvée et une aptitude, notamment pour les activités d'étude, à l'analyse et à la synthèse. Ces emplois se caractérisent par la responsabilité d'une activité commerciale, technique ou administrative impliquant dans certains cas une prise de décision et d'initiative dans le respect des règles en vigueur et nécessitant une capacité d'adaptation. Susceptibles d'être gestionnaires ou encadrants, ces salariés s'appuient sur une technicité à faire partager à d'autres collaborateurs grâce à leurs qualités relationnelles et pédagogiques. Les titulaires de l'ITB ont vocation à être classés au niveau G, après une période probatoire en situation d'exercice effectif des responsabilités permettant la mise en oeuvre des connaissances acquises. Le refus d'un tel classement après un an de période probatoire doit faire l'objet d'une motivation circonstanciée. |
+| G | Emplois nécessitant une compétence professionnelle éprouvée et une aptitude, notamment pour les activités d'étude, à l'analyse et à la synthèse. Ces emplois se caractérisent par la responsabilité d'une activité commerciale, technique ou administrative impliquant dans certains cas une prise de décision et d'initiative dans le respect des règles en vigueur et nécessitant une capacité d'adaptation. Susceptibles d'être gestionnaires ou encadrants, ces salariés s'appuient sur une technicité à faire partager à d'autres collaborateurs grâce à leurs qualités relationnelles et pédagogiques. Les titulaires de l'ITB ont vocation à être classés au niveau G, après une période probatoire en situation d'exercice effectif des responsabilités permettant la mise en œuvre des connaissances acquises. Le refus d'un tel classement après un an de période probatoire doit faire l'objet d'une motivation circonstanciée. |
 :::
 
 </div>
@@ -216,13 +216,13 @@ N'entrent pas dans la présente classification, les cadres :
 <div style="flex:1;max-width:550px;text-align:center;display:flex;flex-direction:column;align-items:center">
 <img src="bpalc/images/duree_travail_intro.jpg" style="width:100%;max-width:300px;border-radius:12px;margin-bottom:20px" onerror="this.remove()">
 <strong style="font-size:1.3em">Durée du travail</strong>
-<p style="margin-top:8px">Vos accords d'entreprise encadrent la durée de travail des salariés : droit commun, heures supplémentaires, forfait jour, etc...</p>
+<p style="margin-top:8px">Vos accords d'entreprise encadrent la durée de travail des salariés : droit commun, heures supplémentaires, forfait jours, etc.</p>
 <div style="margin-top:auto;padding-top:24px"><button class="popup-btn" onclick="navigateToTitle('Droit commun')">Voir plus</button></div>
 </div>
 <div style="flex:1;max-width:550px;text-align:center;display:flex;flex-direction:column;align-items:center">
 <img src="bpalc/images/temps_partiel_intro.jpg" style="width:100%;max-width:300px;border-radius:12px;margin-bottom:20px" onerror="this.remove()">
 <strong style="font-size:1.3em">Temps partiel</strong>
-<p style="margin-top:8px">Principes, interruptions, délai de prévenance et heures complémentaires : vos accords prévoient les modalités de mise en oeuvre et d'application du temps partiel.</p>
+<p style="margin-top:8px">Principes, interruptions, délai de prévenance et heures complémentaires : vos accords prévoient les modalités de mise en œuvre et d'application du temps partiel.</p>
 <div style="margin-top:auto;padding-top:24px"><button class="popup-btn" onclick="navigateToTitle('Principes et interruptions')">Voir plus</button></div>
 </div>
 </div>
@@ -328,7 +328,7 @@ Ce dispositif s'adresse **aux cadres** dont le temps de travail ne peut être pr
 *À compléter*
 :::
 
-Ce forfait est établi en prenant en compte le nombre de jours calendaires de chaque année et le nombre de jour férié coïncidant avec un jour ouvré.
+Ce forfait est établi en prenant en compte le nombre de jours calendaires de chaque année et le nombre de jours fériés coïncidant avec un jour ouvré.
 
 Les cadres bénéficient d'un repos **quotidien de minimum 11 heures consécutives** et du temps nécessaire à la pause déjeuner, ainsi qu'un repos hebdomadaire de deux jours consécutifs incluant le dimanche.
 :::popup +
@@ -339,12 +339,12 @@ Les cadres bénéficient d'un repos **quotidien de minimum 11 heures consécutiv
 ---
 
 
-### Obligations de votre employeur dans le cadre du forfait jour
+### Obligations de votre employeur dans le cadre du forfait jours
 <!-- condition: forfait_jours -->
 <!-- layout: image-right-portrait -->
 <!-- image: obligations_forfait.jpg -->
 
-En tant que salarié au forfait jour, vous n'êtes pas soumis à l'horaire collectif et disposez d'une **grande autonomie dans l'organisation de votre travail**. La loi et la jurisprudence rappellent toutefois que **votre employeur ne peut pas se dédouaner de toutes ses obligations pour autant**. Il doit ainsi :
+En tant que salarié au forfait jours, vous n'êtes pas soumis à l'horaire collectif et disposez d'une **grande autonomie dans l'organisation de votre travail**. La loi et la jurisprudence rappellent toutefois que **votre employeur ne peut pas se dédouaner de toutes ses obligations pour autant**. Il doit ainsi :
 
 <span class="bullet">•</span> comptabiliser le nombre de jours que vous effectuez,
 :::popup +
@@ -444,7 +444,7 @@ navigate: Heures supplémentaires et complémentaires
 <div style="flex:1;max-width:380px;text-align:center;display:flex;flex-direction:column;align-items:center">
 <img src="bpalc/images/intro_primes.jpg" style="width:100%;max-width:300px;border-radius:12px;margin-bottom:20px" onerror="this.remove()">
 <strong style="font-size:1.3em">Primes diverses</strong>
-<p style="margin-top:8px">La Banque Populaire prévoit des primes spécifiques ainsi que des indemnités : médaille du travail, transport, réussite d'un diplôme, etc...</p>
+<p style="margin-top:8px">La Banque Populaire prévoit des primes spécifiques ainsi que des indemnités : médaille du travail, transport, réussite d'un diplôme, etc.</p>
 <div style="margin-top:auto;padding-top:24px"><button class="popup-btn" onclick="navigateToTitle('Primes diverses')">Voir plus</button></div>
 </div>
 </div>
@@ -487,7 +487,7 @@ Si pendant **5 années consécutives**, votre salaire a évolué **de moins de 3
 Pour bénéficier de la garantie salariale individuelle, vous devez remplir l'une des deux conditions suivantes :
 
 - Votre salaire de base à la fin des 5 ans est inférieur ou égal à 32 500 € ;
-- Votre salaire de base dépasse 32 500 €, mais reste inférieur de 25 % au salaire minimum prévu pour votre poste et votre ancienneté.
+- Votre salaire de base dépasse 32 500 €, mais ne dépasse pas de plus de 25 % le salaire minimum prévu pour votre poste et votre ancienneté.
 
 Le niveau du seuil de 32 500 € sera réexaminé par la commission paritaire Banque Populaire avec une périodicité de 5 ans.
 
@@ -614,7 +614,7 @@ Votre convention collective prévoit une prime versée en une seule fois à l'ob
 
 <span class="bullet">•</span>Prime de mobilité interne
 :::popup +
-**Mobilité fonctionnelle (siège vers réseau) :** prime d'au minimum **1 500 € brut**, intégrée au salaire de base après un an. Le dispositif inclut également un stage découverte, une formation, un tutorat et un suivi à 6 mois.
+**Mobilité fonctionnelle (siège vers réseau) :** prime d'au minimum **1 500 € brut**, intégrée au salaire de base après un an en cas de réussite sur le poste. Le dispositif inclut également un stage découverte, une formation, un tutorat et un suivi à 6 mois.
 
 **Mobilité géographique (avec déménagement) :**
 - Frais de transport : 0,17 €/km à partir du 41e km + péages (pendant 2 ans)
@@ -752,7 +752,7 @@ Le salarié concerné bénéficiera également de la prise en charge de **2 nuit
 Les salariés BPALC bénéficient d'absences rémunérées dans la limite de **10 jours ouvrés** (dont les 4 jours de déménagement prévus par la convention collective), pour la recherche, le déménagement et l'installation dans un nouveau logement. Les frais liés à cette recherche seront indemnisés sur justificatifs à concurrence maximum de **2 trajets A/R**, **2 déjeuners** et **2 nuits d'hôtel pour 2 personnes**.
 
 **Frais de double résidence :**
-Une indemnité de double résidence peut être versée dans la limite de **1 000 € bruts par mois** et **1 A/R par semaine**. Cette prise en charge est limitée à **6 mois maximum**, ou à la rentrée scolaire suivante en cas d'enfants à charge en âge scolaire ou secondaire.
+Une indemnité de double résidence peut être versée dans la limite de **1 000 € bruts par mois** et **1 A/R par semaine**. Cette prise en charge est limitée à **6 mois maximum**, ou à la rentrée scolaire suivante en cas d'enfants à charge en âge scolaire ou secondaire, sans pouvoir dépasser **9 mois** dans tous les cas.
 
 **Frais d'installation :**
 BPALC prend en charge sur justificatifs les frais d'installation du collaborateur exonérés de cotisation par l'URSSAF, dans la limite de **5 000 €** majorés de **750 € par enfant** à charge (frais de rétablissement du courant électrique, de l'eau et du gaz, du téléphone, remise en l'état du logement...). Le salarié peut opter pour un versement forfaitaire sans justificatif (**1 454 €** pour une personne seule ou un couple, majoré de **121 € par enfant** dans la limite de **1 818 €**).
@@ -975,7 +975,7 @@ Vous percevez une indemnité égale à :
 
 La mensualité qui sert de base pour le calcul de cette indemnité est égale à 1/12 du salaire de base annuel que vous avez perçu au cours des 12 derniers mois civils précédant votre rupture.
 
-L'indemnité est plafonnée à : 18 mensualités pour les techniciens et les cadres embauchés après le 31 décembre 1999 et à 24 mensualités pour les cadres embauchés au plus tard le 31 décembre 1999.
+L'indemnité est plafonnée à : 18 mensualités pour les techniciens (quelle que soit la date d'embauche) et les cadres embauchés après le 31 décembre 1999, et 24 mensualités pour les cadres embauchés au plus tard le 31 décembre 1999.
 :::
 
 <div class="marker-center"></div>
@@ -1107,7 +1107,7 @@ Vous devez transmettre votre demande auprès de votre caisse d'assurance retrait
 
 La retraite progressive est un dispositif légal auquel peuvent prétendre tous les Français. En tant que salarié de BPALC, vous avez également la possibilité de bénéficier de deux autres aménagements de fin de carrière.
 :::popup +
-Les deux dispositifs sont réservés aux salariés âgés de **58 ans et plus**, ayant **5 ans d'ancienneté minimum** au sein du Groupe.
+Les deux dispositifs sont réservés aux salariés âgés de **60 ans et plus**, ayant **5 ans d'ancienneté minimum** au sein du Groupe.
 :::
 
 **Un temps partiel de fin de carrière :** ce dispositif constitue une aide destinée aux salariés à temps complet désirant passer à temps partiel. Il intervient sur une durée comprise entre 6 et 36 mois précédant immédiatement le départ volontaire à la retraite. Les salariés bénéficient d'une majoration de **7 %** de leur rémunération brute annuelle de base proratisée.
@@ -1192,7 +1192,7 @@ Votre espace de travail doit être aménagé de manière à vous permettre de me
 - la productivité de votre travail avec notamment une couverture internet de qualité suffisante pour travailler dans de bonnes conditions,
 - l'image professionnelle inhérente à la fonction exercée.
 
-Vous devrez également effectuer une déclaration sur l'honneur pour certifier de la conformité des installations électriques de votre lieu de travail.
+Vous devrez également effectuer une déclaration sur l'honneur pour certifier de la conformité de votre domicile (installations électriques) et de sa couverture par une assurance multirisques habitation.
 
 
 ---
@@ -1319,10 +1319,10 @@ Pour le calcul de cette période, les absences rémunérées pour maladie, accid
 
 Pour les salariés ayant au moins un enfant à charge au sens fiscal du terme, la durée d'indemnisation à **50 %** du salaire est de :
 - **5 mois** de 1 à 5 ans d'ancienneté,
-- **6 mois** au-delà de 5 ans et entre 10 ans d'ancienneté,
+- **6 mois** de 5 à 10 ans d'ancienneté,
 - **8 mois** au-delà de 10 ans d'ancienneté.
 
-**Bon à savoir** : pour apprécier l'ancienneté, outre les périodes de présence effective au travail, sont **validées les périodes d'absence** qui, en l'application des dispositions légales, sont prises en compte pour les droits à l'ancienneté ainsi que les périodes d'absence indemnisées à 100 % ou à 50 %.
+**Bon à savoir** : pour apprécier l'ancienneté, outre les périodes de présence effective au travail, sont **validées les périodes d'absence** qui, en application des dispositions légales, sont prises en compte pour les droits à l'ancienneté ainsi que les périodes d'absence indemnisées à 100 % ou à 50 %.
 
 **À noter** : Le **salaire mensuel de base est égal** à 1/13 du salaire de base annuel contractuel ou à 1/12 si le salaire est versé sur 12 mois.
 :::
@@ -1371,7 +1371,7 @@ Votre accord de branche précise également le taux de cotisation et la réparti
 :::popup +
 ### Taux et répartition des cotisations de prévoyance dans les entreprises du réseau Banque Populaire
 
-**Taux de cotisation :** **1,56%** du salaire. Ce dernier s'entend comme tous les éléments de rémunération versés au salarié et soumis aux cotisations de Sécurité Sociale, y compris les avantages en nature, le tout dans la limite de 8 fois le plafond de la Sécurité Sociale.
+**Taux de cotisation :** **2,07%** du salaire. Ce dernier s'entend comme tous les éléments de rémunération versés au salarié et soumis aux cotisations de Sécurité Sociale, y compris les avantages en nature, le tout dans la limite de 8 fois le plafond de la Sécurité Sociale.
 
 **Répartition de la cotisation entre l'employeur et le salarié :**
 - **71,7%** à la charge de l'employeur,
@@ -1381,9 +1381,9 @@ Votre accord de branche précise également le taux de cotisation et la réparti
 
 | | Taux de cotisation | Part employeur | Part salarié |
 |---|---|---|---|
-| Incapacité | 0,18% | 30,56% | 69,44% |
-| Invalidité | 0,62% | 49,19% | 50,81% |
-| Décès | 0,76% | 100% | 0% |
+| Incapacité | 0,266% | 30,56% | 69,44% |
+| Invalidité | 0,907% | 56,45% | 43,55% |
+| Décès | 0,897% | 100% | 0% |
 :::
 
 Votre accord de prévoyance prévoit **plusieurs types de garanties :**
@@ -1440,7 +1440,7 @@ Ces montants sont majorés de **40%** par enfant à charge au moment du décès.
 
 **Montant des indemnités journalières :** Le montant des indemnités est égal à **75%** de la 365ème partie du salaire. Les IJSS sont portées à **80%** si vous avez au moins trois enfants à charge, sous déduction des indemnités journalières de la Sécurité Sociale.
 
-**Bon à savoir** : Les salariés de BPALC bénéficient d'une garantie complémentaire d'incapacité temporaire de travail. Vous devrez donc vous acquitter d'une cotisation supplémentaire de **0,14%** sur la tranche 1 et de **0,20%** sur la tranche 2 (à partir de 2 plafonds de la Sécurité Sociale), réparties à 50% pour l'employeur et à 50% pour le salarié.
+**Bon à savoir** : Les salariés de BPALC bénéficient d'une garantie complémentaire d'incapacité temporaire de travail. Vous devrez donc vous acquitter d'une cotisation supplémentaire de **0,14%** sur la tranche 1 et de **0,20%** sur la tranche 2 (entre 1 et 4 plafonds de la Sécurité Sociale), réparties à 50% pour l'employeur et à 50% pour le salarié.
 :::
 
 
@@ -1486,7 +1486,7 @@ Les cotisations pour votre complémentaire santé chez BPALC sont réparties ent
 
 **À noter** : Un salarié peut demander une dispense d'adhésion dans certains cas.
 :::popup +
-### Dispense d'adhésion pour le salarié et ses ayants droits principaux
+### Dispense d'adhésion pour le salarié et ses ayants droit principaux
 
 Vous pouvez refuser d'adhérer à la complémentaire santé proposée par BPALC dans certains cas :
 
@@ -1498,7 +1498,7 @@ Vous pouvez refuser d'adhérer à la complémentaire santé proposée par BPALC 
 - si vous êtes apprenti ou en CDD de plus de 12 mois et que vous avez souscrit une couverture individuelle (sur demande).
 :::
 
-**Bon à savoir** : Vous pouvez continuer de bénéficier pendant un maximum **de 12 mois** de votre complémentaire santé si votre contrat a été rompu (licenciement ou rupture conventionnelle).
+**Bon à savoir** : Vous pouvez continuer de bénéficier pendant un maximum **de 12 mois** de votre complémentaire santé en cas de rupture de votre contrat ouvrant droit à l'assurance chômage (licenciement hors faute lourde, rupture conventionnelle, fin de CDD...).
 
 
 ---
@@ -1536,7 +1536,7 @@ Cette couverture est financée intégralement par les salariés qui font le choi
 
 <div class="marker-center" style="margin-top:20px;margin-bottom:20px"></div>
 :::popup Découvrez le tableau des prestations du régime
-[Voir le tableau des prestations](https://larchipel.io/wp-content/uploads/2024_TG_CFF-SALARIES-SOCLE-SURC_RG-1.pdf)
+[Voir le tableau des prestations](https://larchipel.io/wp-content/uploads/Surcomplementaire-6.pdf)
 :::
 
 **Bon à savoir** : Si vous bénéficiez du maintien de la complémentaire santé de base (en cas de licenciement sauf faute lourde ou de rupture conventionnelle), vous bénéficiez du maintien de la surcomplémentaire dans les mêmes conditions.
@@ -1555,7 +1555,7 @@ En cas de décès du salarié, ses ayants droit affiliés continuent à bénéfi
 
 Les salariés de la BPALC sous CDI ou CDD **sont affiliés au régime supplémentaire de retraite collective obligatoire (RSRC) à cotisations définies**, mis en place par la Branche Banque Populaire pour toutes les entreprises du réseau.
 :::popup +
-Le régime supplémentaire de retraite prend la forme d'un Plan d'Epargne Retraite Obligatoire (PERO) qui permet en plus des cotisations définies, de faire des versements volontaires issus d'un CET ou de la participation.
+Le régime supplémentaire de retraite prend la forme d'un Plan d'Épargne Retraite Obligatoire (PERO) qui permet en plus des cotisations définies, de faire des versements volontaires issus d'un CET ou de la participation.
 :::
 
 Ce régime de retraite supplémentaire vous permet **d'acquérir une rente ou un capital (issus des points accumulés)** à compter de la liquidation de votre retraite de base.
@@ -1670,7 +1670,7 @@ Des autorisations d'absence complémentaire non rémunérée peuvent également 
 
 Plusieurs dispositifs légaux vous permettent de bénéficier de **congés non rémunérés** pour vous occuper de proches gravement malades, en situation de handicap, âgés ou en perte d'autonomie.
 :::popup +
-Vos accords prévoient que le congé de proche aidant peut, après accord de la Direction des ressources Humaines et en concertation avec la ligne managériale, être transformé en activité à temps partiel ou être fractionné.
+Vos accords prévoient que le congé de proche aidant peut, après accord de la Direction des Ressources Humaines et en concertation avec la ligne managériale, être transformé en activité à temps partiel ou être fractionné.
 :::
 
 - C'est le cas du congé de proche aidant qui vous permet de vous occuper d'un proche handicapé ou âgé ou en perte d'autonomie pendant 3 mois renouvelable, sans pouvoir dépasser un an. Le congé est non rémunéré mais vous pouvez sous certaines conditions bénéficier de l'allocation journalière du proche aidant (AJPA).
@@ -1992,8 +1992,8 @@ Vous pouvez choisir de :
 :::popup Affectation par défaut
 En l'absence de choix de votre part dans le délai imparti, votre prime de participation est affectée automatiquement :
 
-- **50 %** sur le PERCOL-I (en gestion pilotée)
-- **50 %** sur le FCPE Natixis ES Monétaire (PEE)
+- La moitié de la part issue de la formule légale est affectée au **PERCOL-I** (en gestion pilotée)
+- Le reste (l'autre moitié de la part légale + la totalité de la part dérogatoire) est investi dans le **FCPE Natixis ES Monétaire** (PEE)
 :::
 
 
@@ -2121,7 +2121,7 @@ navigate: Alimentation de votre CET
 
 Vos accords prévoient que le CET peut être alimenté par :
 
-- la **5ème semaine de congés payés**, plus le 26ème jour prévu par votre convention (informer la DRH avant le 31 mai),
+- la **5ème semaine de congés payés** (informer la DRH avant le 31 mai),
 - tout ou partie du nombre de **jours de RTT** acquis par année civile (ainsi que des jours de repos accordés aux cadres en forfait-jours). Les RTT non pris au 31 janvier N+1 sont transférés de plein droit dans le CET,
 - tout ou partie du **13ème mois** (uniquement pour les salariés de **55 ans et plus** éligibles au congé de fin de carrière, demande avant le 5 novembre).
 
@@ -2134,7 +2134,7 @@ Pour le 13ème mois, la conversion en jours se fait selon la formule : montant �
 Vos accords prévoient des plafonds d'alimentation de votre CET :
 
 - **un plafond de 15 jours de repos par an** pour les salariés de moins de 55 ans,
-- un **plafond global** correspondant à la garantie AGS (environ 79 464 €).
+- un **plafond global** correspondant à la garantie AGS (environ 96 120 € en 2026).
 
 ---
 
